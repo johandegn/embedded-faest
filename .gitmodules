@@ -1,0 +1,6 @@
+[submodule "pqm4"]
+	path = pqm4
+	url = https://github.com/johandegn/pqm4-faest
+[submodule "faest"]
+	path = faest
+	url = https://github.com/johandegn/faest-ref

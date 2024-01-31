@@ -6,6 +6,7 @@ import os
 import subprocess
 import argparse
 import shutil
+import time
 
 from parse_massif import parse_and_write
 
@@ -43,13 +44,15 @@ def parse_args():
     parser.add_argument('variants', nargs='*',
                         help='List of variants. If empty, all is run')
     parser.add_argument('-s', '--slow', action='store_true', default=False,
-                        help='Include slow if variants is empty (default: False)')
+                        help='Include slow variants if variants argument is empty (default: False)')
     parser.add_argument('-v', '--verbose', action='store_true',
                         default=False, help='Be verbose')
     parser.add_argument('--no-openssl', action='store_true',
-                        default=False, help='Disables optimization for OpenSSL')
+                        default=False, help='Disables OpenSSL optimization')
     parser.add_argument('--no-massif', action='store_true',
                         default=False, help='Disables massif memory profiler')
+    parser.add_argument('--no-rebuild', action='store_true',
+                        default=False, help='Disables forced ninja rebuild of FAEST')
 
     args = parser.parse_args()
 
@@ -70,7 +73,12 @@ def parse_args():
         threads = os.cpu_count()
     threads = min(threads, len(variants))
 
-    return {'threads': threads, 'variants': variants, 'verbose': args.verbose, 'no-openssl': args.no_openssl, 'no-massif': args.no_massif}
+    return {'threads': threads,
+            'variants': variants,
+            'verbose': args.verbose,
+            'no-openssl': args.no_openssl,
+            'no-massif': args.no_massif,
+            'no-rebuild': args.no_rebuild}
 
 
 # Compiles the reference implementation
@@ -146,25 +154,47 @@ def start_process(variant, no_massif):
     return subprocess.Popen(cmd, cwd=FILEPATH, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, env=env, text=True)
 
 
+def simplify_name(name):
+    name = name.replace('massif_', '')
+    name = name.replace('faest_', '')
+    name = name.replace('_', '')
+    name = name[:-1].upper() + name[-1]
+    return name
+
+
 def run_all(args):
     remaining = args['variants'].copy()
     threads = []
     done = []
 
+    # Hide cursor
+    print('\033[?25l', end='')
+
     # Keep specified amount of threads bussy
-    while len(remaining) > 0:
-        if args['threads'] > len(threads):
+    while len(remaining) > 0 or len(threads) > 0:
+        while len(remaining) > 0 and args['threads'] > len(threads):
             variant = remaining.pop()
             threads.append(
                 (variant, start_process(variant, args['no-massif'])))
 
+        # Print progress
+        print('\r\033[96mDone:\033[0m {}, \033[96mRunning:\033[0m {}, \033[96mWaiting:\033[0m {}   '.format(
+            [simplify_name(x[0]) for x in done],
+            [simplify_name(x[0]) for x in threads],
+            [simplify_name(x) for x in remaining]), end='')
+
         # Remove if done
-        done += [(v, p.returncode) for v, p in threads if not p.poll() == None]
-        threads = [(v, p) for v, p in threads if p.poll() == None]
-    # Wait for the rest to finish
-    for v, p in threads:
-        code = p.wait()
-        done.append((v, code))
+        flag_done = []
+        while not flag_done:
+            flag_done = [v for v, p in threads if not p.poll() == None]
+            # Avoid too busy waiting
+            time.sleep(0.1)
+
+        done += [(v, p.returncode) for v, p in threads if v in flag_done]
+        threads = [(v, p) for v, p in threads if v not in flag_done]
+
+    # Show cursor and newline
+    print('\033[?25h')
 
     # Check return codes
     success = True
@@ -200,6 +230,10 @@ def clean_faest():
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, shell=True)
 
 
+def remove_results():
+    shutil.rmtree(TEST_RESULT_MASSIF_PATH, ignore_errors=True)
+
+
 if __name__ == '__main__':
     args = parse_args()
     # TODO Remove Keccak optimizations (if any?)
@@ -208,8 +242,9 @@ if __name__ == '__main__':
         print('Disabling OpenSSL')
         disable_openssl()
 
-    print('Rebuilding FAEST')
-    clean_faest()  # TODO do this until ninja is behaves
+    if not args['no-rebuild']:
+        print('Forcing rebuild of FAEST')
+        clean_faest()  # TODO do this until ninja is behaves
     compile_faest(args['verbose'])
 
     if args['no-openssl']:
@@ -219,8 +254,12 @@ if __name__ == '__main__':
     print('Compiling variants')
     compile_all(args)
 
+    print('Removing old results')
+    remove_results()
+
     print(f'Running variants ({args["threads"]} thread(s))')
     run_all(args)
 
     print('Parsing results')
-    parse_and_write(TEST_RESULT_MASSIF_PATH, f'{TEST_RESULT_PATH}/results.md')
+    filename = f'results{"-no-openssl" if args["no-openssl"] else ""}.md'
+    parse_and_write(TEST_RESULT_MASSIF_PATH, f'{TEST_RESULT_PATH}/{filename}')

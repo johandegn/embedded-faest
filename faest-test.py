@@ -7,6 +7,8 @@ import subprocess
 import argparse
 import shutil
 
+from parse_massif import parse_and_write
+
 BASE_VARIANTS = ['128', '192', '256', 'em128', 'em192', 'em256']
 FAST_VARIANTS = [f'{v}f' for v in BASE_VARIANTS]
 SLOW_VARIANTS = [f'{v}s' for v in BASE_VARIANTS]
@@ -15,6 +17,7 @@ VALID_VARIANTS = FAST_VARIANTS + SLOW_VARIANTS
 FILEPATH = os.path.dirname(os.path.realpath(__file__))
 TEST_BUILD_PATH = f'{FILEPATH}/test/build'
 TEST_RESULT_PATH = f'{FILEPATH}/test/results'
+TEST_RESULT_MASSIF_PATH = f'{TEST_RESULT_PATH}/massif'
 TEST_FILE_PATH = f'{FILEPATH}/test/files'
 
 TEST_FILE_NAME = 'faest-test.c'
@@ -107,7 +110,8 @@ def copy_files(variant):
 
 def compile(variant):
     # TODO: take TEST_FILE_NAME as argument to allow multiple test files
-    copy(f'{TEST_FILE_PATH}/{TEST_FILE_NAME}', f'{TEST_BUILD_PATH}/{variant}/{TEST_FILE_NAME}')
+    copy(f'{TEST_FILE_PATH}/{TEST_FILE_NAME}',
+         f'{TEST_BUILD_PATH}/{variant}/{TEST_FILE_NAME}')
 
     compiler = 'gcc'
     link_path = f'{FILEPATH}/faest/build'
@@ -127,9 +131,9 @@ def start_process(variant, no_massif):
 
     if not no_massif:
         # Run with memory check
-        ensure_folder(TEST_RESULT_PATH)
+        ensure_folder(TEST_RESULT_MASSIF_PATH)
         cmd += ['valgrind', '--tool=massif', '--stacks=yes',
-                f'--massif-out-file={TEST_RESULT_PATH}/massif_{variant}']
+                f'--massif-out-file={TEST_RESULT_MASSIF_PATH}/massif_{variant}']
 
     cmd += [f'{TEST_BUILD_PATH}/{variant}/faest-test']
 
@@ -217,3 +221,6 @@ if __name__ == '__main__':
 
     print(f'Running variants ({args["threads"]} thread(s))')
     run_all(args)
+
+    print('Parsing results')
+    parse_and_write(TEST_RESULT_MASSIF_PATH, f'{TEST_RESULT_PATH}/results.md')

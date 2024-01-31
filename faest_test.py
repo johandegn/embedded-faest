@@ -21,7 +21,12 @@ TEST_RESULT_PATH = f'{FILEPATH}/test/results'
 TEST_RESULT_MASSIF_PATH = f'{TEST_RESULT_PATH}/massif'
 TEST_FILE_PATH = f'{FILEPATH}/test/files'
 
-TEST_FILE_NAME = 'faest-test.c'
+# TEST_FILE_NAME = 'faest_test.c'
+TEST_KEYGEN_NAME = 'faest_test_keygen.c'
+TEST_SIGN_NAME = 'faest_test_sign.c'
+TEST_VERIFY_NAME = 'faest_test_verify.c'
+TESTS = (('keygen', TEST_KEYGEN_NAME),
+         ('sign', TEST_SIGN_NAME), ('verify', TEST_VERIFY_NAME))
 
 
 # Append 'faest_' and insert '_' between 'em' and '128f'
@@ -108,6 +113,7 @@ def copy(src, dst):
 # Copy files needed for given variants to build folders
 def copy_files(variant):
     files = [('faest/', 'faest_defines.h'),
+             (f'test/files/', 'faest_test.h'),
              ('faest/build/', f'{variant}.h'),
              (f'faest/build/{variant}/', 'api.h'),
              (f'faest/build/{variant}/', 'crypto_sign.h'),
@@ -116,42 +122,24 @@ def copy_files(variant):
         copy(f'{FILEPATH}/{path}{file}', f'{TEST_BUILD_PATH}/{variant}/{file}')
 
 
-def compile(variant):
-    # TODO: take TEST_FILE_NAME as argument to allow multiple test files
-    copy(f'{TEST_FILE_PATH}/{TEST_FILE_NAME}',
-         f'{TEST_BUILD_PATH}/{variant}/{TEST_FILE_NAME}')
+def compile(variant, program, name, verbose):
+    copy(f'{TEST_FILE_PATH}/{program}',
+         f'{TEST_BUILD_PATH}/{variant}/{program}')
 
     compiler = 'gcc'
     link_path = f'{FILEPATH}/faest/build'
 
     cmd = [compiler, f'-L{link_path}', '-lfaest', '-o',
-           'faest-test', 'crypto_sign.c', TEST_FILE_NAME]
+           name, 'crypto_sign.c', program]
     cwd = f'{TEST_BUILD_PATH}/{variant}'
-    process = subprocess.Popen(
-        cmd, cwd=cwd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, text=True)
+    if verbose:
+        process = subprocess.Popen(cmd, cwd=cwd, text=True)
+    else:
+        process = subprocess.Popen(
+            cmd, cwd=cwd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, text=True)
     code = process.wait()
     if code != 0:  # TODO
         exit(1)
-
-
-def start_process(variant, no_massif):
-    cmd = []
-
-    if not no_massif:
-        # Run with memory check
-        ensure_folder(TEST_RESULT_MASSIF_PATH)
-        cmd += ['valgrind', '--tool=massif', '--stacks=yes',
-                f'--massif-out-file={TEST_RESULT_MASSIF_PATH}/massif_{variant}']
-
-    cmd += [f'{TEST_BUILD_PATH}/{variant}/faest-test']
-
-    env = os.environ.copy()
-    # Linux dynamic lib path
-    env['LD_LIBRARY_PATH'] = f'{FILEPATH}/faest/build'
-    # MacOS dynamic lib path
-    env['DYLD_LIBRARY_PATH'] = f'{FILEPATH}/faest/build'
-
-    return subprocess.Popen(cmd, cwd=FILEPATH, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, env=env, text=True)
 
 
 def simplify_name(name):
@@ -162,7 +150,27 @@ def simplify_name(name):
     return name
 
 
-def run_all(args):
+def start_process(variant, name, no_massif):
+    cmd = []
+
+    if not no_massif:
+        # Run with memory check
+        ensure_folder(TEST_RESULT_MASSIF_PATH)
+        cmd += ['valgrind', '--tool=massif', '--stacks=yes',
+                f'--massif-out-file={TEST_RESULT_MASSIF_PATH}/{simplify_name(variant)}_{name}']
+
+    cmd += [f'{TEST_BUILD_PATH}/{variant}/{name}']
+
+    env = os.environ.copy()
+    # Linux dynamic lib path
+    env['LD_LIBRARY_PATH'] = f'{FILEPATH}/faest/build'
+    # MacOS dynamic lib path
+    env['DYLD_LIBRARY_PATH'] = f'{FILEPATH}/faest/build'
+
+    return subprocess.Popen(cmd, cwd=f'{TEST_BUILD_PATH}/{variant}', stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, env=env, text=True)
+
+
+def run_all(args, name):
     remaining = args['variants'].copy()
     threads = []
     done = []
@@ -175,7 +183,7 @@ def run_all(args):
         while len(remaining) > 0 and args['threads'] > len(threads):
             variant = remaining.pop()
             threads.append(
-                (variant, start_process(variant, args['no-massif'])))
+                (variant, start_process(variant, name, args['no-massif'])))
 
         # Print progress
         print('\r\033[96mDone:\033[0m {}, \033[96mRunning:\033[0m {}, \033[96mWaiting:\033[0m {}   '.format(
@@ -207,11 +215,14 @@ def run_all(args):
         exit(1)
 
 
-def compile_all(args):
+def copy_all(args):
     for v in args['variants']:
         copy_files(v)
+
+
+def compile_all(args, program, name):
     for v in args['variants']:
-        compile(v)
+        compile(v, program, name, args['verbose'])
 
 
 def disable_openssl():
@@ -251,15 +262,22 @@ if __name__ == '__main__':
         print('Restoring OpenSSL')
         restore_openssl()
 
-    print('Compiling variants')
-    compile_all(args)
-
     print('Removing old results')
     remove_results()
+    copy_all(args)
 
-    print(f'Running variants ({args["threads"]} thread(s))')
-    run_all(args)
+    for o, n in TESTS:
+        print(f'[Testing {o}]')
+
+        print('> Compiling variants')
+        compile_all(args, n, o)
+
+        print(f'Running variants ({args["threads"]} thread(s))')
+        run_all(args, o)
 
     print('Parsing results')
+    groups = [(o.title(), o) for o, _ in TESTS]
+
     filename = f'results{"-no-openssl" if args["no-openssl"] else ""}.md'
-    parse_and_write(TEST_RESULT_MASSIF_PATH, f'{TEST_RESULT_PATH}/{filename}')
+    parse_and_write(TEST_RESULT_MASSIF_PATH,
+                    f'{TEST_RESULT_PATH}/{filename}', groups)

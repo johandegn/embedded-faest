@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
 # This script is used to parse massif output files and create a markdown table.
-
 import os
 
 
@@ -44,10 +42,8 @@ def parse_chunk(chunk):
 
 def filepath_to_simple_name(filepath):
     name = os.path.basename(filepath)
-    name = name.replace('massif_', '')
-    name = name.replace('faest_', '')
-    name = name.replace('_', '')
-    name = name[:-1].upper() + name[-1]
+    idx = name.find('_')
+    name = name[:idx]
     return name
 
 
@@ -63,34 +59,50 @@ def parse_file(filename):
         return File(name, snapshots)
 
 
-def parse_folder(dir_path):
+def parse_folder(dir_path, endswith):
     files = []
     for element in os.listdir(dir_path):
         path = os.path.join(dir_path, element)
         if not os.path.isfile(path):
+            continue
+        if not element.endswith(endswith):
             continue
 
         files.append(parse_file(path))
     return files
 
 
-def write_markdown_table(files, outpath):
-    files = sorted(files, key=lambda f: (f.name[-1], f.name[:-1]))
+def write_markdown_table(grouped_files, outpath):
+    header = '| Variant |'
+    separator = '|:-------:|'
+    for name, _ in grouped_files:
+        header += f' {name} |'
+        separator += f' {len(name) * "-"}:|'
 
     with open(outpath, 'w') as wf:
-        wf.write('| Variant | Mem Peak |\n')
-        wf.write('|:-------:| --------:|\n')
-        for f in files:
-            wf.write(f'| {f.name} | {f.max_memory()//1000:,}kB |\n')
+        wf.write(header + '\n')
+        wf.write(separator + '\n')
+
+        variants = [f.name for f in grouped_files[0][1]]
+        variants = sorted(variants, key=lambda v: (v[-1], v[:-1]))
+
+        for v in variants:
+            wf.write(f'| {v} |')
+            for name, files in grouped_files:
+                for f in files:
+                    if f.name == v:
+                        wf.write(f' {f.max_memory()//1000:,}kB |')
+                        break
+            wf.write('\n')
 
 
-def parse_and_write(dir_path, outpath):
-    files = parse_folder(dir_path)
-    write_markdown_table(files, outpath)
+def parse_and_write(dir_path, outpath, groups):
+    grouped_files = []
+    for name, endswith in groups:
+        grouped_files.append((name, parse_folder(dir_path, endswith)))
+    write_markdown_table(grouped_files, outpath)
 
 
 if __name__ == '__main__':
     print('This script should not be run directly')
     exit(1)
-    #files = parse_folder('test/results/')
-    #write_markdown_table(files, 'test/results/results.md')

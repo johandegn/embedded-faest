@@ -1,3 +1,4 @@
 test/build
 test/results
 __pycache__
+.vscode

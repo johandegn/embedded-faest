@@ -201,6 +201,12 @@ def run_all(args, name):
         done += [(v, p.returncode) for v, p in threads if v in flag_done]
         threads = [(v, p) for v, p in threads if v not in flag_done]
 
+    # Print progress
+    print('\r\033[96mDone:\033[0m {}, \033[96mRunning:\033[0m {}, \033[96mWaiting:\033[0m {}   '.format(
+        [simplify_name(x[0]) for x in done],
+        [simplify_name(x[0]) for x in threads],
+        [simplify_name(x) for x in remaining]), end='')
+
     # Show cursor and newline
     print('\033[?25h')
 

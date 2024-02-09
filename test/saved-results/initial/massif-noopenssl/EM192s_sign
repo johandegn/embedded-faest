@@ -1,0 +1,1085 @@
+desc: --stacks=yes --massif-out-file=/home/kent/Desktop/embedded-faest/test/results/massif/EM192s_sign
+cmd: /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=7971097316
+mem_heap_B=3333514
+mem_heap_extra_B=110
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=24094360141
+mem_heap_B=3333514
+mem_heap_extra_B=110
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=35757153077
+mem_heap_B=3333514
+mem_heap_extra_B=110
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=47160165672
+mem_heap_B=3333514
+mem_heap_extra_B=110
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=65319622108
+mem_heap_B=3825058
+mem_heap_extra_B=150
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=84696325009
+mem_heap_B=3825058
+mem_heap_extra_B=150
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=101545631789
+mem_heap_B=3825058
+mem_heap_extra_B=150
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=120449298169
+mem_heap_B=4316602
+mem_heap_extra_B=190
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=133086280401
+mem_heap_B=4316602
+mem_heap_extra_B=190
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=146426637537
+mem_heap_B=4316602
+mem_heap_extra_B=190
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=163864018444
+mem_heap_B=4808146
+mem_heap_extra_B=230
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=175171716803
+mem_heap_B=4808146
+mem_heap_extra_B=230
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=188094800824
+mem_heap_B=4808146
+mem_heap_extra_B=230
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=204248655620
+mem_heap_B=4808146
+mem_heap_extra_B=230
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=222234473652
+mem_heap_B=5299690
+mem_heap_extra_B=270
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=242065802359
+mem_heap_B=5299690
+mem_heap_extra_B=270
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=259418214920
+mem_heap_B=5299690
+mem_heap_extra_B=270
+mem_stacks_B=13936
+heap_tree=detailed
+n6: 5299690 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 983040 0x487E32E: vector_commitment (vc.c:121)
+  n1: 983040 0x487FB97: vole_commit (vole.c:110)
+   n1: 983040 0x484EEBD: faest_sign (faest.c:290)
+    n1: 983040 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 983040 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 983040 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 983040 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 982920 0x487DF29: create_tree (vc.c:37)
+  n1: 982920 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 982920 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 982920 0x487FB97: vole_commit (vole.c:110)
+     n1: 982920 0x484EEBD: faest_sign (faest.c:290)
+      n1: 982920 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 982920 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 982920 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 982920 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 491520 0x487E353: vector_commitment (vc.c:122)
+  n1: 491520 0x487FB97: vole_commit (vole.c:110)
+   n1: 491520 0x484EEBD: faest_sign (faest.c:290)
+    n1: 491520 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 491520 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 491520 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 491520 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 64896 0x484EDDD: faest_sign (faest.c:286)
+  n1: 64896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+   n1: 64896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+    n1: 64896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+     n0: 64896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 8418 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=271024291624
+mem_heap_B=5791234
+mem_heap_extra_B=310
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=288376704319
+mem_heap_B=5791234
+mem_heap_extra_B=310
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=305729116739
+mem_heap_B=5791234
+mem_heap_extra_B=310
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=317975380576
+mem_heap_B=6282778
+mem_heap_extra_B=350
+mem_stacks_B=13168
+heap_tree=detailed
+n6: 6282778 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1376256 0x487E32E: vector_commitment (vc.c:121)
+  n1: 1376256 0x487FB97: vole_commit (vole.c:110)
+   n1: 1376256 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1376256 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1376256 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1376256 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1376256 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1376088 0x487DF29: create_tree (vc.c:37)
+  n1: 1376088 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 1376088 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 1376088 0x487FB97: vole_commit (vole.c:110)
+     n1: 1376088 0x484EEBD: faest_sign (faest.c:290)
+      n1: 1376088 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 1376088 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 1376088 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 1376088 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 688128 0x487E353: vector_commitment (vc.c:122)
+  n1: 688128 0x487FB97: vole_commit (vole.c:110)
+   n1: 688128 0x484EEBD: faest_sign (faest.c:290)
+    n1: 688128 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 688128 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 688128 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 688128 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 64896 0x484EDDD: faest_sign (faest.c:286)
+  n1: 64896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+   n1: 64896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+    n1: 64896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+     n0: 64896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 8514 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=332848877167
+mem_heap_B=6282778
+mem_heap_extra_B=350
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=345243457580
+mem_heap_B=6282778
+mem_heap_extra_B=350
+mem_stacks_B=13856
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=362092764982
+mem_heap_B=6282778
+mem_heap_extra_B=350
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=374096620642
+mem_heap_B=6774322
+mem_heap_extra_B=390
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=382521274340
+mem_heap_B=6774322
+mem_heap_extra_B=390
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=399370581515
+mem_heap_B=6774322
+mem_heap_extra_B=390
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=407795235249
+mem_heap_B=6774322
+mem_heap_extra_B=390
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=420432215854
+mem_heap_B=4202010
+mem_heap_extra_B=398
+mem_stacks_B=14920
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=434430187621
+mem_heap_B=7265866
+mem_heap_extra_B=430
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=451279494796
+mem_heap_B=7265866
+mem_heap_extra_B=430
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=459704148530
+mem_heap_B=7265866
+mem_heap_extra_B=430
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=472341129188
+mem_heap_B=4693554
+mem_heap_extra_B=438
+mem_stacks_B=15008
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=486339108718
+mem_heap_B=7757410
+mem_heap_extra_B=470
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=503188415893
+mem_heap_B=7757410
+mem_heap_extra_B=470
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=511613069627
+mem_heap_B=7757410
+mem_heap_extra_B=470
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=525611041514
+mem_heap_B=8248954
+mem_heap_extra_B=510
+mem_stacks_B=13168
+heap_tree=detailed
+n5: 8248954 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2162688 0x487E32E: vector_commitment (vc.c:121)
+  n1: 2162688 0x487FB97: vole_commit (vole.c:110)
+   n1: 2162688 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2162688 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2162688 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2162688 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2162688 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2162424 0x487DF29: create_tree (vc.c:37)
+  n1: 2162424 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 2162424 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 2162424 0x487FB97: vole_commit (vole.c:110)
+     n1: 2162424 0x484EEBD: faest_sign (faest.c:290)
+      n1: 2162424 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 2162424 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 2162424 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 2162424 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1081344 0x487E353: vector_commitment (vc.c:122)
+  n1: 1081344 0x487FB97: vole_commit (vole.c:110)
+   n1: 1081344 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1081344 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1081344 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1081344 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1081344 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 73602 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=534035695164
+mem_heap_B=8248954
+mem_heap_extra_B=510
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=546672675562
+mem_heap_B=8248954
+mem_heap_extra_B=510
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=565194656065
+mem_heap_B=8248954
+mem_heap_extra_B=510
+mem_stacks_B=13792
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=582811949155
+mem_heap_B=8740498
+mem_heap_extra_B=550
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=593395938056
+mem_heap_B=8740498
+mem_heap_extra_B=550
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=609271921168
+mem_heap_B=8740498
+mem_heap_extra_B=550
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=619855910185
+mem_heap_B=8740498
+mem_heap_extra_B=550
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=629428875837
+mem_heap_B=9232042
+mem_heap_extra_B=590
+mem_stacks_B=13168
+heap_tree=detailed
+n5: 9232042 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2555904 0x487E32E: vector_commitment (vc.c:121)
+  n1: 2555904 0x487FB97: vole_commit (vole.c:110)
+   n1: 2555904 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2555904 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2555904 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2555904 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2555904 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2555592 0x487DF29: create_tree (vc.c:37)
+  n1: 2555592 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 2555592 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 2555592 0x487FB97: vole_commit (vole.c:110)
+     n1: 2555592 0x484EEBD: faest_sign (faest.c:290)
+      n1: 2555592 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 2555592 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 2555592 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 2555592 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1277952 0x487E353: vector_commitment (vc.c:122)
+  n1: 1277952 0x487FB97: vole_commit (vole.c:110)
+   n1: 1277952 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1277952 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1277952 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1277952 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1277952 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 73698 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=645304859098
+mem_heap_B=9232042
+mem_heap_extra_B=590
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=653242850711
+mem_heap_B=9232042
+mem_heap_extra_B=590
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=666472836634
+mem_heap_B=9232042
+mem_heap_extra_B=590
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=677056825628
+mem_heap_B=6659730
+mem_heap_extra_B=598
+mem_stacks_B=15008
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=680699849962
+mem_heap_B=6659730
+mem_heap_extra_B=598
+mem_stacks_B=15008
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=681337789118
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13168
+heap_tree=detailed
+n5: 9723586 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2752512 0x487E32E: vector_commitment (vc.c:121)
+  n1: 2752512 0x487FB97: vole_commit (vole.c:110)
+   n1: 2752512 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2752512 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2752512 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2752512 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2752512 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2752176 0x487DF29: create_tree (vc.c:37)
+  n1: 2752176 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 2752176 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 2752176 0x487FB97: vole_commit (vole.c:110)
+     n1: 2752176 0x484EEBD: faest_sign (faest.c:290)
+      n1: 2752176 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 2752176 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 2752176 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 2752176 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1376256 0x487E353: vector_commitment (vc.c:122)
+  n1: 1376256 0x487FB97: vole_commit (vole.c:110)
+   n1: 1376256 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1376256 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1376256 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1376256 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1376256 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 73746 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=684980813520
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=688623837992
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=692266862378
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=695909886861
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=699552911347
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=703195935785
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=706838960218
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=710481984660
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=714125009141
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=717768033517
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13840
+heap_tree=detailed
+n5: 9723586 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2752512 0x487E32E: vector_commitment (vc.c:121)
+  n1: 2752512 0x487FB97: vole_commit (vole.c:110)
+   n1: 2752512 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2752512 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2752512 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2752512 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2752512 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2752176 0x487DF29: create_tree (vc.c:37)
+  n1: 2752176 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 2752176 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 2752176 0x487FB97: vole_commit (vole.c:110)
+     n1: 2752176 0x484EEBD: faest_sign (faest.c:290)
+      n1: 2752176 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 2752176 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 2752176 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 2752176 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1376256 0x487E353: vector_commitment (vc.c:122)
+  n1: 1376256 0x487FB97: vole_commit (vole.c:110)
+   n1: 1376256 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1376256 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1376256 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1376256 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1376256 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 73746 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=721411057851
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13856
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=725054082214
+mem_heap_B=9723586
+mem_heap_extra_B=630
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=728697106672
+mem_heap_B=7151274
+mem_heap_extra_B=638
+mem_stacks_B=14920
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=732340131010
+mem_heap_B=7151274
+mem_heap_extra_B=638
+mem_stacks_B=15008
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=733246702399
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13168
+heap_tree=detailed
+n5: 10215130 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2949120 0x487E32E: vector_commitment (vc.c:121)
+  n1: 2949120 0x487FB97: vole_commit (vole.c:110)
+   n1: 2949120 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2949120 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2949120 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2949120 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2949120 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2948760 0x487DF29: create_tree (vc.c:37)
+  n1: 2948760 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 2948760 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 2948760 0x487FB97: vole_commit (vole.c:110)
+     n1: 2948760 0x484EEBD: faest_sign (faest.c:290)
+      n1: 2948760 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 2948760 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 2948760 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 2948760 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1474560 0x487E353: vector_commitment (vc.c:122)
+  n1: 1474560 0x487FB97: vole_commit (vole.c:110)
+   n1: 1474560 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1474560 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1474560 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1474560 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1474560 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 73794 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=736889726801
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=740532751273
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=744175775659
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=747818800142
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=751461824628
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=755104849066
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=758747873499
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=762390897941
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=766033922422
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=769676946798
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13840
+heap_tree=detailed
+n5: 10215130 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2949120 0x487E32E: vector_commitment (vc.c:121)
+  n1: 2949120 0x487FB97: vole_commit (vole.c:110)
+   n1: 2949120 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2949120 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2949120 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2949120 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2949120 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2948760 0x487DF29: create_tree (vc.c:37)
+  n1: 2948760 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 2948760 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 2948760 0x487FB97: vole_commit (vole.c:110)
+     n1: 2948760 0x484EEBD: faest_sign (faest.c:290)
+      n1: 2948760 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 2948760 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 2948760 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 2948760 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1474560 0x487E353: vector_commitment (vc.c:122)
+  n1: 1474560 0x487FB97: vole_commit (vole.c:110)
+   n1: 1474560 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1474560 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1474560 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1474560 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1474560 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 73794 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=77
+#-----------
+time=773319971132
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13856
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=776962995495
+mem_heap_B=10215130
+mem_heap_extra_B=670
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=780606019869
+mem_heap_B=7642818
+mem_heap_extra_B=678
+mem_stacks_B=15008
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=784249044190
+mem_heap_B=7642818
+mem_heap_extra_B=678
+mem_stacks_B=15008
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=785155623374
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13168
+heap_tree=peak
+n5: 10706674 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3145728 0x487E32E: vector_commitment (vc.c:121)
+  n1: 3145728 0x487FB97: vole_commit (vole.c:110)
+   n1: 3145728 0x484EEBD: faest_sign (faest.c:290)
+    n1: 3145728 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 3145728 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 3145728 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 3145728 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 3145344 0x487DF29: create_tree (vc.c:37)
+  n1: 3145344 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 3145344 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 3145344 0x487FB97: vole_commit (vole.c:110)
+     n1: 3145344 0x484EEBD: faest_sign (faest.c:290)
+      n1: 3145344 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 3145344 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 3145344 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 3145344 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1572864 0x487E353: vector_commitment (vc.c:122)
+  n1: 1572864 0x487FB97: vole_commit (vole.c:110)
+   n1: 1572864 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1572864 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1572864 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1572864 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1572864 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 73842 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=82
+#-----------
+time=788798647776
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=792441672248
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13848
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=796084696634
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=799727721117
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=803370745603
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=807013770041
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=810656794474
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=814299818916
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=817942843397
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13936
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=821585867773
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13840
+heap_tree=detailed
+n5: 10706674 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3145728 0x487E32E: vector_commitment (vc.c:121)
+  n1: 3145728 0x487FB97: vole_commit (vole.c:110)
+   n1: 3145728 0x484EEBD: faest_sign (faest.c:290)
+    n1: 3145728 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 3145728 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 3145728 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 3145728 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 3145344 0x487DF29: create_tree (vc.c:37)
+  n1: 3145344 0x487E0F3: generate_seeds (vc.c:70)
+   n1: 3145344 0x487E2F6: vector_commitment (vc.c:117)
+    n1: 3145344 0x487FB97: vole_commit (vole.c:110)
+     n1: 3145344 0x484EEBD: faest_sign (faest.c:290)
+      n1: 3145344 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+       n1: 3145344 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+        n1: 3145344 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+         n0: 3145344 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 2768896 0x487F694: ConvertToVole (vole.c:27)
+  n1: 2768896 0x487FC13: vole_commit (vole.c:112)
+   n1: 2768896 0x484EEBD: faest_sign (faest.c:290)
+    n1: 2768896 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 2768896 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 2768896 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 2768896 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n1: 1572864 0x487E353: vector_commitment (vc.c:122)
+  n1: 1572864 0x487FB97: vole_commit (vole.c:110)
+   n1: 1572864 0x484EEBD: faest_sign (faest.c:290)
+    n1: 1572864 0x48AA582: faest_em_192s_sign_with_randomness (faest_em_192s.c:77)
+     n1: 1572864 0x48AA642: faest_em_192s_sign (faest_em_192s.c:91)
+      n1: 1572864 0x109260: crypto_sign (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+       n0: 1572864 0x109652: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_192s/sign)
+ n0: 73842 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=92
+#-----------
+time=825228892107
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13856
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=828871916470
+mem_heap_B=10706674
+mem_heap_extra_B=710
+mem_stacks_B=13936
+heap_tree=empty

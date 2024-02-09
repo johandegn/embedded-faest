@@ -1,0 +1,1045 @@
+desc: --stacks=yes --massif-out-file=/home/kent/Desktop/embedded-faest/test/results/massif/256f_verify
+cmd: /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=610717927
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=30912
+heap_tree=peak
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=2807593142
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=4534001242
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=7373937416
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=detailed
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=9108977419
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=11387837645
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=detailed
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=14633610097
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=18259294390
+mem_heap_B=196128
+mem_heap_extra_B=56
+mem_stacks_B=32672
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=21608721024
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=24025695923
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=30840
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=27409452362
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=29584724121
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=31518299148
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=34487784607
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=37595515972
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=40012640718
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=41739158377
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=44846889826
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=46573407346
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=48990532049
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=52167231544
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=54100807356
+mem_heap_B=196128
+mem_heap_extra_B=56
+mem_stacks_B=32528
+heap_tree=detailed
+n6: 196128 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=57484564647
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=59418140393
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=62801897751
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=65218867256
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=67635836729
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=70536200314
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=72469775975
+mem_heap_B=196128
+mem_heap_extra_B=56
+mem_stacks_B=32672
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=75819006081
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=77683528164
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=80480311279
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=82344833522
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=85141616807
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=87006139056
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=90735183266
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=detailed
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=92599705314
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=96328749527
+mem_heap_B=196128
+mem_heap_extra_B=56
+mem_stacks_B=32672
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=99125532631
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=100990054691
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=103786837840
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=105651360039
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=107515882290
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=109380404533
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=detailed
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=111244926832
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31536
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=113109449044
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=116838493355
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=119635276728
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=121499798983
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=123226207083
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=124952615183
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31648
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=126679023299
+mem_heap_B=196128
+mem_heap_extra_B=56
+mem_stacks_B=32592
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=128405431525
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=130131839628
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=131858247864
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=133584656054
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=detailed
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=135311064166
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=137037472342
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=138763880531
+mem_heap_B=196128
+mem_heap_extra_B=56
+mem_stacks_B=32672
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=140490288732
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=142216696925
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=143943105052
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=145669513227
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=147395921373
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=149122329609
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=150848737858
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=detailed
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=152575146094
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=154301554242
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=156027962392
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=157754370655
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=159480778755
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=161207186906
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=162933595131
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=164660003349
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=166386411684
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31536
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=168112819932
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=detailed
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=77
+#-----------
+time=169839228059
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=171565636216
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=173292044328
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=175018452451
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=176744860711
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=178471268904
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=180197677005
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=181924085228
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=183650493376
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=185376901612
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=detailed
+n7: 485920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 289792 0x487F694: ConvertToVole (vole.c:27)
+  n1: 289792 0x4880118: vole_reconstruct (vole.c:179)
+   n1: 289792 0x484F6EA: faest_verify (faest.c:395)
+    n1: 289792 0x48AB239: faest_256f_verify (faest_256f.c:100)
+     n1: 289792 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+      n0: 289792 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 144896 0x484F597: faest_verify (faest.c:382)
+  n1: 144896 0x48AB239: faest_256f_verify (faest_256f.c:100)
+   n1: 144896 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+    n0: 144896 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16384 0x487FF15: vole_reconstruct (vole.c:154)
+  n1: 16384 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16384 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16384 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16384 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 16352 0x487FEE5: vole_reconstruct (vole.c:153)
+  n1: 16352 0x484F6EA: faest_verify (faest.c:395)
+   n1: 16352 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 16352 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 16352 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FE6B: vole_reconstruct (vole.c:144)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n1: 8192 0x487FF43: vole_reconstruct (vole.c:155)
+  n1: 8192 0x484F6EA: faest_verify (faest.c:395)
+   n1: 8192 0x48AB239: faest_256f_verify (faest_256f.c:100)
+    n1: 8192 0x1092D7: crypto_sign_open (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+     n0: 8192 0x1096B7: main (in /home/kent/Desktop/embedded-faest/test/build/faest_256f/verify)
+ n0: 2112 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=87
+#-----------
+time=187103309784
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31592
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=188829717969
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=190556126205
+mem_heap_B=485920
+mem_heap_extra_B=64
+mem_stacks_B=31680
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=192282583627
+mem_heap_B=157696
+mem_heap_extra_B=32
+mem_stacks_B=31856
+heap_tree=empty

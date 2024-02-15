@@ -1,6 +1,6 @@
-desc: --stacks=yes --massif-out-file=/home/kent/Desktop/embedded-faest/test/results/massif/EM256f_keygen
+desc: --stacks=yes --threshold=0.01 --peak-inaccuracy=0.1 --time-unit=B --detailed-freq=1 --max-snapshots=200 --massif-out-file=/home/kent/Desktop/embedded-faest/test/results/massif/EM256f_keygen
 cmd: /home/kent/Desktop/embedded-faest/test/build/faest_em_256f/keygen
-time_unit: i
+time_unit: B
 #-----------
 snapshot=0
 #-----------
@@ -8,11 +8,12 @@ time=0
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=0
-heap_tree=empty
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=1
 #-----------
-time=65587
+time=20184
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=7640
@@ -21,205 +22,223 @@ n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=2
 #-----------
-time=109208
+time=38664
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1752
-heap_tree=empty
+mem_stacks_B=4216
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=3
 #-----------
-time=164668
+time=68104
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1288
+mem_stacks_B=1112
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=4
 #-----------
-time=201610
+time=97208
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
+mem_stacks_B=1352
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=5
 #-----------
-time=246276
+time=135944
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
-heap_tree=empty
+mem_stacks_B=1352
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=6
 #-----------
-time=302172
+time=162168
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
-heap_tree=empty
+mem_stacks_B=1032
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=7
 #-----------
-time=376700
+time=196816
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
-heap_tree=empty
+mem_stacks_B=1744
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=8
 #-----------
-time=432596
+time=239664
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1344
-heap_tree=empty
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=9
 #-----------
-time=474922
+time=268432
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
+mem_stacks_B=1344
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=10
 #-----------
-time=509790
+time=306352
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1392
-heap_tree=empty
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=11
 #-----------
-time=558911
+time=328880
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=12
 #-----------
-time=617150
+time=366768
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1304
-heap_tree=empty
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=13
 #-----------
-time=660334
+time=394928
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
+mem_stacks_B=1312
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=14
 #-----------
-time=711993
+time=432032
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1296
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=15
 #-----------
-time=753040
+time=459328
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=16
 #-----------
-time=802161
+time=504776
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=17
 #-----------
-time=837029
+time=522952
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=18
 #-----------
-time=879971
+time=552656
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1056
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=19
 #-----------
-time=943526
+time=575408
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1216
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=20
 #-----------
-time=996290
+time=618600
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=21
 #-----------
-time=1054128
+time=648032
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=22
 #-----------
-time=1092778
+time=679520
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
+mem_stacks_B=1312
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=23
 #-----------
-time=1131938
+time=722824
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=24
 #-----------
-time=1181702
+time=746448
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1360
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=25
 #-----------
-time=1215927
+time=777952
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
+mem_stacks_B=1312
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=26
 #-----------
-time=1278190
+time=809440
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1392
@@ -228,40 +247,43 @@ n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=27
 #-----------
-time=1314812
+time=837008
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
+mem_stacks_B=1344
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=28
 #-----------
-time=1363471
+time=860640
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1360
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=29
 #-----------
-time=1433669
+time=896176
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1056
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=30
 #-----------
-time=1491507
+time=927664
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=31
 #-----------
-time=1525201
+time=970976
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1312
@@ -270,300 +292,869 @@ n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=32
 #-----------
-time=1566779
+time=1002464
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=33
 #-----------
-time=1612902
+time=1039728
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=34
 #-----------
-time=1681553
+time=1073864
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=35
 #-----------
-time=1741890
+time=1107992
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=36
 #-----------
-time=1772370
+time=1142120
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=37
 #-----------
-time=1818210
+time=1169416
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=38
 #-----------
-time=1864422
+time=1196712
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1344
+mem_stacks_B=1400
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=39
 #-----------
-time=1925366
+time=1224008
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=40
 #-----------
-time=1986477
+time=1258160
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=41
 #-----------
-time=2047515
+time=1299120
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1304
-heap_tree=empty
+mem_stacks_B=1264
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=42
 #-----------
-time=2093344
+time=1326416
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1392
-heap_tree=empty
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=43
 #-----------
-time=2154455
+time=1353712
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1392
-heap_tree=empty
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=44
 #-----------
-time=2215493
+time=1381040
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1304
-heap_tree=empty
+mem_stacks_B=1248
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=45
 #-----------
-time=2261322
+time=1408344
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=46
 #-----------
-time=2322433
+time=1428824
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
+mem_stacks_B=1384
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=47
 #-----------
-time=2383471
+time=1456120
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1304
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=48
 #-----------
-time=2429300
+time=1483416
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1304
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=49
 #-----------
-time=2475145
+time=1510712
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
+mem_stacks_B=1400
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=50
 #-----------
-time=2505677
+time=1538008
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=51
 #-----------
-time=2536164
+time=1565304
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=52
 #-----------
-time=2566791
+time=1599448
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1352
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=53
 #-----------
-time=2597278
+time=1626744
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1352
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=54
 #-----------
-time=2627827
-mem_heap_B=0
-mem_heap_extra_B=0
-mem_stacks_B=1304
-heap_tree=empty
-#-----------
-snapshot=55
-#-----------
-time=2658389
-mem_heap_B=0
-mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
-#-----------
-snapshot=56
-#-----------
-time=2688876
-mem_heap_B=0
-mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
-#-----------
-snapshot=57
-#-----------
-time=2719427
-mem_heap_B=0
-mem_heap_extra_B=0
-mem_stacks_B=1304
-heap_tree=empty
-#-----------
-snapshot=58
-#-----------
-time=2750035
-mem_heap_B=0
-mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
-#-----------
-snapshot=59
-#-----------
-time=2780522
+time=1660880
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1392
 heap_tree=detailed
 n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
-snapshot=60
+snapshot=55
 #-----------
-time=2811101
+time=1681368
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=56
+#-----------
+time=1708664
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=57
+#-----------
+time=1742992
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=58
+#-----------
+time=1788752
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1392
-heap_tree=empty
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=59
+#-----------
+time=1834512
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1360
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=60
+#-----------
+time=1857392
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=61
 #-----------
-time=2841633
+time=1880288
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1360
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=62
 #-----------
-time=2872120
+time=1926048
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=512
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=63
 #-----------
-time=2902747
+time=1971808
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=64
 #-----------
-time=2933234
+time=2017568
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1392
-heap_tree=empty
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=65
 #-----------
-time=2963783
+time=2040464
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1304
-heap_tree=empty
+mem_stacks_B=1360
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=66
 #-----------
-time=2994345
+time=2086224
 mem_heap_B=0
 mem_heap_extra_B=0
 mem_stacks_B=1392
-heap_tree=empty
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=67
 #-----------
-time=3024832
+time=2109104
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=1392
-heap_tree=empty
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
 #-----------
 snapshot=68
 #-----------
-time=3055312
+time=2131984
 mem_heap_B=0
 mem_heap_extra_B=0
-mem_stacks_B=488
-heap_tree=empty
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=69
+#-----------
+time=2154864
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=70
+#-----------
+time=2177744
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=71
+#-----------
+time=2200640
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=72
+#-----------
+time=2223520
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=73
+#-----------
+time=2246400
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=74
+#-----------
+time=2269568
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=512
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=75
+#-----------
+time=2292448
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=76
+#-----------
+time=2315328
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=77
+#-----------
+time=2338208
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=78
+#-----------
+time=2361088
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=79
+#-----------
+time=2383984
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1360
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=80
+#-----------
+time=2406864
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=81
+#-----------
+time=2429744
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=82
+#-----------
+time=2452624
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=83
+#-----------
+time=2475504
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=84
+#-----------
+time=2498384
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=85
+#-----------
+time=2521264
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=86
+#-----------
+time=2544160
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=87
+#-----------
+time=2567040
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=88
+#-----------
+time=2589920
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=89
+#-----------
+time=2613088
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=512
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=90
+#-----------
+time=2635968
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=91
+#-----------
+time=2658848
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=92
+#-----------
+time=2681728
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=93
+#-----------
+time=2704608
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=94
+#-----------
+time=2727504
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1360
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=95
+#-----------
+time=2750384
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=96
+#-----------
+time=2773264
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=97
+#-----------
+time=2796144
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=98
+#-----------
+time=2819024
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=99
+#-----------
+time=2853344
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=100
+#-----------
+time=2871528
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=101
+#-----------
+time=2889704
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=102
+#-----------
+time=2907880
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=103
+#-----------
+time=2926056
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1352
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=104
+#-----------
+time=2944232
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=105
+#-----------
+time=2962408
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1336
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=106
+#-----------
+time=2980584
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1304
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=107
+#-----------
+time=2998776
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1336
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=108
+#-----------
+time=3016952
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1336
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=109
+#-----------
+time=3035128
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=110
+#-----------
+time=3053304
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=111
+#-----------
+time=3071480
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=112
+#-----------
+time=3089656
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=113
+#-----------
+time=3107832
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1352
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=114
+#-----------
+time=3126008
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1384
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=115
+#-----------
+time=3144184
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1304
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=116
+#-----------
+time=3162360
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=117
+#-----------
+time=3180536
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1304
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=118
+#-----------
+time=3198720
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1248
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=119
+#-----------
+time=3216896
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=120
+#-----------
+time=3235072
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=121
+#-----------
+time=3253248
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=122
+#-----------
+time=3271424
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1392
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=123
+#-----------
+time=3289600
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1344
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=124
+#-----------
+time=3307776
+mem_heap_B=472
+mem_heap_extra_B=16
+mem_stacks_B=616
+heap_tree=detailed
+n1: 472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 472 0x4958F8F: ??? (in /usr/lib/libc.so.6)
+  n1: 472 0x109330: write_pk (in /home/kent/Desktop/embedded-faest/test/build/faest_em_256f/keygen)
+   n0: 472 0x10963C: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_256f/keygen)
+#-----------
+snapshot=125
+#-----------
+time=3325952
+mem_heap_B=472
+mem_heap_extra_B=16
+mem_stacks_B=520
+heap_tree=detailed
+n2: 472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 472 0x4958F8F: ??? (in /usr/lib/libc.so.6)
+  n1: 472 0x109330: write_pk (in /home/kent/Desktop/embedded-faest/test/build/faest_em_256f/keygen)
+   n0: 472 0x10963C: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_256f/keygen)
+ n1: 0 0x4958499: _IO_file_doallocate (in /usr/lib/libc.so.6)
+  n1: 0 0x4967278: _IO_doallocbuf (in /usr/lib/libc.so.6)
+   n1: 0 0x49653E7: _IO_file_overflow (in /usr/lib/libc.so.6)
+    n1: 0 0x4965EC6: _IO_file_xsputn (in /usr/lib/libc.so.6)
+     n1: 0 0x4959AD1: fwrite (in /usr/lib/libc.so.6)
+      n1: 0 0x10935F: write_pk (in /home/kent/Desktop/embedded-faest/test/build/faest_em_256f/keygen)
+       n0: 0 0x10963C: main (in /home/kent/Desktop/embedded-faest/test/build/faest_em_256f/keygen)
+#-----------
+snapshot=126
+#-----------
+time=3344128
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=704
+heap_tree=detailed
+n1: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 0 in 2 places, all below massif's threshold (0.01%)

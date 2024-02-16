@@ -157,7 +157,7 @@ def start_process(variant, name, no_massif):
         # Run with memory check
         ensure_folder(TEST_RESULT_MASSIF_PATH)
         cmd += ['valgrind', '--tool=massif', '--stacks=yes', '--threshold=0.01', 
-                '--peak-inaccuracy=0.1', '--time-unit=B', '--detailed-freq=1', '--max-snapshots=200',
+                '--peak-inaccuracy=0.1', '--time-unit=B', '--detailed-freq=1', '--max-snapshots=1000',
                 f'--massif-out-file={TEST_RESULT_MASSIF_PATH}/{simplify_name(variant)}_{name}']
 
     cmd += [f'{TEST_BUILD_PATH}/{variant}/{name}']

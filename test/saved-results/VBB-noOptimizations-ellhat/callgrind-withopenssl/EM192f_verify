@@ -1,7 +1,7 @@
 # callgrind format
 version: 1
 creator: callgrind-3.22.0
-pid: 27713
+pid: 31871
 cmd:  /home/kent/Desktop/embedded-faest/test/build/faest_em_192f/verify
 part: 1
 
@@ -10,12 +10,12 @@ desc: I1 cache:
 desc: D1 cache: 
 desc: LL cache: 
 
-desc: Timerange: Basic block 0 - 53432405
+desc: Timerange: Basic block 0 - 53431236
 desc: Trigger: Program termination
 
 positions: line
 events: Ir
-summary: 985845696
+summary: 985824710
 
 
 ob=(7) /home/kent/Desktop/embedded-faest/test/build/faest_em_192f/verify
@@ -26,7 +26,7 @@ cob=(1) /usr/lib/ld-linux-x86-64.so.2
 cfi=(1) ???
 cfn=(4110) 0x0000000000012af0
 calls=1 0 
-0 984344157
+0 984323171
 0 5
 0 11
 cob=(1)
@@ -49,7 +49,7 @@ calls=1 0
 0 18
 cfn=(4626)
 calls=1 0 
-0 984344943
+0 984323957
 0 8
 
 fn=(7514) 0x0000000000001160
@@ -98,7 +98,7 @@ cob=(2)
 cfi=(2)
 cfn=(4044) (below main)
 calls=1 0 
-0 985282817
+0 985261831
 
 fn=(4102)
 0 9
@@ -150,1129 +150,9 @@ fn=(3926) 0x00000000000010e0
 
 ob=(1)
 fl=(1)
-fn=(0) 0x000000000001bb60
-0 2
-cfn=(2) 0x000000000001c7e0
-calls=1 0 
-0 561561
-0 8
-cfn=(3890) 0x0000000000015010
-calls=1 0 
-0 4
-0 10
-cfn=(3896) 0x0000000000005230
-calls=1 0 
-0 1279
-0 3
-cob=(7)
-cfi=(9)
-cfn=(4042)
-calls=1 0 
-0 985282829
-
-fn=(1028) 0x00000000000196d0
-0 276
-cfn=(1048) 0x0000000000023390
-calls=9 0 
-0 216
-0 120
-cfn=(634) 0x0000000000024be0
-calls=3 0 
-0 51
-0 12
-
-fn=(1402) 0x000000000001cf30
-0 31
-cfn=(1444) 0x000000000001c170
-calls=1 0 
-0 2680
-0 6
-cfn=(1408) 0x0000000000024a10
-calls=1 0 
-0 238
-0 8
-cfn=(744) 0x0000000000022a00
-calls=1 0 
-0 19
-0 11
-
-fn=(1520) 0x00000000000055e0
-0 152
-cfn=(1524) 0x0000000000021c30
-calls=8 0 
-0 148
-0 64
-cfn=(1538) 0x0000000000021ce0
-calls=4 0 
-0 24
-0 253
-cfn=(2376) 0x0000000000021cb0
-calls=1 0 
-0 7
-0 7
-
-fn=(2576) 0x0000000000010eb0
-0 382
-cfn=(2577) 0x0000000000010eb0'2
-calls=2 0 
-0 83
-0 19
-
-fn=(2577)
-0 83
-
-fn=(2650) 0x00000000000013c0
-0 13
-cfn=(2654) 0x000000000001c3e0
-calls=1 0 
-0 11050
-0 8
-
-fn=(2664) 0x00000000000133f0
-0 341
-cfn=(1466) 0x000000000000b3f0
-calls=23 0 
-0 2093
-0 4406
-cfn=(894) 0x00000000000235c0
-calls=27 0 
-0 1170
-0 733
-cfn=(726) 0x000000000000b250
-calls=5 0 
-0 180
-0 1961
-cfn=(2822) 0x0000000000024d80
-calls=1 0 
-0 55
-0 2
-
-fn=(3896)
-0 32
-cfn=(3900) 0x00000000000050f0
-calls=1 0 
-0 36
-0 35
-cfn=(3900)
-calls=5 0 
-0 1074
-0 21
-cfn=(3900)
-calls=1 0 
-0 79
-0 2
-
-fn=(362) 0x0000000000015cc0
-0 5248
-
-fn=(568) 0x0000000000013060
-0 225
-
-fn=(1380) 0x0000000000011b40
-0 6
-
-fn=(1454) 0x00000000000088f0
-0 518
-cfn=(1466)
-calls=26 0 
-0 2543
-0 288
-cfn=(894)
-calls=11 0 
-0 275
-0 141
-cfn=(1048)
-calls=4 0 
-0 96
-0 13
-cfn=(1250) 0x00000000000064b0
-calls=1 0 
-0 181
-0 13
-cfn=(1520)
-calls=1 0 
-0 103
-0 60
-cfn=(1574) 0x0000000000007030
-calls=3 0 
-0 6297
-0 15
-cfn=(1574)
-calls=1 0 
-0 1933
-0 18
-cfn=(634)
-calls=3 0 
-0 51
-0 66
-cfn=(2054) 0x00000000000059f0
-calls=3 0 
-0 1090
-0 29
-cfn=(2026) 0x0000000000006a60
-calls=2 0 
-0 26
-0 20
-cfn=(2214) 0x0000000000014520
-calls=2 0 
-0 3291
-0 32
-cfn=(1520)
-calls=2 0 
-0 237
-0 51
-cfn=(2026)
-calls=3 0 
-0 27
-0 99
-cfn=(2026)
-calls=4 0 
-0 44
-0 32
-
-fn=(2094) 0x0000000000021b00
-0 32
-
-fn=(2214)
-0 41
-cfn=(2260) 0x0000000000013e00
-calls=2 0 
-0 2786
-0 14
-cfn=(634)
-calls=2 0 
-0 70
-0 36
-cfn=(744)
-calls=2 0 
-0 22
-0 4
-cfn=(1266) 0x0000000000024b80
-calls=2 0 
-0 178
-0 15
-cfn=(2220) 0x000000000000b360
-calls=1 0 
-0 94
-0 31
-
-fn=(744)
-0 301
-
-fn=(992) 0x0000000000006ad0
-0 14
-cfn=(994) 0x0000000000019280
-calls=1 0 
-0 1371
-0 3
-cfn=(730) 0x000000000000b120
-calls=1 0 
-0 25
-0 12
-cfn=(730)
-calls=1 0 
-0 25
-0 21
-cfn=(1170) 0x0000000000022bf0
-calls=1 0 
-0 14
-0 20
-cfn=(634)
-calls=1 0 
-0 35
-0 22
-cfn=(744)
-calls=1 0 
-0 19
-0 324
-cfn=(730)
-calls=1 0 
-0 25
-0 10
-cfn=(1222) 0x00000000000065d0
-calls=1 0 
-0 1138
-0 15
-
-fn=(1316) 0x000000000000b290
-0 5
-
-fn=(1452) 0x000000000001bca0
-0 12
-cfn=(1454)
-calls=1 0 
-0 2549
-0 3
-
-fn=(2558) 0x0000000000010fb0
-0 276
-cfn=(2576)
-calls=10 0 
-0 484
-0 64
-cfn=(744)
-calls=2 0 
-0 38
-0 2
-
-fn=(2654)
-0 7
-cfn=(2656) 0x0000000000013cb0
-calls=1 0 
-0 11039
-0 4
-
-fn=(2908) 0x0000000000011bb0
-0 76
-
-fn=(2928) 0x0000000000011d90
-0 9
-cfn=(730)
-calls=1 0 
-0 77
-0 317
-cfn=(2940) 0x0000000000011690
-calls=1 0 
-0 55
-0 7
-
-fn=(3000) 0x0000000000015080
-0 25
-
-fn=(3448) 0x00000000000124c0
-0 27
-
-fn=(3642) 0x0000000000004630
-0 8
-cfn=(3658) 0x00000000000040b0
-calls=1 0 
-0 110
-0 4
-cfn=(730)
-calls=1 0 
-0 25
-0 8
-cfn=(3658)
-calls=1 0 
-0 435
-0 9
-cfn=(3646) 0x0000000000004040
-calls=1 0 
-0 68
-0 3
-cfn=(3694) 0x0000000000004580
-calls=1 0 
-0 184
-0 7
-
-fn=(3852) 0x000000000001b5c0
-0 2
-
-fn=(136) 0x000000000001a860
-0 529
-
-fn=(1574)
-0 124
-cfn=(714) 0x000000000000b700
-calls=4 0 
-0 1500
-0 1852
-cfn=(1700) 0x0000000000021df0
-calls=4 0 
-0 100
-0 236
-cfn=(1170)
-calls=4 0 
-0 448
-0 256
-cfn=(1700)
-calls=12 0 
-0 216
-0 36
-cfn=(1578) 0x00000000000219e0
-calls=4 0 
-0 24
-0 217
-cfn=(2376)
-calls=1 0 
-0 7
-0 1640
-cfn=(850) 0x0000000000006e50
-calls=4 0 
-0 314
-0 330
-cfn=(1864) 0x0000000000021b20
-calls=4 0 
-0 24
-0 48
-cfn=(124) 0x0000000000010de0
-calls=4 0 
-0 108
-0 95
-cfn=(2438) 0x0000000000011a20
-calls=1 0 
-0 10
-0 12
-cfn=(782) 0x000000000000b660
-calls=4 0 
-0 208
-0 16
-cfn=(1906) 0x0000000000002670
-calls=4 0 
-0 28
-0 56
-cfn=(1920) 0x00000000000179c0
-calls=4 0 
-0 20
-0 149
-cfn=(1700)
-calls=2 0 
-0 36
-0 33
-cfn=(894)
-calls=2 0 
-0 50
-0 22
-cfn=(744)
-calls=1 0 
-0 11
-0 4
-
-fn=(7548) 0x0000000000017a80
-0 30
-
-fn=(120) 0x0000000000019890
-0 10
-
-fn=(134) 0x000000000001b500
-0 7
-cfn=(136)
-calls=1 0 
-0 529
-0 2
-cfn=(158) 0x0000000000013080
-calls=1 0 
-0 49586
-0 1
-cfn=(206) 0x0000000000010f80
-calls=1 0 
-0 35
-0 2
-cfn=(214) 0x0000000000020d00
-calls=1 0 
-0 8
-0 1
-cfn=(222) 0x0000000000017810
-calls=1 0 
-0 7111
-0 4
-cfn=(634)
-calls=1 0 
-0 17
-0 3
-cfn=(642) 0x0000000000021500
-calls=1 0 
-0 15
-0 11
-cfn=(654) 0x000000000001d040
-calls=1 0 
-0 503561
-0 4
-
-fn=(234) 0x00000000000156f0
-0 71
-
-fn=(654)
-0 22
-cfn=(656) 0x0000000000012740
-calls=1 0 
-0 17
-0 10
-cfn=(662) 0x00000000000190f0
-calls=1 0 
-0 557
-0 4
-cfn=(662)
-calls=2 0 
-0 27
-0 175
-cfn=(714)
-calls=1 0 
-0 288
-0 13
-cfn=(782)
-calls=1 0 
-0 37
-0 269
-cfn=(850)
-calls=1 0 
-0 56
-0 161
-cfn=(894)
-calls=1 0 
-0 25
-0 314
-cfn=(124)
-calls=1 0 
-0 27
-0 10
-cfn=(992)
-calls=1 0 
-0 3093
-0 3
-cfn=(1334) 0x00000000000026c0
-calls=1 0 
-0 33
-0 51
-cfn=(1380)
-calls=1 0 
-0 6
-0 8
-cfn=(1388) _dl_debug_state
-calls=1 0 
-0 2
-0 4
-cfn=(1392) 0x0000000000017840
-calls=1 0 
-0 21
-0 11
-cfn=(1950) 0x00000000000219b0
-calls=1 0 
-0 9
-0 21
-cfn=(1974) 0x0000000000002870
-calls=1 0 
-0 18334
-0 124
-cfn=(2650)
-calls=1 0 
-0 11071
-0 126
-cfn=(3000)
-calls=1 0 
-0 25
-0 14
-cfn=(3012) 0x000000000000ddd0
-calls=1 0 
-0 72444
-0 123
-cfn=(3012)
-calls=5 0 
-0 385613
-0 18
-cfn=(3448)
-calls=1 0 
-0 27
-0 18
-cfn=(3632) _dl_allocate_tls_init
-calls=1 0 
-0 145
-0 10
-cfn=(3808) 0x0000000000001000
-calls=1 0 
-0 541
-0 1
-cfn=(3852)
-calls=1 0 
-0 2
-0 3
-cfn=(3856) 0x00000000000178d0
-calls=1 0 
-0 9
-0 2
-cfn=(1906)
-calls=1 0 
-0 7
-0 3
-cfn=(1388)
-calls=1 0 
-0 2
-0 2
-cfn=(3866) 0x00000000000148b0
-calls=1 0 
-0 18
-0 98
-cfn=(3642)
-calls=1 0 
-0 861
-0 3
-cfn=(3718) 0x0000000000019b60
-calls=1 0 
-0 2529
-0 1
-cfn=(3748) 0x0000000000019d90
-calls=1 0 
-0 440
-0 10
-cfn=(3012)
-calls=1 0 
-0 1778
-0 15
-cfn=(2878) 0x000000000001c670
-calls=1 0 
-0 819
-0 33
-cfn=(1402)
-calls=1 0 
-0 2993
-0 25
-
-fn=(1148) 0x00000000000229f0
-0 321
-
-fn=(2462) 0x0000000000021d40
-0 80
-
-fn=(2878)
-0 13
-cfn=(726)
-calls=1 0 
-0 36
-0 50
-cfn=(2898) 0x0000000000011980
-calls=1 0 
-0 81
-0 1
-cfn=(2908)
-calls=1 0 
-0 76
-0 1
-cfn=(2928)
-calls=1 0 
-0 465
-0 14
-cfn=(2958) 0x00000000000127a0
-calls=1 0 
-0 76
-0 6
-
-fn=(3124) 0x0000000000009750
-0 94155
-cfn=(3154) 0x00000000000095b0
-calls=274 0 
-0 33442
-0 4777
-
-fn=(3632)
-0 16
-cfn=(784) 0x0000000000012730
-calls=1 0 
-0 3
-0 57
-cfn=(1148)
-calls=1 0 
-0 13
-0 5
-cfn=(1170)
-calls=1 0 
-0 25
-0 12
-cfn=(784)
-calls=1 0 
-0 3
-0 11
-
-fn=(3658)
-0 220
-cfn=(3646)
-calls=5 0 
-0 305
-0 20
-
-fn=(3750) 0x000000000000af80
-0 133
-cfn=(3762) 0x000000000000aeb0
-calls=3 0 
-0 417
-0 42
-
-fn=(726)
-0 309
-cfn=(1700)
-calls=1 0 
-0 23
-0 7
-cfn=(2138) 0x0000000000021f00
-calls=1 0 
-0 47
-0 146
-
-fn=(782)
-0 45
-cfn=(784)
-calls=5 0 
-0 15
-0 185
-
-fn=(1700)
-0 421
-
-fn=(2006) 0x0000000000002830
-0 90
-cfn=(1454)
-calls=6 0 
-0 15040
-0 18
-
-fn=(158)
-0 49586
-
-fn=(894)
-0 22615
-
-fn=(996) 0x0000000000019610
-0 49
-
-fn=(1170)
-0 487
-
-fn=(1222)
-0 20
-cfn=(1224) 0x0000000000019d10
-calls=1 0 
-0 736
-0 3
-cfn=(1224)
-calls=1 0 
-0 8
-0 11
-cfn=(1250)
-calls=1 0 
-0 181
-0 5
-cfn=(634)
-calls=1 0 
-0 35
-0 18
-cfn=(1316)
-calls=1 0 
-0 5
-0 9
-cfn=(730)
-calls=1 0 
-0 25
-0 10
-cfn=(1148)
-calls=1 0 
-0 21
-0 51
-
-fn=(1538)
-0 24
-
-fn=(2438)
-0 10
-
-fn=(2822)
-0 55
-
-fn=(3410) 0x000000000000dc80
-0 108
-cfn=(3414) 0x0000000000021ea0
-calls=6 0 
-0 36
-0 12
-
-fn=(3762)
-0 84
-cfn=(894)
-calls=3 0 
-0 189
-0 39
-cfn=(894)
-calls=3 0 
-0 75
-0 30
-
-fn=(124)
-0 162
-
-fn=(1252) 0x0000000000006280
-0 72
-cfn=(1048)
-calls=8 0 
-0 264
-0 72
-
-fn=(1408)
-0 238
-
-fn=(1524)
-0 165
-
-fn=(2026)
-0 97
-
-fn=(7506) 0x0000000000001090
-0 106
-cob=(5) /usr/lib/libcrypto.so.3
-cfi=(7) ???
-cfn=(7588) 0x00000000000b90b0
-calls=1 0 
-0 91
-cob=(6) /home/kent/Desktop/embedded-faest/faest/build/libfaest.so.0.0.1
-cfi=(8) ???
-cfn=(7572) 0x0000000000002290
-calls=1 0 
-0 91
-cob=(4)
-cfi=(4)
-cfn=(7556)
-calls=1 0 
-0 91
-cob=(7)
-cfi=(9)
-cfn=(7514)
-calls=1 0 
-0 91
-0 58
-cob=(3) ???
-cfi=(3) ???
-cfn=(7602) 0x0000000004eaad24
-calls=1 0 
-0 4
-cob=(3)
-cfi=(3)
-cfn=(7586) 0x000000000489f860
-calls=1 0 
-0 4
-cob=(3)
-cfi=(3)
-cfn=(7570) 0x0000000004838274
-calls=1 0 
-0 4
-cob=(3)
-cfi=(3)
-cfn=(7544) 0x00000000001096e0
-calls=1 0 
-0 4
-0 8
-
-fn=(634)
-0 625
-
-fn=(1334)
-0 33
-
-fn=(1578)
-0 30
-
-fn=(4112) 0x0000000000010700
-0 1153
-cfn=(3104) 0x000000000000a3e0
-calls=18 0 
-0 11420
-0 652
-cob=(2)
-cfi=(2)
-cfn=(3382) memmove
-calls=1 0 
-0 22
-cob=(2)
-cfi=(2)
-cfn=(3372) bcmp
-calls=1 0 
-0 24
-cob=(2)
-cfi=(2)
-cfn=(3326) memcpy
-calls=1 0 
-0 22
-cob=(2)
-cfi=(2)
-cfn=(3336) memset
-calls=1 0 
-0 24
-0 8
-
-fn=(2958)
-0 32
-cfn=(208) __tunable_get_val
-calls=1 0 
-0 23
-0 21
-
-fn=(3646)
-0 373
-
-fn=(3724) 0x0000000000019a90
-0 60
-cfn=(3104)
-calls=4 0 
-0 2257
-0 104
-
-fn=(3748)
-0 12
-cfn=(3750)
-calls=1 0 
-0 218
-0 17
-cfn=(3750)
-calls=1 0 
-0 180
-0 13
-
-fn=(3870) 0x0000000000021ed0
-0 6
-
-fn=(1026) 0x0000000000019840
-0 66
-cfn=(1028)
-calls=11 0 
-0 483
-0 6
-cfn=(1028)
-calls=3 0 
-0 180
-0 106
-cfn=(1066) 0x0000000000019770
-calls=6 0 
-0 30
-0 34
-
-fn=(1392)
-0 21
-
-fn=(1906)
-0 35
-
-fn=(208)
-0 848
-
-fn=(730)
-0 560
-cfn=(1700)
-calls=1 0 
-0 23
-0 7
-cfn=(2138)
-calls=1 0 
-0 5
-0 7
-
-fn=(4110)
-0 130
-cfn=(4112)
-calls=5 0 
-0 3354
-0 75
-
-fn=(4111) 0x0000000000012af0'2
-0 338
-cfn=(4112)
-calls=13 0 
-0 9971
-0 195
-
-fn=(2656)
-0 49
-cfn=(2664)
-calls=6 0 
-0 10941
-0 49
-
-fn=(2898)
-0 11
-cfn=(208)
-calls=1 0 
-0 22
-0 5
-cfn=(208)
-calls=1 0 
-0 22
-0 21
-
-fn=(2940)
-0 9
-cfn=(726)
-calls=1 0 
-0 36
-0 10
-
-fn=(656)
-0 17
-
-fn=(850)
-0 370
-
-fn=(1224)
-0 744
-
-fn=(1266)
-0 34
-cfn=(634)
-calls=2 0 
-0 70
-0 6
-cfn=(730)
-calls=2 0 
-0 50
-0 18
-
-fn=(1920)
-0 20
-
-fn=(1950)
-0 9
-
-fn=(2054)
-0 168
-cfn=(1148)
-calls=3 0 
-0 63
-0 66
-cfn=(1148)
-calls=5 0 
-0 65
-0 20
-cfn=(1148)
-calls=5 0 
-0 65
-0 65
-cfn=(1520)
-calls=5 0 
-0 315
-0 35
-cfn=(730)
-calls=1 0 
-0 25
-0 7
-cfn=(744)
-calls=1 0 
-0 19
-0 125
-cfn=(2094)
-calls=2 0 
-0 32
-0 20
-
-fn=(2138)
-0 20
-cfn=(208)
-calls=1 0 
-0 23
-0 9
-
-fn=(466) 0x0000000000015890
-0 227
-
-fn=(714)
-0 92
-cfn=(634)
-calls=4 0 
-0 86
-0 36
-cfn=(726)
-calls=4 0 
-0 238
-0 3
-cfn=(726)
-calls=1 0 
-0 42
-0 70
-cfn=(744)
-calls=5 0 
-0 66
-0 364
-cfn=(634)
-calls=4 0 
-0 140
-0 40
-cfn=(1148)
-calls=4 0 
-0 68
-0 408
-cfn=(730)
-calls=4 0 
-0 100
-0 35
-
-fn=(1048)
-0 576
-
-fn=(1446) 0x00000000000015e0
-0 12
-cfn=(1448) _dl_catch_exception
-calls=1 0 
-0 2629
-0 11
-
-fn=(1466)
-0 392
-cfn=(894)
-calls=49 0 
-0 1466
-0 563
-cfn=(894)
-calls=57 0 
-0 1856
-0 359
-
-fn=(2278) 0x0000000000013d30
-0 1978
-
-fn=(3104)
-0 39052
-cfn=(3124)
-calls=436 0 
-0 132374
-0 11527
-
-fn=(3694)
-0 184
-
-fn=(3800) 0x00000000000177e0
-0 6
-
-fn=(214)
-0 8
-
-fn=(1444)
-0 17
-cfn=(1446)
-calls=1 0 
-0 2652
-0 11
-
-fn=(7432) 0x0000000000004e20
-0 27
-cob=(2)
-cfi=(2)
-cfn=(7438) pthread_mutex_lock
-calls=1 0 
-0 42
-0 13
-cfn=(3856)
-calls=1 0 
-0 9
-0 108
-cfn=(2558)
-calls=1 0 
-0 461
-0 2
-cob=(2)
-cfi=(2)
-cfn=(7472) pthread_mutex_unlock
-calls=1 0 
-0 39
-0 72
-cfn=(7506)
-calls=6 0 
-0 552
-0 12
-cfn=(7548)
-calls=6 0 
-0 30
-0 21
-cfn=(3856)
-calls=1 0 
-0 9
-0 21
-
 fn=(356) 0x0000000000015f50
 0 396
-cfn=(362)
+cfn=(362) 0x0000000000015cc0
 calls=12 0 
 0 4032
 0 84
@@ -1281,33 +161,33 @@ calls=12 0
 0 1216
 0 24
 
-fn=(784)
+fn=(784) 0x0000000000012730
 0 21
 
-fn=(1250)
+fn=(1250) 0x00000000000064b0
 0 18
-cfn=(1252)
+cfn=(1252) 0x0000000000006280
 calls=2 0 
 0 132
 0 68
-cfn=(634)
+cfn=(634) 0x0000000000024be0
 calls=2 0 
 0 70
 0 6
-cfn=(730)
+cfn=(730) 0x000000000000b120
 calls=2 0 
 0 50
 0 18
 
-fn=(1388)
+fn=(1388) _dl_debug_state
 0 4
 
 fn=(4084) _dl_audit_preinit
 0 5
 
-fn=(3154)
+fn=(3154) 0x00000000000095b0
 0 8246
-cfn=(894)
+cfn=(894) 0x00000000000235c0
 calls=212 0 
 0 9925
 0 7265
@@ -1316,9 +196,9 @@ calls=261 0
 0 7484
 0 522
 
-fn=(3718)
+fn=(3718) 0x0000000000019b60
 0 82
-cfn=(3724)
+cfn=(3724) 0x0000000000019a90
 calls=1 0 
 0 566
 0 5
@@ -1335,19 +215,19 @@ calls=1 0
 0 593
 0 11
 
-fn=(3856)
+fn=(3856) 0x00000000000178d0
 0 27
 
-fn=(3900)
+fn=(3900) 0x00000000000050f0
 0 191
-cob=(3)
-cfi=(3)
+cob=(3) ???
+cfi=(3) ???
 cfn=(4026) 0x0000000004840000
 calls=1 0 
 0 7
 cob=(3)
 cfi=(3)
-cfn=(3988) 0x0000000004b71000
+cfn=(3988) 0x0000000004b83000
 calls=1 0 
 0 712
 cob=(3)
@@ -1362,13 +242,13 @@ cfn=(3980) 0x0000000000029bd0
 calls=1 0 
 0 12
 0 16
-cob=(6)
-cfi=(8)
+cob=(6) /home/kent/Desktop/embedded-faest/faest/build/libfaest.so.0.0.1
+cfi=(8) ???
 cfn=(4030) 0x00000000000022e0
 calls=1 0 
 0 12
-cob=(5)
-cfi=(7)
+cob=(5) /usr/lib/libcrypto.so.3
+cfi=(7) ???
 cfn=(4020) 0x00000000000b9100
 calls=1 0 
 0 12
@@ -1389,11 +269,11 @@ fn=(262) 0x0000000000016040
 
 fn=(1136) 0x00000000000191d0
 0 46
-cfn=(1148)
+cfn=(1148) 0x00000000000229f0
 calls=2 0 
 0 26
 0 22
-cfn=(1026)
+cfn=(1026) 0x0000000000019840
 calls=2 0 
 0 138
 0 4
@@ -1402,51 +282,51 @@ calls=2 0
 0 171
 0 20
 
-fn=(1448)
+fn=(1448) _dl_catch_exception
 0 126
 cfn=(1450) 0x00000000000220f0
 calls=7 0 
 0 168
 0 42
-cfn=(2006)
+cfn=(2006) 0x0000000000002830
 calls=6 0 
 0 15148
-cfn=(1452)
+cfn=(1452) 0x000000000001bca0
 calls=1 0 
 0 2564
 0 119
 
-fn=(1864)
+fn=(1864) 0x0000000000021b20
 0 30
 
-fn=(2)
+fn=(2) 0x000000000001c7e0
 0 596
-cfn=(120)
+cfn=(120) 0x0000000000019890
 calls=1 0 
 0 10
 0 9
-cfn=(124)
+cfn=(124) 0x0000000000010de0
 calls=1 0 
 0 27
 0 7
-cfn=(134)
+cfn=(134) 0x000000000001b500
 calls=1 0 
 0 560897
 0 15
 
-fn=(662)
+fn=(662) 0x00000000000190f0
 0 584
 
-fn=(1066)
+fn=(1066) 0x0000000000019770
 0 30
 
-fn=(2220)
+fn=(2220) 0x000000000000b360
 0 12
-cfn=(1524)
+cfn=(1524) 0x0000000000021c30
 calls=1 0 
 0 17
 0 13
-cfn=(1578)
+cfn=(1578) 0x00000000000219e0
 calls=1 0 
 0 6
 0 8
@@ -1454,22 +334,22 @@ cfn=(1864)
 calls=1 0 
 0 6
 0 7
-cfn=(1700)
+cfn=(1700) 0x0000000000021df0
 calls=1 0 
 0 23
 0 2
 
-fn=(2260)
+fn=(2260) 0x0000000000013e00
 0 38
 cfn=(894)
 calls=2 0 
 0 100
 0 18
-cfn=(208)
+cfn=(208) __tunable_get_val
 calls=2 0 
 0 44
 0 355
-cfn=(2278)
+cfn=(2278) 0x0000000000013d30
 calls=22 0 
 0 1780
 0 141
@@ -1478,16 +358,16 @@ calls=2 0
 0 198
 0 112
 
-fn=(2376)
+fn=(2376) 0x0000000000021cb0
 0 14
 
-fn=(3012)
+fn=(3012) 0x000000000000ddd0
 0 275108
-cfn=(3104)
+cfn=(3104) 0x000000000000a3e0
 calls=249 0 
 0 165949
 0 11957
-cfn=(3800)
+cfn=(3800) 0x00000000000177e0
 calls=1 0 
 0 6
 cob=(2)
@@ -1502,7 +382,7 @@ calls=1 0
 0 23
 cob=(2)
 cfi=(2)
-cfn=(3382)
+cfn=(3382) memmove
 calls=1 0 
 0 22
 cob=(2)
@@ -1527,7 +407,7 @@ calls=1 0
 0 17
 cob=(2)
 cfi=(2)
-cfn=(3372)
+cfn=(3372) bcmp
 calls=1 0 
 0 24
 cob=(2)
@@ -1617,7 +497,7 @@ calls=1 0
 0 19
 cob=(2)
 cfi=(2)
-cfn=(3336)
+cfn=(3336) memset
 calls=1 0 
 0 24
 cob=(2)
@@ -1642,7 +522,7 @@ calls=1 0
 0 18
 cob=(2)
 cfi=(2)
-cfn=(3326)
+cfn=(3326) memcpy
 calls=1 0 
 0 22
 cob=(2)
@@ -1802,7 +682,7 @@ cfn=(3336)
 calls=1 0 
 0 24
 0 118
-cfn=(3410)
+cfn=(3410) 0x000000000000dc80
 calls=6 0 
 0 156
 0 438
@@ -1811,12 +691,12 @@ calls=6 0
 0 3327
 0 216
 
-fn=(3414)
+fn=(3414) 0x0000000000021ea0
 0 36
 
-fn=(3808)
+fn=(3808) 0x0000000000001000
 0 13
-cfn=(3750)
+cfn=(3750) 0x000000000000af80
 calls=1 0 
 0 194
 0 11
@@ -1826,24 +706,24 @@ cfn=(3818) __libc_early_init
 calls=1 0 
 0 323
 
-fn=(3866)
+fn=(3866) 0x00000000000148b0
 0 8
-cfn=(3870)
+cfn=(3870) 0x0000000000021ed0
 calls=1 0 
 0 6
 0 4
 
-fn=(3890)
+fn=(3890) 0x0000000000015010
 0 4
 
-fn=(206)
+fn=(206) 0x0000000000010f80
 0 6
 cfn=(208)
 calls=1 0 
 0 23
 0 6
 
-fn=(222)
+fn=(222) 0x0000000000017810
 0 81
 cfn=(208)
 calls=1 0 
@@ -1865,7 +745,7 @@ cfn=(208)
 calls=1 0 
 0 22
 0 10
-cfn=(568)
+cfn=(568) 0x0000000000013060
 calls=1 0 
 0 45
 0 10
@@ -1953,11 +833,11 @@ cfn=(356)
 calls=1 0 
 0 511
 0 6
-cfn=(466)
+cfn=(466) 0x0000000000015890
 calls=1 0 
 0 227
 0 21
-cfn=(234)
+cfn=(234) 0x00000000000156f0
 calls=1 0 
 0 71
 0 14
@@ -1966,12 +846,12 @@ calls=1 0
 0 213
 0 72
 
-fn=(642)
+fn=(642) 0x0000000000021500
 0 15
 
-fn=(994)
+fn=(994) 0x0000000000019280
 0 17
-cfn=(996)
+cfn=(996) 0x0000000000019610
 calls=1 0 
 0 49
 0 10
@@ -1991,7 +871,7 @@ cfn=(730)
 calls=1 0 
 0 25
 0 13
-cfn=(1028)
+cfn=(1028) 0x00000000000196d0
 calls=1 0 
 0 12
 0 33
@@ -2026,13 +906,13 @@ fn=(1110)
 fn=(1450)
 0 168
 
-fn=(1974)
+fn=(1974) 0x0000000000002870
 0 173
 cfn=(730)
 calls=4 0 
 0 100
 0 52
-cfn=(744)
+cfn=(744) 0x0000000000022a00
 calls=4 0 
 0 44
 0 20
@@ -2052,11 +932,11 @@ cfn=(730)
 calls=1 0 
 0 25
 0 109
-cfn=(2558)
+cfn=(2558) 0x0000000000010fb0
 calls=1 0 
 0 403
 0 79
-cfn=(2462)
+cfn=(2462) 0x0000000000021d40
 calls=4 0 
 0 80
 0 24
@@ -2065,19 +945,1132 @@ calls=1 0
 0 19
 0 5
 
+fn=(0) 0x000000000001bb60
+0 2
+cfn=(2)
+calls=1 0 
+0 561561
+0 8
+cfn=(3890)
+calls=1 0 
+0 4
+0 10
+cfn=(3896) 0x0000000000005230
+calls=1 0 
+0 1279
+0 3
+cob=(7)
+cfi=(9)
+cfn=(4042)
+calls=1 0 
+0 985261843
+
+fn=(1028)
+0 276
+cfn=(1048) 0x0000000000023390
+calls=9 0 
+0 216
+0 120
+cfn=(634)
+calls=3 0 
+0 51
+0 12
+
+fn=(1402) 0x000000000001cf30
+0 31
+cfn=(1444) 0x000000000001c170
+calls=1 0 
+0 2680
+0 6
+cfn=(1408) 0x0000000000024a10
+calls=1 0 
+0 238
+0 8
+cfn=(744)
+calls=1 0 
+0 19
+0 11
+
+fn=(1520) 0x00000000000055e0
+0 152
+cfn=(1524)
+calls=8 0 
+0 148
+0 64
+cfn=(1538) 0x0000000000021ce0
+calls=4 0 
+0 24
+0 253
+cfn=(2376)
+calls=1 0 
+0 7
+0 7
+
+fn=(2576) 0x0000000000010eb0
+0 382
+cfn=(2577) 0x0000000000010eb0'2
+calls=2 0 
+0 83
+0 19
+
+fn=(2577)
+0 83
+
+fn=(2650) 0x00000000000013c0
+0 13
+cfn=(2654) 0x000000000001c3e0
+calls=1 0 
+0 11050
+0 8
+
+fn=(2664) 0x00000000000133f0
+0 341
+cfn=(1466) 0x000000000000b3f0
+calls=23 0 
+0 2093
+0 4406
+cfn=(894)
+calls=27 0 
+0 1170
+0 733
+cfn=(726) 0x000000000000b250
+calls=5 0 
+0 180
+0 1961
+cfn=(2822) 0x0000000000024d80
+calls=1 0 
+0 55
+0 2
+
+fn=(3896)
+0 32
+cfn=(3900)
+calls=1 0 
+0 36
+0 35
+cfn=(3900)
+calls=5 0 
+0 1074
+0 21
+cfn=(3900)
+calls=1 0 
+0 79
+0 2
+
+fn=(362)
+0 5248
+
+fn=(568)
+0 225
+
+fn=(1380) 0x0000000000011b40
+0 6
+
+fn=(1454) 0x00000000000088f0
+0 518
+cfn=(1466)
+calls=26 0 
+0 2543
+0 288
+cfn=(894)
+calls=11 0 
+0 275
+0 141
+cfn=(1048)
+calls=4 0 
+0 96
+0 13
+cfn=(1250)
+calls=1 0 
+0 181
+0 13
+cfn=(1520)
+calls=1 0 
+0 103
+0 60
+cfn=(1574) 0x0000000000007030
+calls=3 0 
+0 6297
+0 15
+cfn=(1574)
+calls=1 0 
+0 1933
+0 18
+cfn=(634)
+calls=3 0 
+0 51
+0 66
+cfn=(2054) 0x00000000000059f0
+calls=3 0 
+0 1090
+0 29
+cfn=(2026) 0x0000000000006a60
+calls=2 0 
+0 26
+0 20
+cfn=(2214) 0x0000000000014520
+calls=2 0 
+0 3291
+0 32
+cfn=(1520)
+calls=2 0 
+0 237
+0 51
+cfn=(2026)
+calls=3 0 
+0 27
+0 99
+cfn=(2026)
+calls=4 0 
+0 44
+0 32
+
+fn=(2094) 0x0000000000021b00
+0 32
+
+fn=(2214)
+0 41
+cfn=(2260)
+calls=2 0 
+0 2786
+0 14
+cfn=(634)
+calls=2 0 
+0 70
+0 36
+cfn=(744)
+calls=2 0 
+0 22
+0 4
+cfn=(1266) 0x0000000000024b80
+calls=2 0 
+0 178
+0 15
+cfn=(2220)
+calls=1 0 
+0 94
+0 31
+
+fn=(744)
+0 301
+
+fn=(992) 0x0000000000006ad0
+0 14
+cfn=(994)
+calls=1 0 
+0 1371
+0 3
+cfn=(730)
+calls=1 0 
+0 25
+0 12
+cfn=(730)
+calls=1 0 
+0 25
+0 21
+cfn=(1170) 0x0000000000022bf0
+calls=1 0 
+0 14
+0 20
+cfn=(634)
+calls=1 0 
+0 35
+0 22
+cfn=(744)
+calls=1 0 
+0 19
+0 324
+cfn=(730)
+calls=1 0 
+0 25
+0 10
+cfn=(1222) 0x00000000000065d0
+calls=1 0 
+0 1138
+0 15
+
+fn=(1316) 0x000000000000b290
+0 5
+
+fn=(1452)
+0 12
+cfn=(1454)
+calls=1 0 
+0 2549
+0 3
+
+fn=(2558)
+0 276
+cfn=(2576)
+calls=10 0 
+0 484
+0 64
+cfn=(744)
+calls=2 0 
+0 38
+0 2
+
+fn=(2654)
+0 7
+cfn=(2656) 0x0000000000013cb0
+calls=1 0 
+0 11039
+0 4
+
+fn=(2908) 0x0000000000011bb0
+0 76
+
+fn=(2928) 0x0000000000011d90
+0 9
+cfn=(730)
+calls=1 0 
+0 77
+0 317
+cfn=(2940) 0x0000000000011690
+calls=1 0 
+0 55
+0 7
+
+fn=(3000) 0x0000000000015080
+0 25
+
+fn=(3448) 0x00000000000124c0
+0 27
+
+fn=(3642) 0x0000000000004630
+0 8
+cfn=(3658) 0x00000000000040b0
+calls=1 0 
+0 110
+0 4
+cfn=(730)
+calls=1 0 
+0 25
+0 8
+cfn=(3658)
+calls=1 0 
+0 435
+0 9
+cfn=(3646) 0x0000000000004040
+calls=1 0 
+0 68
+0 3
+cfn=(3694) 0x0000000000004580
+calls=1 0 
+0 184
+0 7
+
+fn=(3852) 0x000000000001b5c0
+0 2
+
+fn=(136) 0x000000000001a860
+0 529
+
+fn=(1574)
+0 124
+cfn=(714) 0x000000000000b700
+calls=4 0 
+0 1500
+0 1852
+cfn=(1700)
+calls=4 0 
+0 100
+0 236
+cfn=(1170)
+calls=4 0 
+0 448
+0 256
+cfn=(1700)
+calls=12 0 
+0 216
+0 36
+cfn=(1578)
+calls=4 0 
+0 24
+0 217
+cfn=(2376)
+calls=1 0 
+0 7
+0 1640
+cfn=(850) 0x0000000000006e50
+calls=4 0 
+0 314
+0 330
+cfn=(1864)
+calls=4 0 
+0 24
+0 48
+cfn=(124)
+calls=4 0 
+0 108
+0 95
+cfn=(2438) 0x0000000000011a20
+calls=1 0 
+0 10
+0 12
+cfn=(782) 0x000000000000b660
+calls=4 0 
+0 208
+0 16
+cfn=(1906) 0x0000000000002670
+calls=4 0 
+0 28
+0 56
+cfn=(1920) 0x00000000000179c0
+calls=4 0 
+0 20
+0 149
+cfn=(1700)
+calls=2 0 
+0 36
+0 33
+cfn=(894)
+calls=2 0 
+0 50
+0 22
+cfn=(744)
+calls=1 0 
+0 11
+0 4
+
+fn=(7548) 0x0000000000017a80
+0 30
+
+fn=(120)
+0 10
+
+fn=(134)
+0 7
+cfn=(136)
+calls=1 0 
+0 529
+0 2
+cfn=(158) 0x0000000000013080
+calls=1 0 
+0 49586
+0 1
+cfn=(206)
+calls=1 0 
+0 35
+0 2
+cfn=(214) 0x0000000000020d00
+calls=1 0 
+0 8
+0 1
+cfn=(222)
+calls=1 0 
+0 7111
+0 4
+cfn=(634)
+calls=1 0 
+0 17
+0 3
+cfn=(642)
+calls=1 0 
+0 15
+0 11
+cfn=(654) 0x000000000001d040
+calls=1 0 
+0 503561
+0 4
+
+fn=(234)
+0 71
+
+fn=(654)
+0 22
+cfn=(656) 0x0000000000012740
+calls=1 0 
+0 17
+0 10
+cfn=(662)
+calls=1 0 
+0 557
+0 4
+cfn=(662)
+calls=2 0 
+0 27
+0 175
+cfn=(714)
+calls=1 0 
+0 288
+0 13
+cfn=(782)
+calls=1 0 
+0 37
+0 269
+cfn=(850)
+calls=1 0 
+0 56
+0 161
+cfn=(894)
+calls=1 0 
+0 25
+0 314
+cfn=(124)
+calls=1 0 
+0 27
+0 10
+cfn=(992)
+calls=1 0 
+0 3093
+0 3
+cfn=(1334) 0x00000000000026c0
+calls=1 0 
+0 33
+0 51
+cfn=(1380)
+calls=1 0 
+0 6
+0 8
+cfn=(1388)
+calls=1 0 
+0 2
+0 4
+cfn=(1392) 0x0000000000017840
+calls=1 0 
+0 21
+0 11
+cfn=(1950) 0x00000000000219b0
+calls=1 0 
+0 9
+0 21
+cfn=(1974)
+calls=1 0 
+0 18334
+0 124
+cfn=(2650)
+calls=1 0 
+0 11071
+0 126
+cfn=(3000)
+calls=1 0 
+0 25
+0 14
+cfn=(3012)
+calls=1 0 
+0 72444
+0 123
+cfn=(3012)
+calls=5 0 
+0 385613
+0 18
+cfn=(3448)
+calls=1 0 
+0 27
+0 18
+cfn=(3632) _dl_allocate_tls_init
+calls=1 0 
+0 145
+0 10
+cfn=(3808)
+calls=1 0 
+0 541
+0 1
+cfn=(3852)
+calls=1 0 
+0 2
+0 3
+cfn=(3856)
+calls=1 0 
+0 9
+0 2
+cfn=(1906)
+calls=1 0 
+0 7
+0 3
+cfn=(1388)
+calls=1 0 
+0 2
+0 2
+cfn=(3866)
+calls=1 0 
+0 18
+0 98
+cfn=(3642)
+calls=1 0 
+0 861
+0 3
+cfn=(3718)
+calls=1 0 
+0 2529
+0 1
+cfn=(3748) 0x0000000000019d90
+calls=1 0 
+0 440
+0 10
+cfn=(3012)
+calls=1 0 
+0 1778
+0 15
+cfn=(2878) 0x000000000001c670
+calls=1 0 
+0 819
+0 33
+cfn=(1402)
+calls=1 0 
+0 2993
+0 25
+
+fn=(1148)
+0 321
+
+fn=(2462)
+0 80
+
+fn=(2878)
+0 13
+cfn=(726)
+calls=1 0 
+0 36
+0 50
+cfn=(2898) 0x0000000000011980
+calls=1 0 
+0 81
+0 1
+cfn=(2908)
+calls=1 0 
+0 76
+0 1
+cfn=(2928)
+calls=1 0 
+0 465
+0 14
+cfn=(2958) 0x00000000000127a0
+calls=1 0 
+0 76
+0 6
+
+fn=(3124) 0x0000000000009750
+0 94155
+cfn=(3154)
+calls=274 0 
+0 33442
+0 4777
+
+fn=(3632)
+0 16
+cfn=(784)
+calls=1 0 
+0 3
+0 57
+cfn=(1148)
+calls=1 0 
+0 13
+0 5
+cfn=(1170)
+calls=1 0 
+0 25
+0 12
+cfn=(784)
+calls=1 0 
+0 3
+0 11
+
+fn=(3658)
+0 220
+cfn=(3646)
+calls=5 0 
+0 305
+0 20
+
+fn=(3750)
+0 133
+cfn=(3762) 0x000000000000aeb0
+calls=3 0 
+0 417
+0 42
+
+fn=(726)
+0 309
+cfn=(1700)
+calls=1 0 
+0 23
+0 7
+cfn=(2138) 0x0000000000021f00
+calls=1 0 
+0 47
+0 146
+
+fn=(782)
+0 45
+cfn=(784)
+calls=5 0 
+0 15
+0 185
+
+fn=(1700)
+0 421
+
+fn=(2006)
+0 90
+cfn=(1454)
+calls=6 0 
+0 15040
+0 18
+
+fn=(158)
+0 49586
+
+fn=(894)
+0 22615
+
+fn=(996)
+0 49
+
+fn=(1170)
+0 487
+
+fn=(1222)
+0 20
+cfn=(1224) 0x0000000000019d10
+calls=1 0 
+0 736
+0 3
+cfn=(1224)
+calls=1 0 
+0 8
+0 11
+cfn=(1250)
+calls=1 0 
+0 181
+0 5
+cfn=(634)
+calls=1 0 
+0 35
+0 18
+cfn=(1316)
+calls=1 0 
+0 5
+0 9
+cfn=(730)
+calls=1 0 
+0 25
+0 10
+cfn=(1148)
+calls=1 0 
+0 21
+0 51
+
+fn=(1538)
+0 24
+
+fn=(2438)
+0 10
+
+fn=(2822)
+0 55
+
+fn=(3410)
+0 108
+cfn=(3414)
+calls=6 0 
+0 36
+0 12
+
+fn=(3762)
+0 84
+cfn=(894)
+calls=3 0 
+0 189
+0 39
+cfn=(894)
+calls=3 0 
+0 75
+0 30
+
+fn=(124)
+0 162
+
+fn=(1252)
+0 72
+cfn=(1048)
+calls=8 0 
+0 264
+0 72
+
+fn=(1408)
+0 238
+
+fn=(1524)
+0 165
+
+fn=(2026)
+0 97
+
+fn=(7506) 0x0000000000001090
+0 106
+cob=(5)
+cfi=(7)
+cfn=(7588) 0x00000000000b90b0
+calls=1 0 
+0 91
+cob=(6)
+cfi=(8)
+cfn=(7572) 0x0000000000002290
+calls=1 0 
+0 91
+cob=(4)
+cfi=(4)
+cfn=(7556)
+calls=1 0 
+0 91
+cob=(7)
+cfi=(9)
+cfn=(7514)
+calls=1 0 
+0 91
+0 58
+cob=(3)
+cfi=(3)
+cfn=(7602) 0x0000000004ebcd24
+calls=1 0 
+0 4
+cob=(3)
+cfi=(3)
+cfn=(7586) 0x00000000048b18b0
+calls=1 0 
+0 4
+cob=(3)
+cfi=(3)
+cfn=(7570) 0x0000000004838274
+calls=1 0 
+0 4
+cob=(3)
+cfi=(3)
+cfn=(7544) 0x00000000001096e0
+calls=1 0 
+0 4
+0 8
+
+fn=(634)
+0 625
+
+fn=(1334)
+0 33
+
+fn=(1578)
+0 30
+
+fn=(4112) 0x0000000000010700
+0 1153
+cfn=(3104)
+calls=18 0 
+0 11420
+0 652
+cob=(2)
+cfi=(2)
+cfn=(3382)
+calls=1 0 
+0 22
+cob=(2)
+cfi=(2)
+cfn=(3372)
+calls=1 0 
+0 24
+cob=(2)
+cfi=(2)
+cfn=(3326)
+calls=1 0 
+0 22
+cob=(2)
+cfi=(2)
+cfn=(3336)
+calls=1 0 
+0 24
+0 8
+
+fn=(2958)
+0 32
+cfn=(208)
+calls=1 0 
+0 23
+0 21
+
+fn=(3646)
+0 373
+
+fn=(3724)
+0 60
+cfn=(3104)
+calls=4 0 
+0 2257
+0 104
+
+fn=(3748)
+0 12
+cfn=(3750)
+calls=1 0 
+0 218
+0 17
+cfn=(3750)
+calls=1 0 
+0 180
+0 13
+
+fn=(3870)
+0 6
+
+fn=(1026)
+0 66
+cfn=(1028)
+calls=11 0 
+0 483
+0 6
+cfn=(1028)
+calls=3 0 
+0 180
+0 106
+cfn=(1066)
+calls=6 0 
+0 30
+0 34
+
+fn=(1392)
+0 21
+
+fn=(1906)
+0 35
+
+fn=(208)
+0 848
+
+fn=(730)
+0 560
+cfn=(1700)
+calls=1 0 
+0 23
+0 7
+cfn=(2138)
+calls=1 0 
+0 5
+0 7
+
+fn=(4110)
+0 130
+cfn=(4112)
+calls=5 0 
+0 3354
+0 75
+
+fn=(4111) 0x0000000000012af0'2
+0 338
+cfn=(4112)
+calls=13 0 
+0 9971
+0 195
+
+fn=(2656)
+0 49
+cfn=(2664)
+calls=6 0 
+0 10941
+0 49
+
+fn=(2898)
+0 11
+cfn=(208)
+calls=1 0 
+0 22
+0 5
+cfn=(208)
+calls=1 0 
+0 22
+0 21
+
+fn=(2940)
+0 9
+cfn=(726)
+calls=1 0 
+0 36
+0 10
+
+fn=(656)
+0 17
+
+fn=(850)
+0 370
+
+fn=(1224)
+0 744
+
+fn=(1266)
+0 34
+cfn=(634)
+calls=2 0 
+0 70
+0 6
+cfn=(730)
+calls=2 0 
+0 50
+0 18
+
+fn=(1920)
+0 20
+
+fn=(1950)
+0 9
+
+fn=(2054)
+0 168
+cfn=(1148)
+calls=3 0 
+0 63
+0 66
+cfn=(1148)
+calls=5 0 
+0 65
+0 20
+cfn=(1148)
+calls=5 0 
+0 65
+0 65
+cfn=(1520)
+calls=5 0 
+0 315
+0 35
+cfn=(730)
+calls=1 0 
+0 25
+0 7
+cfn=(744)
+calls=1 0 
+0 19
+0 125
+cfn=(2094)
+calls=2 0 
+0 32
+0 20
+
+fn=(2138)
+0 20
+cfn=(208)
+calls=1 0 
+0 23
+0 9
+
+fn=(466)
+0 227
+
+fn=(714)
+0 92
+cfn=(634)
+calls=4 0 
+0 86
+0 36
+cfn=(726)
+calls=4 0 
+0 238
+0 3
+cfn=(726)
+calls=1 0 
+0 42
+0 70
+cfn=(744)
+calls=5 0 
+0 66
+0 364
+cfn=(634)
+calls=4 0 
+0 140
+0 40
+cfn=(1148)
+calls=4 0 
+0 68
+0 408
+cfn=(730)
+calls=4 0 
+0 100
+0 35
+
+fn=(1048)
+0 576
+
+fn=(1446) 0x00000000000015e0
+0 12
+cfn=(1448)
+calls=1 0 
+0 2629
+0 11
+
+fn=(1466)
+0 392
+cfn=(894)
+calls=49 0 
+0 1466
+0 563
+cfn=(894)
+calls=57 0 
+0 1856
+0 359
+
+fn=(2278)
+0 1978
+
+fn=(3104)
+0 39052
+cfn=(3124)
+calls=436 0 
+0 132374
+0 11527
+
+fn=(3694)
+0 184
+
+fn=(3800)
+0 6
+
+fn=(214)
+0 8
+
+fn=(1444)
+0 17
+cfn=(1446)
+calls=1 0 
+0 2652
+0 11
+
+fn=(7432) 0x0000000000004e20
+0 27
+cob=(2)
+cfi=(2)
+cfn=(7438) pthread_mutex_lock
+calls=1 0 
+0 42
+0 13
+cfn=(3856)
+calls=1 0 
+0 9
+0 108
+cfn=(2558)
+calls=1 0 
+0 461
+0 2
+cob=(2)
+cfi=(2)
+cfn=(7472) pthread_mutex_unlock
+calls=1 0 
+0 39
+0 72
+cfn=(7506)
+calls=6 0 
+0 552
+0 12
+cfn=(7548)
+calls=6 0 
+0 30
+0 21
+cfn=(3856)
+calls=1 0 
+0 9
+0 21
+
 ob=(5)
 fl=(185) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha.c
-fn=(6594) aes_128_cbc_hmac_sha256_get_params
-434 7
-cfi=(173) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/ciphercommon.c
-cfn=(6354) ossl_cipher_generic_get_params
-calls=1 44 
-* 1743
-
 fn=(6588) aes_128_cbc_hmac_sha1_get_params
 430 7
-cfi=(173)
-cfn=(6354)
+cfi=(173) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/ciphercommon.c
+cfn=(6354) ossl_cipher_generic_get_params
 calls=1 44 
 * 1743
 
@@ -2099,6 +2092,13 @@ fn=(6590) aes_gettable_ctx_params
 305 4
 +1 4
 +1 4
+
+fn=(6594) aes_128_cbc_hmac_sha256_get_params
+434 7
+cfi=(173)
+cfn=(6354)
+calls=1 44 
+* 1743
 
 fl=(140) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/e_aes_cbc_hmac_sha256.c
 fn=(5950) EVP_aes_128_cbc_hmac_sha256
@@ -2630,13 +2630,6 @@ fn=(6058) EVP_md4
 +1 1
 
 fl=(183) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_ccm.c
-fn=(6538) aes_128_ccm_get_params.lto_priv.0
-65 7
-cfi=(173)
-cfn=(6354)
-calls=1 -21 
-* 1743
-
 fn=(6536) aes_192_ccm_get_params.lto_priv.0
 67 7
 cfi=(173)
@@ -2649,6 +2642,13 @@ fn=(6534) aes_256_ccm_get_params.lto_priv.0
 cfi=(173)
 cfn=(6354)
 calls=1 -25 
+* 1743
+
+fn=(6538) aes_128_ccm_get_params.lto_priv.0
+65 7
+cfi=(173)
+cfn=(6354)
+calls=1 -21 
 * 1743
 
 fl=(31) /usr/src/debug/openssl/openssl-3.2.1/crypto/ex_data.c
@@ -2833,6 +2833,34 @@ fn=(6276) ossl_cipher_capable_aes_cbc_hmac_sha1
 +1 2
 
 fl=(184) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_wrp.c
+fn=(6542) aes_192_wrap_get_params.lto_priv.0
+321 7
+cfi=(173)
+cfn=(6354)
+calls=1 44 
+* 1743
+
+fn=(6574) aes_128_wrappad_get_params.lto_priv.0
+325 7
+cfi=(173)
+cfn=(6354)
+calls=1 44 
+* 1743
+
+fn=(6580) aes_128_wrapinv_get_params.lto_priv.0
+329 7
+cfi=(173)
+cfn=(6354)
+calls=1 44 
+* 1743
+
+fn=(6586) aes_128_wrappadinv_get_params.lto_priv.0
+332 7
+cfi=(173)
+cfn=(6354)
+calls=1 44 
+* 1743
+
 fn=(6578) aes_192_wrapinv_get_params.lto_priv.0
 328 7
 cfi=(173)
@@ -2889,38 +2917,7 @@ cfn=(6354)
 calls=1 44 
 * 1743
 
-fn=(6542) aes_192_wrap_get_params.lto_priv.0
-321 7
-cfi=(173)
-cfn=(6354)
-calls=1 44 
-* 1743
-
-fn=(6574) aes_128_wrappad_get_params.lto_priv.0
-325 7
-cfi=(173)
-cfn=(6354)
-calls=1 44 
-* 1743
-
-fn=(6580) aes_128_wrapinv_get_params.lto_priv.0
-329 7
-cfi=(173)
-cfn=(6354)
-calls=1 44 
-* 1743
-
-fn=(6586) aes_128_wrappadinv_get_params.lto_priv.0
-332 7
-cfi=(173)
-cfn=(6354)
-calls=1 44 
-* 1743
-
 fl=(134) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/e_seed.c
-fn=(5816) EVP_seed_ofb
-32 3
-
 fn=(5812) EVP_seed_ecb
 32 3
 
@@ -2930,7 +2927,84 @@ fn=(5818) EVP_seed_cbc
 fn=(5814) EVP_seed_cfb128
 32 3
 
+fn=(5816) EVP_seed_ofb
+32 3
+
 fl=(159) /usr/src/debug/openssl/openssl-3.2.1/crypto/core_fetch.c
+fn=(6302) ossl_method_construct_precondition.lto_priv.0
+62 4
++1 2
++6 4
+-38 2
++50 1
++2 1
++1 4
+fi=(37) /usr/src/debug/openssl/openssl-3.2.1/crypto/provider_core.c
+1717 2
+cfi=(28)
+cfn=(4940)
+calls=1 91 
+* 34
+* 2
+fe=(159)
+73 1
+fi=(37)
+1708 1
++11 2
++2 2
+cfi=(28)
+cfn=(4952)
+calls=1 121 
+* 48
+fe=(159)
+81 5
+
+fn=(6294) ossl_method_construct_reserve_store.lto_priv.0
+35 4
++3 1
++7 2
+-14 2
++18 1
++1 1
+-1 2
+cfi=(123) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/evp_fetch.c
+cfn=(6296) reserve_evp_method_store.lto_priv.0
+calls=1 +19 
+* 131
+
+fn=(6306) ossl_method_construct_this.lto_priv.0
+105 650
++4 130
+-4 130
++4 130
+-4 390
++4 390
+cfi=(123)
+cfn=(6308) construct_evp_method.lto_priv.0
+calls=130 +93 
+* 1858083
+* 390
++14 1040
+cfi=(123)
+cfn=(6380) put_evp_method_in_store.lto_priv.0
+calls=130 +40 
+* 564626
++4 520
++1 650
+-1 130
+cfi=(123)
+cfn=(6428) destruct_evp_method.lto_priv.0
+calls=130 234 
+* 3120
+
+fn=(6754) ossl_method_construct_unreserve_store.lto_priv.0
+53 1
++3 6
+cfi=(123)
+cfn=(6756) unreserve_evp_method_store.lto_priv.0
+calls=1 +23 
+* 108
+
 fn=(6218) ossl_method_construct.constprop.0
 130 11
 +5 1
@@ -2969,14 +3043,14 @@ fe=(159)
 -1 2
 +9 11
 -3 4
-cfi=(123) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/evp_fetch.c
+cfi=(123)
 cfn=(6762) get_evp_method_from_store.lto_priv.0
 calls=1 -45 
 * 2329
 * 1
 fi=(160)
 -6 3
-cfi=(37) /usr/src/debug/openssl/openssl-3.2.1/crypto/provider_core.c
+cfi=(37)
 cfn=(6222) ossl_provider_doall_activated
 calls=1 1407 
 * 2439353
@@ -3034,80 +3108,6 @@ calls=1 121
 * 50
 +1 1
 fe=(159)
-
-fn=(6302) ossl_method_construct_precondition.lto_priv.0
-62 4
-+1 2
-+6 4
--38 2
-+50 1
-+2 1
-+1 4
-fi=(37)
-1717 2
-cfi=(28)
-cfn=(4940)
-calls=1 91 
-* 34
-* 2
-fe=(159)
-73 1
-fi=(37)
-1708 1
-+11 2
-+2 2
-cfi=(28)
-cfn=(4952)
-calls=1 121 
-* 48
-fe=(159)
-81 5
-
-fn=(6294) ossl_method_construct_reserve_store.lto_priv.0
-35 4
-+3 1
-+7 2
--14 2
-+18 1
-+1 1
--1 2
-cfi=(123)
-cfn=(6296) reserve_evp_method_store.lto_priv.0
-calls=1 +19 
-* 131
-
-fn=(6306) ossl_method_construct_this.lto_priv.0
-105 650
-+4 130
--4 130
-+4 130
--4 390
-+4 390
-cfi=(123)
-cfn=(6308) construct_evp_method.lto_priv.0
-calls=130 +93 
-* 1858083
-* 390
-+14 1040
-cfi=(123)
-cfn=(6380) put_evp_method_in_store.lto_priv.0
-calls=130 +40 
-* 564626
-+4 520
-+1 650
--1 130
-cfi=(123)
-cfn=(6428) destruct_evp_method.lto_priv.0
-calls=130 234 
-* 3120
-
-fn=(6754) ossl_method_construct_unreserve_store.lto_priv.0
-53 1
-+3 6
-cfi=(123)
-cfn=(6756) unreserve_evp_method_store.lto_priv.0
-calls=1 +23 
-* 108
 
 fl=(122) /usr/src/debug/openssl/openssl-3.2.1/crypto/objects/obj_dat.c
 fn=(5702) OBJ_nid2obj
@@ -3972,145 +3972,6 @@ fe=(222)
 +1 2
 
 fl=(37)
-fn=(6230) provider_activate_fallbacks
-1337 6
-+6 2
-cfi=(28)
-cfn=(4940)
-calls=1 91 
-* 34
-* 2
-+2 1
-+1 1
--1 1
-+1 1
-cfi=(28)
-cfn=(4952)
-calls=1 121 
-* 48
-+1 2
-+3 2
-cfi=(28)
-cfn=(4956)
-calls=1 106 
-* 73
-* 2
-+9 1
--20 1
-+20 1
--5 3
-+8 6
-+6 3
-cfn=(6232) provider_new.lto_priv.0
-calls=1 440 
-* 1091
-* 1
-+1 2
-+2 2
-+2 1
-cfi=(50) /usr/src/debug/openssl/openssl-3.2.1/crypto/err/err.c
-cfn=(6240) ERR_get_next_error_library
-calls=1 765 
-* 134
-+9 3
--9 1
-+9 1
-cfn=(6242) provider_activate
-calls=1 1161 
-* 4072
-* 2
-+4 1
-198 3
-cfi=(38)
-cfn=(4960)
-calls=1 398 
-* 312
-1387 2
-+4 1
--32 12
-+35 2
-+1 1
-+1 1
-+3 2
-cfi=(28)
-cfn=(4952)
-calls=1 121 
-* 50
-+2 7
-
-fn=(7310) ossl_provider_free.part.0
-698 655
-fi=(107)
-51 131
-+1 131
-fe=(37)
-752 260
-+5 520
--43 3
-fi=(29) /usr/src/debug/openssl/openssl-3.2.1/crypto/initthread.c
-476 3
-cfn=(7346) init_thread_deregister.isra.0
-calls=1 -54 
-* 165
-fe=(37)
-738 2
-cfi=(217) /usr/src/debug/openssl/openssl-3.2.1/crypto/dso/dso_lib.c
-cfn=(7268) DSO_free
-calls=1 48 
-* 5
-+2 4
-cfi=(23)
-cfn=(5324)
-calls=1 275 
-* 102
-+1 4
-cfi=(23)
-cfn=(5324)
-calls=1 275 
-* 9
-fi=(121) /usr/src/debug/openssl/openssl-3.2.1/crypto/provider_local.h
-16 3
-cfi=(38)
-cfn=(5651) OPENSSL_sk_pop_free'2
-calls=1 432 
-* 145
-fe=(37)
-743 2
-cfi=(28)
-cfn=(7252)
-calls=1 136 
-* 117
-+1 2
-cfi=(28)
-cfn=(7252)
-calls=1 136 
-* 117
-+13 1
--8 3
-+8 2
--8 1
-cfi=(23)
-cfn=(5324)
-calls=1 275 
-* 81
-1614 3
-+2 2
-+3 2
-cfi=(161) /usr/src/debug/openssl/openssl-3.2.1/providers/defltprov.c
-cfn=(7340) deflt_teardown
-calls=1 555 
-* 316
-718 4
-+7 4
-cfi=(23)
-cfn=(5324)
-calls=1 275 
-* 102
-+3 1
--2 1
-+1 1
-+1 1
-
 fn=(6224) get_provider_store.lto_priv.0
 328 6
 fi=(30)
@@ -4136,7 +3997,7 @@ calls=1 167
 +1 2
 fe=(37)
 
-fn=(6232)
+fn=(6232) provider_new.lto_priv.0
 440 2
 +3 1
 -3 2
@@ -4167,7 +4028,7 @@ cfn=(4840)
 calls=1 46 
 * 132
 * 3
-fi=(121)
+fi=(121) /usr/src/debug/openssl/openssl-3.2.1/crypto/provider_local.h
 16 4
 cfi=(38)
 cfn=(6238) OPENSSL_sk_deep_copy
@@ -4207,7 +4068,7 @@ calls=1 527
 +5 1
 -1 2
 +2 2
-cfn=(6230)
+cfn=(6230) provider_activate_fallbacks
 calls=1 -86 
 * 5894
 * 2
@@ -4327,7 +4188,7 @@ calls=1 103
 +18 2
 -11 2
 
-fn=(6242)
+fn=(6242) provider_activate
 1161 9
 +5 1
 -5 3
@@ -4351,7 +4212,7 @@ calls=1 198
 +8 2
 +9 3
 +78 5
-cfi=(161)
+cfi=(161) /usr/src/debug/openssl/openssl-3.2.1/providers/defltprov.c
 cfn=(6244) ossl_default_provider_init
 calls=1 578 
 * 3917
@@ -4487,7 +4348,7 @@ calls=1 1078
 * 300
 +2 3
 239 2
-cfn=(7310)
+cfn=(7310) ossl_provider_free.part.0
 calls=1 698 
 * 1215
 1323 1
@@ -4554,7 +4415,153 @@ calls=1 719
 * 9
 +4 1
 
+fn=(6230)
+1337 6
++6 2
+cfi=(28)
+cfn=(4940)
+calls=1 91 
+* 34
+* 2
++2 1
++1 1
+-1 1
++1 1
+cfi=(28)
+cfn=(4952)
+calls=1 121 
+* 48
++1 2
++3 2
+cfi=(28)
+cfn=(4956)
+calls=1 106 
+* 73
+* 2
++9 1
+-20 1
++20 1
+-5 3
++8 6
++6 3
+cfn=(6232)
+calls=1 440 
+* 1091
+* 1
++1 2
++2 2
++2 1
+cfi=(50) /usr/src/debug/openssl/openssl-3.2.1/crypto/err/err.c
+cfn=(6240) ERR_get_next_error_library
+calls=1 765 
+* 134
++9 3
+-9 1
++9 1
+cfn=(6242)
+calls=1 1161 
+* 4072
+* 2
++4 1
+198 3
+cfi=(38)
+cfn=(4960)
+calls=1 398 
+* 312
+1387 2
++4 1
+-32 12
++35 2
++1 1
++1 1
++3 2
+cfi=(28)
+cfn=(4952)
+calls=1 121 
+* 50
++2 7
+
+fn=(7310)
+698 655
+fi=(107)
+51 131
++1 131
+fe=(37)
+752 260
++5 520
+-43 3
+fi=(29) /usr/src/debug/openssl/openssl-3.2.1/crypto/initthread.c
+476 3
+cfn=(7346) init_thread_deregister.isra.0
+calls=1 -54 
+* 165
+fe=(37)
+738 2
+cfi=(217) /usr/src/debug/openssl/openssl-3.2.1/crypto/dso/dso_lib.c
+cfn=(7268) DSO_free
+calls=1 48 
+* 5
++2 4
+cfi=(23)
+cfn=(5324)
+calls=1 275 
+* 102
++1 4
+cfi=(23)
+cfn=(5324)
+calls=1 275 
+* 9
+fi=(121)
+16 3
+cfi=(38)
+cfn=(5651) OPENSSL_sk_pop_free'2
+calls=1 432 
+* 145
+fe=(37)
+743 2
+cfi=(28)
+cfn=(7252)
+calls=1 136 
+* 117
++1 2
+cfi=(28)
+cfn=(7252)
+calls=1 136 
+* 117
++13 1
+-8 3
++8 2
+-8 1
+cfi=(23)
+cfn=(5324)
+calls=1 275 
+* 81
+1614 3
++2 2
++3 2
+cfi=(161)
+cfn=(7340) deflt_teardown
+calls=1 555 
+* 316
+718 4
++7 4
+cfi=(23)
+cfn=(5324)
+calls=1 275 
+* 102
++3 1
+-2 1
++1 1
++1 1
+
 fl=(186) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aria_gcm.c
+fn=(6598) aria_256_gcm_get_params.lto_priv.0
+58 7
+cfi=(173)
+cfn=(6354)
+calls=1 -14 
+* 1743
+
 fn=(6602) aria_128_gcm_get_params.lto_priv.0
 54 7
 cfi=(173)
@@ -4569,13 +4576,6 @@ cfn=(6354)
 calls=1 -12 
 * 1743
 
-fn=(6598) aria_256_gcm_get_params.lto_priv.0
-58 7
-cfi=(173)
-cfn=(6354)
-calls=1 -14 
-* 1743
-
 fl=(109)
 fn=(5618)
 29 1
@@ -4588,6 +4588,13 @@ fn=(5570) ENGINE_set_RAND
 +2 2
 
 fl=(187) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aria_ccm.c
+fn=(6608) aria_128_ccm_get_params.lto_priv.0
+54 7
+cfi=(173)
+cfn=(6354)
+calls=1 -10 
+* 1743
+
 fn=(6606) aria_192_ccm_get_params.lto_priv.0
 56 7
 cfi=(173)
@@ -4602,19 +4609,45 @@ cfn=(6354)
 calls=1 -14 
 * 1743
 
-fn=(6608) aria_128_ccm_get_params.lto_priv.0
-54 7
-cfi=(173)
-cfn=(6354)
-calls=1 -10 
-* 1743
-
 fl=(92) /usr/src/debug/openssl/openssl-3.2.1/crypto/conf/conf_lib.c
+fn=(5292) NCONF_new_ex
+183 5
++3 2
++3 2
+cfi=(93) /usr/src/debug/openssl/openssl-3.2.1/crypto/conf/conf_def.c
+cfn=(5296) def_create
+calls=1 -77 
+* 257
+* 1
++1 2
++4 1
++3 5
+-10 1
+cfi=(93)
+cfn=(5294) NCONF_default
+calls=1 87 
+* 3
+* 2
+
+fn=(5638) NCONF_get0_libctx
+219 1
++1 1
++1 1
+
+fn=(5654) NCONF_free
+205 1
++1 2
++2 2
+cfi=(93)
+cfn=(5656) def_destroy
+calls=1 -57 
+* 147418
+
 fn=(5302) NCONF_load
 251 1
 +1 2
 +5 2
-cfi=(93) /usr/src/debug/openssl/openssl-3.2.1/crypto/conf/conf_def.c
+cfi=(93)
 cfn=(5304) def_load
 calls=1 -89 
 * 623155
@@ -4693,39 +4726,6 @@ calls=3 68
 * 3
 +6 6
 +10 21
-
-fn=(5292) NCONF_new_ex
-183 5
-+3 2
-+3 2
-cfi=(93)
-cfn=(5296) def_create
-calls=1 -77 
-* 257
-* 1
-+1 2
-+4 1
-+3 5
--10 1
-cfi=(93)
-cfn=(5294) NCONF_default
-calls=1 87 
-* 3
-* 2
-
-fn=(5638) NCONF_get0_libctx
-219 1
-+1 1
-+1 1
-
-fn=(5654) NCONF_free
-205 1
-+1 2
-+2 2
-cfi=(93)
-cfn=(5656) def_destroy
-calls=1 -57 
-* 147418
 
 fl=(139) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/e_aes_cbc_hmac_sha1.c
 fn=(5948) EVP_aes_256_cbc_hmac_sha1
@@ -5003,6 +5003,16 @@ calls=1 -40
 * 1743
 
 fl=(23)
+fn=(5324)
+275 30091
++2 90273
++5 30091
+cob=(2)
+cfi=(2)
+cfn=(4518) free
+calls=30091 0 
+* 2425989
+
 fn=(4798)
 219 77409
 +3 25803
@@ -5082,18 +5092,89 @@ calls=12049 -84
 * 3482322
 * 24098
 
-fn=(5324)
-275 30091
-+2 90273
-+5 30091
-cob=(2)
-cfi=(2)
-cfn=(4518) free
-calls=30091 0 
-* 2425989
-
 fl=(46)
-fn=(6420) stack_to_property_list
+fn=(6400)
+345 11
++4 1
++3 4
+22 2
+cfi=(38)
+cfn=(4908) OPENSSL_sk_new
+calls=1 136 
+* 271
+* 1
+352 2
+26 2
+fi=(90) /usr/src/debug/openssl/openssl-3.2.1/crypto/ctype.c
+257 3
+fe=(46)
+365 1
+-5 4
+cfi=(23)
+cfn=(4800)
+calls=1 178 
+* 65
+* 1
++1 2
++3 1
++1 3
+fi=(24)
+59 1
+fe=(46)
+365 1
+cfn=(6404) parse_name.constprop.0
+calls=1 55 
+* 660
+* 2
++3 1
+-1 1
++1 2
+33 1
++2 2
+-13 3
+cfi=(38)
+cfn=(4960)
+calls=1 398 
+* 312
+385 2
+33 1
++2 3
+390 2
++5 4
+cfn=(6420) stack_to_property_list
+calls=1 -82 
+* 312
+* 1
++3 4
+cfi=(23)
+cfn=(5324)
+calls=1 275 
+* 9
+22 3
+cfi=(38)
+cfn=(5650)
+calls=1 432 
+* 292
+* 1
++14 1
+fi=(90)
+257 7
+fe=(46)
+36 1
+374 5
+cfn=(6410) parse_value
+calls=1 257 
+* 1794
+* 2
+-17 2
+fi=(90)
+257 3
+fe=(46)
++98 1
++2 2
++44 12
+
+fn=(6420)
 313 18
 22 4
 cfi=(38)
@@ -5148,11 +5229,11 @@ calls=1 480
 324 1
 +1 1
 
-fn=(6404) parse_name.constprop.0
+fn=(6404)
 55 6
 +6 1
 -6 3
-fi=(90) /usr/src/debug/openssl/openssl-3.2.1/crypto/ctype.c
+fi=(90)
 257 4
 fe=(46)
 62 1
@@ -5248,7 +5329,7 @@ fe=(46)
 -17 2
 26 1
 
-fn=(6410) parse_value
+fn=(6410)
 257 6
 +1 3
 +3 1
@@ -5275,7 +5356,7 @@ fn=(6768)
 +6 4
 22 2
 cfi=(38)
-cfn=(4908) OPENSSL_sk_new
+cfn=(4908)
 calls=1 136 
 * 121
 * 1
@@ -5309,87 +5390,6 @@ fe=(46)
 +2 2
 +37 3
 +11 9
-
-fn=(6400)
-345 11
-+4 1
-+3 4
-22 2
-cfi=(38)
-cfn=(4908)
-calls=1 136 
-* 271
-* 1
-352 2
-26 2
-fi=(90)
-257 3
-fe=(46)
-365 1
--5 4
-cfi=(23)
-cfn=(4800)
-calls=1 178 
-* 65
-* 1
-+1 2
-+3 1
-+1 3
-fi=(24)
-59 1
-fe=(46)
-365 1
-cfn=(6404)
-calls=1 55 
-* 660
-* 2
-+3 1
--1 1
-+1 2
-33 1
-+2 2
--13 3
-cfi=(38)
-cfn=(4960)
-calls=1 398 
-* 312
-385 2
-33 1
-+2 3
-390 2
-+5 4
-cfn=(6420)
-calls=1 -82 
-* 312
-* 1
-+3 4
-cfi=(23)
-cfn=(5324)
-calls=1 275 
-* 9
-22 3
-cfi=(38)
-cfn=(5650)
-calls=1 432 
-* 292
-* 1
-+14 1
-fi=(90)
-257 7
-fe=(46)
-36 1
-374 5
-cfn=(6410)
-calls=1 257 
-* 1794
-* 2
--17 2
-fi=(90)
-257 3
-fe=(46)
-+98 1
-+2 2
-+44 12
 
 fl=(51) /usr/src/debug/openssl/openssl-3.2.1/crypto/err/err_save.c
 fn=(5024) OSSL_ERR_STATE_new
@@ -5540,6 +5540,56 @@ calls=1 474
 * 3940
 
 fl=(28)
+fn=(4820) CRYPTO_atomic_load
+250 12070
++3 24140
++17 24140
+
+fn=(4840)
+46 56
++4 84
+-4 56
++4 28
+cfi=(23)
+cfn=(4798)
+calls=28 219 
+* 6026
+* 56
++4 140
+cob=(2)
+cfi=(2)
+cfn=(4844) pthread_rwlock_init
+calls=28 -54 
+* 504
+* 56
++34 140
+
+fn=(4848) CRYPTO_THREAD_init_local
+159 12
++1 6
+cob=(2)
+cfi=(2)
+cfn=(4850) pthread_key_create
+calls=6 0 
+* 243
+* 12
++4 6
+-4 6
++4 6
+
+fn=(7256) CRYPTO_THREAD_cleanup_local
+180 12
++1 12
+cob=(2)
+cfi=(2)
+cfn=(7258) pthread_key_delete
+calls=6 0 
+* 96
+* 12
++4 6
+-4 6
++4 6
+
 fn=(4940)
 91 50118
 +2 25059
@@ -5656,56 +5706,6 @@ fn=(6282)
 +3 16
 +20 8
 
-fn=(4820) CRYPTO_atomic_load
-250 12070
-+3 24140
-+17 24140
-
-fn=(4840)
-46 56
-+4 84
--4 56
-+4 28
-cfi=(23)
-cfn=(4798)
-calls=28 219 
-* 6026
-* 56
-+4 140
-cob=(2)
-cfi=(2)
-cfn=(4844) pthread_rwlock_init
-calls=28 -54 
-* 504
-* 56
-+34 140
-
-fn=(4848) CRYPTO_THREAD_init_local
-159 12
-+1 6
-cob=(2)
-cfi=(2)
-cfn=(4850) pthread_key_create
-calls=6 0 
-* 243
-* 12
-+4 6
--4 6
-+4 6
-
-fn=(7256) CRYPTO_THREAD_cleanup_local
-180 12
-+1 12
-cob=(2)
-cfi=(2)
-cfn=(7258) pthread_key_delete
-calls=6 0 
-* 96
-* 12
-+4 6
--4 6
-+4 6
-
 fl=(116)
 fn=(5612)
 29 1
@@ -5713,6 +5713,12 @@ fn=(5612)
 +5 1
 
 fl=(124) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/e_des.c
+fn=(5744) EVP_des_cfb8
+206 3
+
+fn=(5778) EVP_des_ede_ofb
+206 3
+
 fn=(5746) EVP_des_ede_cfb64
 206 3
 
@@ -5733,12 +5739,6 @@ fn=(5784) EVP_des_cbc
 
 fn=(5790) EVP_des_ecb
 198 3
-
-fn=(5744) EVP_des_cfb8
-206 3
-
-fn=(5778) EVP_des_ede_ofb
-206 3
 
 fl=(33) /usr/src/debug/openssl/openssl-3.2.1/crypto/provider_conf.c
 fn=(5634) provider_conf_init.lto_priv.0
@@ -6391,16 +6391,16 @@ fn=(6292)
 +29 1
 
 fl=(133) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/e_idea.c
-fn=(5804) EVP_idea_ecb
-53 3
-
-fn=(5810) EVP_idea_cbc
-53 3
-
 fn=(5806) EVP_idea_cfb64
 53 3
 
 fn=(5808) EVP_idea_ofb
+53 3
+
+fn=(5804) EVP_idea_ecb
+53 3
+
+fn=(5810) EVP_idea_cbc
 53 3
 
 fl=(147) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/legacy_md5.c
@@ -6410,6 +6410,33 @@ fn=(6064) EVP_md5
 +1 1
 
 fl=(142) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/e_aria.c
+fn=(5964) EVP_aria_128_cfb8
+158 3
+
+fn=(5984) EVP_aria_192_ctr
+194 3
+
+fn=(6004) EVP_aria_256_ofb
+146 3
+
+fn=(5962) EVP_aria_128_cfb1
+155 3
+
+fn=(5982) EVP_aria_192_cfb8
+159 3
+
+fn=(6002) EVP_aria_256_ctr
+195 3
+
+fn=(5960) EVP_aria_128_cfb128
+134 3
+
+fn=(5980) EVP_aria_192_cfb1
+156 3
+
+fn=(6000) EVP_aria_256_cfb8
+160 3
+
 fn=(5958) EVP_aria_128_cbc
 134 3
 
@@ -6463,33 +6490,6 @@ fn=(5986) EVP_aria_192_ofb
 
 fn=(6006) EVP_aria_256_gcm
 780 3
-
-fn=(5964) EVP_aria_128_cfb8
-158 3
-
-fn=(5984) EVP_aria_192_ctr
-194 3
-
-fn=(6004) EVP_aria_256_ofb
-146 3
-
-fn=(5962) EVP_aria_128_cfb1
-155 3
-
-fn=(5982) EVP_aria_192_cfb8
-159 3
-
-fn=(6002) EVP_aria_256_ctr
-195 3
-
-fn=(5960) EVP_aria_128_cfb128
-134 3
-
-fn=(5980) EVP_aria_192_cfb1
-156 3
-
-fn=(6000) EVP_aria_256_cfb8
-160 3
 
 fl=(220) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/evp_rand.c
 fn=(7320) EVP_RAND_CTX_free
@@ -7384,6 +7384,60 @@ fn=(5332) file_ctrl
 123 3
 
 fl=(106)
+fn=(5554) ENGINE_new
+28 4
++3 4
+-3 4
++3 2
+cfi=(28)
+cfn=(4823)
+calls=2 151 
+* 235
+* 10
++5 10
+cfi=(23)
+cfn=(4798)
+calls=2 219 
+* 472
+* 8
+fi=(107)
+269 4
+fe=(106)
+43 8
+cfi=(31)
+cfn=(5316)
+calls=2 265 
+* 406
+* 4
++6 10
+
+fn=(7274)
+170 3
++1 1
+cfi=(110)
+cfn=(7276)
+calls=1 43 
+* 986
++1 2
++1 1
+-1 2
+cfi=(23)
+cfn=(5324)
+calls=1 275 
+* 102
+
+fn=(5556) do_engine_lock_init_ossl_
+21 2
++2 1
+cfi=(28)
+cfn=(4840)
+calls=1 +23 
+* 132
++1 1
+-1 1
++1 2
+-3 3
+
 fn=(5592) ENGINE_set_cmd_defns
 254 1
 +1 1
@@ -7462,73 +7516,7 @@ fn=(5566) ENGINE_set_flags
 +1 2
 +2 4
 
-fn=(5554) ENGINE_new
-28 4
-+3 4
--3 4
-+3 2
-cfi=(28)
-cfn=(4823)
-calls=2 151 
-* 235
-* 10
-+5 10
-cfi=(23)
-cfn=(4798)
-calls=2 219 
-* 472
-* 8
-fi=(107)
-269 4
-fe=(106)
-43 8
-cfi=(31)
-cfn=(5316)
-calls=2 265 
-* 406
-* 4
-+6 10
-
-fn=(7274)
-170 3
-+1 1
-cfi=(110)
-cfn=(7276)
-calls=1 43 
-* 986
-+1 2
-+1 1
--1 2
-cfi=(23)
-cfn=(5324)
-calls=1 275 
-* 102
-
-fn=(5556) do_engine_lock_init_ossl_
-21 2
-+2 1
-cfi=(28)
-cfn=(4840)
-calls=1 +23 
-* 132
-+1 1
--1 1
-+1 2
--3 3
-
 fl=(179) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_ocb.c
-fn=(6504) cipher_ocb_gettable_ctx_params.lto_priv.0
-482 3
-+1 3
-+1 3
-
-fn=(6506) aes_192_ocb_get_params.lto_priv.0
-559 7
-cfi=(173)
-cfn=(6354)
-calls=1 44 
-* 1743
-
 fn=(6502) aes_256_ocb_get_params.lto_priv.0
 558 7
 cfi=(173)
@@ -7543,84 +7531,19 @@ cfn=(6354)
 calls=1 44 
 * 1743
 
+fn=(6504) cipher_ocb_gettable_ctx_params.lto_priv.0
+482 3
++1 3
++1 3
+
+fn=(6506) aes_192_ocb_get_params.lto_priv.0
+559 7
+cfi=(173)
+cfn=(6354)
+calls=1 44 
+* 1743
+
 fl=(22)
-fn=(6370) EVP_CIPHER_gettable_ctx_params
-1381 130
-+3 260
--3 130
-+3 390
-+1 130
-cfi=(155) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/evp_lib.c
-cfn=(6372) EVP_CIPHER_get0_provider
-calls=130 736 
-* 390
-* 130
-fi=(37)
--57 390
-fe=(22)
-+58 260
-+3 130
--3 130
-cfi=(200) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_chacha20_poly1305.c
-cfn=(6748) chacha20_poly1305_gettable_ctx_params.lto_priv.0
-calls=1 157 
-* 3
-cfi=(199) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_chacha20.c
-cfn=(6744) chacha20_gettable_ctx_params.lto_priv.0
-calls=1 120 
-* 3
-cfi=(192) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_tdes_common.c
-cfn=(6704) ossl_tdes_gettable_ctx_params
-calls=11 114 
-* 33
-cfi=(190)
-cfn=(6666)
-calls=3 26 
-* 9
-cfi=(185)
-cfn=(6590)
-calls=4 305 
-* 12
-cfi=(173)
-cfn=(6528) ossl_cipher_aead_gettable_ctx_params
-calls=14 160 
-* 42
-cfi=(181) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_gcm_siv.c
-cfn=(6520) ossl_aes_gcm_siv_gettable_ctx_params
-calls=3 218 
-* 9
-cfi=(180) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_siv.c
-cfn=(6512) aes_siv_gettable_ctx_params.lto_priv.0
-calls=3 195 
-* 9
-cfi=(179)
-cfn=(6504)
-calls=3 482 
-* 9
-cfi=(177) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_cts.inc
-cfn=(6462) aes_cbc_cts_gettable_ctx_params
-calls=3 26 
-* 9
-cfi=(173)
-cfn=(6442) ossl_cipher_generic_gettable_ctx_params
-calls=83 102 
-* 249
-cfi=(172) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_null.c
-cfn=(6376) null_gettable_ctx_params.lto_priv.0
-calls=1 118 
-* 3
-
-fn=(4796) EVP_CIPHER_CTX_new
-73 24096
-+3 48192
-cfi=(23)
-cfn=(4798)
-calls=12048 219 
-* 1277236
-+1 24096
-+3 12048
-+2 24096
-
 fn=(6432) EVP_CIPHER_free
 1742 24357
 +3 48714
@@ -7694,7 +7617,7 @@ fn=(6836) EVP_EncryptFinal_ex
 +5 36144
 +4 36144
 +3 12048
-cfi=(155)
+cfi=(155) /usr/src/debug/openssl/openssl-3.2.1/crypto/evp/evp_lib.c
 cfn=(6838) EVP_CIPHER_CTX_get_block_size
 calls=12048 394 
 * 72288
@@ -8066,6 +7989,83 @@ calls=134 680
 +4 134
 +1 486
 
+fn=(6370) EVP_CIPHER_gettable_ctx_params
+1381 130
++3 260
+-3 130
++3 390
++1 130
+cfi=(155)
+cfn=(6372) EVP_CIPHER_get0_provider
+calls=130 736 
+* 390
+* 130
+fi=(37)
+-57 390
+fe=(22)
++58 260
++3 130
+-3 130
+cfi=(200) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_chacha20_poly1305.c
+cfn=(6748) chacha20_poly1305_gettable_ctx_params.lto_priv.0
+calls=1 157 
+* 3
+cfi=(199) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_chacha20.c
+cfn=(6744) chacha20_gettable_ctx_params.lto_priv.0
+calls=1 120 
+* 3
+cfi=(192) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_tdes_common.c
+cfn=(6704) ossl_tdes_gettable_ctx_params
+calls=11 114 
+* 33
+cfi=(190)
+cfn=(6666)
+calls=3 26 
+* 9
+cfi=(185)
+cfn=(6590)
+calls=4 305 
+* 12
+cfi=(173)
+cfn=(6528) ossl_cipher_aead_gettable_ctx_params
+calls=14 160 
+* 42
+cfi=(181) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_gcm_siv.c
+cfn=(6520) ossl_aes_gcm_siv_gettable_ctx_params
+calls=3 218 
+* 9
+cfi=(180) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_siv.c
+cfn=(6512) aes_siv_gettable_ctx_params.lto_priv.0
+calls=3 195 
+* 9
+cfi=(179)
+cfn=(6504)
+calls=3 482 
+* 9
+cfi=(177) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_aes_cts.inc
+cfn=(6462) aes_cbc_cts_gettable_ctx_params
+calls=3 26 
+* 9
+cfi=(173)
+cfn=(6442) ossl_cipher_generic_gettable_ctx_params
+calls=83 102 
+* 249
+cfi=(172) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_null.c
+cfn=(6376) null_gettable_ctx_params.lto_priv.0
+calls=1 118 
+* 3
+
+fn=(4796) EVP_CIPHER_CTX_new
+73 24096
++3 48192
+cfi=(23)
+cfn=(4798)
+calls=12048 219 
+* 1277236
++1 24096
++3 12048
++2 24096
+
 fl=(99)
 fn=(5528)
 27 2
@@ -8137,6 +8137,55 @@ fn=(5834) EVP_rc2_ofb
 42 3
 
 fl=(189) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_camellia.c
+fn=(6674) camellia_192_ofb_get_params.lto_priv.0
+64 7
+cfi=(173)
+cfn=(6354)
+calls=1 -20 
+* 1743
+
+fn=(6680) camellia_192_cfb_get_params.lto_priv.0
+70 7
+cfi=(173)
+cfn=(6354)
+calls=1 -26 
+* 1743
+
+fn=(6686) camellia_192_cfb1_get_params.lto_priv.0
+76 7
+cfi=(173)
+cfn=(6354)
+calls=1 -32 
+* 1743
+
+fn=(6692) camellia_192_cfb8_get_params.lto_priv.0
+82 7
+cfi=(173)
+cfn=(6354)
+calls=1 -38 
+* 1743
+
+fn=(6698) camellia_192_ctr_get_params.lto_priv.0
+88 7
+cfi=(173)
+cfn=(6354)
+calls=1 -44 
+* 1743
+
+fn=(6652) camellia_256_ecb_get_params.lto_priv.0
+50 7
+cfi=(173)
+cfn=(6354)
+calls=1 -6 
+* 1743
+
+fn=(6658) camellia_256_cbc_get_params.lto_priv.0
+56 7
+cfi=(173)
+cfn=(6354)
+calls=1 -12 
+* 1743
+
 fn=(6672) camellia_256_ofb_get_params.lto_priv.0
 62 7
 cfi=(173)
@@ -8242,55 +8291,6 @@ cfn=(6354)
 calls=1 -14 
 * 1743
 
-fn=(6674) camellia_192_ofb_get_params.lto_priv.0
-64 7
-cfi=(173)
-cfn=(6354)
-calls=1 -20 
-* 1743
-
-fn=(6680) camellia_192_cfb_get_params.lto_priv.0
-70 7
-cfi=(173)
-cfn=(6354)
-calls=1 -26 
-* 1743
-
-fn=(6686) camellia_192_cfb1_get_params.lto_priv.0
-76 7
-cfi=(173)
-cfn=(6354)
-calls=1 -32 
-* 1743
-
-fn=(6692) camellia_192_cfb8_get_params.lto_priv.0
-82 7
-cfi=(173)
-cfn=(6354)
-calls=1 -38 
-* 1743
-
-fn=(6698) camellia_192_ctr_get_params.lto_priv.0
-88 7
-cfi=(173)
-cfn=(6354)
-calls=1 -44 
-* 1743
-
-fn=(6652) camellia_256_ecb_get_params.lto_priv.0
-50 7
-cfi=(173)
-cfn=(6354)
-calls=1 -6 
-* 1743
-
-fn=(6658) camellia_256_cbc_get_params.lto_priv.0
-56 7
-cfi=(173)
-cfn=(6354)
-calls=1 -12 
-* 1743
-
 fl=(193) /usr/src/debug/openssl/openssl-3.2.1/providers/implementations/ciphers/cipher_tdes_default.c
 fn=(6712) tdes_ede3_cfb8_get_params.lto_priv.0
 26 7
@@ -8379,13 +8379,110 @@ calls=1 36
 * 2
 
 fl=(173)
+fn=(6528)
+160 14
++1 14
++1 14
+
+fn=(6794)
+575 120480
++4 24096
+-4 48192
++4 24096
+-4 24096
++4 24096
+cfi=(170) /usr/src/debug/openssl/openssl-3.2.1/crypto/params.c
+cfn=(6356) OSSL_PARAM_locate
+calls=24096 54 
+* 1072272
++1 84336
+cfi=(170)
+cfn=(6366) OSSL_PARAM_set_size_t
+calls=12048 1019 
+* 301200
+* 24096
++4 72288
+cfi=(170)
+cfn=(6356)
+calls=24096 54 
+* 1108416
+* 24096
++1 48192
++4 72288
+cfi=(170)
+cfn=(6356)
+calls=24096 54 
+* 1108416
+* 24096
++1 48192
++6 72288
+cfi=(170)
+cfn=(6356)
+calls=24096 54 
+* 1108416
+* 24096
++1 48192
++6 72288
+cfi=(170)
+cfn=(6356)
+calls=24096 54 
+* 1373472
+* 24096
++1 48192
++4 72288
+cfi=(170)
+cfn=(6356)
+calls=24096 54 
+* 1072272
+* 24096
++1 72288
+cfi=(170)
+cfn=(6366)
+calls=12048 1019 
+* 301200
+* 24096
++4 72288
+cfi=(170)
+cfn=(6356)
+calls=24096 54 
+* 1108416
++1 48192
++6 24096
+-1 24096
++1 120480
+
+fn=(6804)
+231 24096
++1 24096
+cfn=(6806) cipher_generic_init_internal.lto_priv.0
+calls=12048 -40 
+* 4252944
++2 24096
+
+fn=(6824)
+470 914544
++3 609696
++5 304848
++5 304848
++5 914544
+cfi=(205)
+cfn=(6826)
+calls=152424 113 
+* 27424080
+* 304848
++5 152424
++1 304848
++34 152424
+-48 152424
++48 762120
+
 fn=(6354)
 44 650
 +3 130
 -3 1170
 +3 130
-cfi=(170) /usr/src/debug/openssl/openssl-3.2.1/crypto/params.c
-cfn=(6356) OSSL_PARAM_locate
+cfi=(170)
+cfn=(6356)
 calls=130 +7 
 * 16510
 +1 650
@@ -8467,7 +8564,7 @@ calls=130 -28
 * 130
 +1 650
 cfi=(170)
-cfn=(6366) OSSL_PARAM_set_size_t
+cfn=(6366)
 calls=130 1019 
 * 3250
 * 260
@@ -8498,7 +8595,7 @@ calls=130 1019
 -1 130
 +1 910
 
-fn=(6806) cipher_generic_init_internal.lto_priv.0
+fn=(6806)
 192 120480
 +4 12048
 -2 12048
@@ -8568,103 +8665,6 @@ fn=(6816)
 +4 24096
 +1 12048
 +47 84336
-
-fn=(6528)
-160 14
-+1 14
-+1 14
-
-fn=(6794)
-575 120480
-+4 24096
--4 48192
-+4 24096
--4 24096
-+4 24096
-cfi=(170)
-cfn=(6356)
-calls=24096 54 
-* 1072272
-+1 84336
-cfi=(170)
-cfn=(6366)
-calls=12048 1019 
-* 301200
-* 24096
-+4 72288
-cfi=(170)
-cfn=(6356)
-calls=24096 54 
-* 1108416
-* 24096
-+1 48192
-+4 72288
-cfi=(170)
-cfn=(6356)
-calls=24096 54 
-* 1108416
-* 24096
-+1 48192
-+6 72288
-cfi=(170)
-cfn=(6356)
-calls=24096 54 
-* 1108416
-* 24096
-+1 48192
-+6 72288
-cfi=(170)
-cfn=(6356)
-calls=24096 54 
-* 1373472
-* 24096
-+1 48192
-+4 72288
-cfi=(170)
-cfn=(6356)
-calls=24096 54 
-* 1072272
-* 24096
-+1 72288
-cfi=(170)
-cfn=(6366)
-calls=12048 1019 
-* 301200
-* 24096
-+4 72288
-cfi=(170)
-cfn=(6356)
-calls=24096 54 
-* 1108416
-+1 48192
-+6 24096
--1 24096
-+1 120480
-
-fn=(6804)
-231 24096
-+1 24096
-cfn=(6806)
-calls=12048 -40 
-* 4252944
-+2 24096
-
-fn=(6824)
-470 914544
-+3 609696
-+5 304848
-+5 304848
-+5 914544
-cfi=(205)
-cfn=(6826)
-calls=152424 113 
-* 27424080
-* 304848
-+5 152424
-+1 304848
-+34 152424
--48 152424
-+48 762120
 
 fl=(27)
 fn=(5552) ossl_init_engine_rdrand_ossl_
@@ -11997,210 +11997,6 @@ fn=(6144)
 +4 208
 
 fl=(36)
-fn=(5666)
-132 3570
-+5 357
-+1 714
-cfn=(4946) getrn
-calls=357 286 
-* 215379
-+2 1071
-+4 357
-+2 714
--2 357
-+2 357
--1 357
-+1 357
-cfi=(23)
-cfn=(5324)
-calls=357 275 
-* 36307
-+3 357
-+1 357
--1 714
-+1 714
-+1 1428
--1 714
-+4 357
-+1 3570
-255 6
-+1 1
-+1 2
-+13 2
-+4 1
--2 1
-+2 1
--2 1
-+2 1
-+1 2
-+1 2
-
-fn=(5692)
-198 140
--21 280
-+21 840
--14 980
-+1 280
-+1 280
--1 3316
-+1 3732
-+1 832
-+4 832
-cfi=(127)
-cfn=(7400) names_lh_free_doall
-calls=251 354 
-* 130196
-cfi=(175)
-cfn=(7364) property_defn_free.lto_priv.0
-calls=1 46 
-* 216
-cfi=(40)
-cfn=(7360) namenum_free
-calls=143 56 
-* 31889
-cfi=(39)
-cfn=(7354)
-calls=6 61 
-* 636
-cfi=(32)
-cfn=(7312)
-calls=1 +18 
-* 423
-cfi=(97)
-cfn=(5694)
-calls=14 -26 
-* 28197
--4 1018
-+4 1018
-cfi=(127)
-cfn=(7400)
-calls=282 354 
-* 119394
-cfi=(40)
-cfn=(7360)
-calls=212 56 
-* 47276
-cfi=(39)
-cfn=(7354)
-calls=3 61 
-* 318
-cfi=(97)
-cfn=(5694)
-calls=12 -26 
-* 23509
--5 1850
--2 7192
-+16 840
-
-fn=(5698) OPENSSL_LH_flush
-81 138
-+4 276
--4 828
-+7 414
-+1 966
-+1 276
--1 6108
-+1 4509
-+1 874
-+1 1311
-cfi=(23)
-cfn=(5324)
-calls=437 275 
-* 44574
--1 2840
-+1 4260
-cfi=(23)
-cfn=(5324)
-calls=1420 275 
-* 144840
--2 3714
-+5 1311
--7 1311
-+7 1737
--7 5211
-+10 138
-+1 828
-
-fn=(4946)
-286 253896
-+5 63474
-cfi=(32)
-cfn=(6776)
-calls=12048 185 
-* 132528
-cfi=(175)
-cfn=(6398) property_defn_hash.lto_priv.0
-calls=132 35 
-* 46464
-cfi=(40)
-cfn=(6130) namenum_hash
-calls=13668 46 
-* 3673388
-cfi=(127)
-cfn=(5730) obj_name_hash
-calls=1221 136 
-* 366872
-cfi=(97)
-cfn=(5360)
-calls=318 99 
-* 141460
-cfi=(50)
-cfn=(5054) err_string_data_hash
-calls=4322 172 
-* 86440
-cfi=(39)
-cfn=(4948)
-calls=28 51 
-* 3829
-+3 63474
--2 31737
--1 31737
-+3 31737
-+1 95211
-+1 13888
-+3 3472
--1 3472
-+1 6944
-+1 10416
--1 28265
--1 28265
-+1 56530
-+1 84795
-+1 128176
-+4 86988
-cfi=(32)
-cfn=(6860)
-calls=12047 190 
-* 493927
-cfi=(175)
-cfn=(6444) property_defn_cmp.lto_priv.0
-calls=129 41 
-* 4515
-cfi=(39)
-cfn=(6408)
-calls=1 56 
-* 24
-cfi=(40)
-cfn=(6136) namenum_cmp
-calls=12860 51 
-* 3246220
-cfi=(127)
-cfn=(5738) obj_name_cmp
-calls=875 120 
-* 239740
-cfi=(97)
-cfn=(5446)
-calls=147 104 
-* 6523
-cfi=(50)
-cfn=(5068) err_string_data_cmp
-calls=2937 182 
-* 21151
-* 57992
-+2 35240
--7 105720
-+10 222159
-
 fn=(6324) OPENSSL_LH_num_items
 383 130
 +1 520
@@ -12281,7 +12077,7 @@ fn=(4966)
 +1 2646
 -8 6042
 111 3000
-cfn=(4946)
+cfn=(4946) getrn
 calls=750 286 
 * 115618
 * 17720
@@ -12480,7 +12276,7 @@ fn=(5696)
 +5 138
 -5 414
 +4 138
-cfn=(5698)
+cfn=(5698) OPENSSL_LH_flush
 calls=138 +6 
 * 226464
 +1 552
@@ -12497,6 +12293,210 @@ cfn=(5324)
 calls=138 275 
 * 13927
 * 1
+
+fn=(5666)
+132 3570
++5 357
++1 714
+cfn=(4946)
+calls=357 286 
+* 215379
++2 1071
++4 357
++2 714
+-2 357
++2 357
+-1 357
++1 357
+cfi=(23)
+cfn=(5324)
+calls=357 275 
+* 36307
++3 357
++1 357
+-1 714
++1 714
++1 1428
+-1 714
++4 357
++1 3570
+255 6
++1 1
++1 2
++13 2
++4 1
+-2 1
++2 1
+-2 1
++2 1
++1 2
++1 2
+
+fn=(5692)
+198 140
+-21 280
++21 840
+-14 980
++1 280
++1 280
+-1 3316
++1 3732
++1 832
++4 832
+cfi=(127)
+cfn=(7400) names_lh_free_doall
+calls=251 354 
+* 130196
+cfi=(175)
+cfn=(7364) property_defn_free.lto_priv.0
+calls=1 46 
+* 216
+cfi=(40)
+cfn=(7360) namenum_free
+calls=143 56 
+* 31889
+cfi=(39)
+cfn=(7354)
+calls=6 61 
+* 636
+cfi=(32)
+cfn=(7312)
+calls=1 +18 
+* 423
+cfi=(97)
+cfn=(5694)
+calls=14 -26 
+* 28197
+-4 1018
++4 1018
+cfi=(127)
+cfn=(7400)
+calls=282 354 
+* 119394
+cfi=(40)
+cfn=(7360)
+calls=212 56 
+* 47276
+cfi=(39)
+cfn=(7354)
+calls=3 61 
+* 318
+cfi=(97)
+cfn=(5694)
+calls=12 -26 
+* 23509
+-5 1850
+-2 7192
++16 840
+
+fn=(5698)
+81 138
++4 276
+-4 828
++7 414
++1 966
++1 276
+-1 6108
++1 4509
++1 874
++1 1311
+cfi=(23)
+cfn=(5324)
+calls=437 275 
+* 44574
+-1 2840
++1 4260
+cfi=(23)
+cfn=(5324)
+calls=1420 275 
+* 144840
+-2 3714
++5 1311
+-7 1311
++7 1737
+-7 5211
++10 138
++1 828
+
+fn=(4946)
+286 253896
++5 63474
+cfi=(32)
+cfn=(6776)
+calls=12048 185 
+* 132528
+cfi=(175)
+cfn=(6398) property_defn_hash.lto_priv.0
+calls=132 35 
+* 46464
+cfi=(40)
+cfn=(6130) namenum_hash
+calls=13668 46 
+* 3673388
+cfi=(127)
+cfn=(5730) obj_name_hash
+calls=1221 136 
+* 366872
+cfi=(97)
+cfn=(5360)
+calls=318 99 
+* 141460
+cfi=(50)
+cfn=(5054) err_string_data_hash
+calls=4322 172 
+* 86440
+cfi=(39)
+cfn=(4948)
+calls=28 51 
+* 3829
++3 63474
+-2 31737
+-1 31737
++3 31737
++1 95211
++1 13888
++3 3472
+-1 3472
++1 6944
++1 10416
+-1 28265
+-1 28265
++1 56530
++1 84795
++1 128176
++4 86988
+cfi=(32)
+cfn=(6860)
+calls=12047 190 
+* 493927
+cfi=(175)
+cfn=(6444) property_defn_cmp.lto_priv.0
+calls=129 41 
+* 4515
+cfi=(39)
+cfn=(6408)
+calls=1 56 
+* 24
+cfi=(40)
+cfn=(6136) namenum_cmp
+calls=12860 51 
+* 3246220
+cfi=(127)
+cfn=(5738) obj_name_cmp
+calls=875 120 
+* 239740
+cfi=(97)
+cfn=(5446)
+calls=147 104 
+* 6523
+cfi=(50)
+cfn=(5068) err_string_data_cmp
+calls=2937 182 
+* 21151
+* 57992
++2 35240
+-7 105720
++10 222159
 
 fl=(44) /usr/src/debug/openssl/openssl-3.2.1/crypto/thread/arch/thread_posix.c
 fn=(4926) ossl_crypto_mutex_new
@@ -12887,6 +12887,68 @@ fn=(5800)
 +1 1
 
 fl=(176)
+fn=(6440) aes_256_ecb_get_params.lto_priv.0
+51 7
+cfi=(173)
+cfn=(6354)
+calls=1 -7 
+* 1743
+
+fn=(6448) aes_128_ecb_get_params.lto_priv.0
+55 7
+cfi=(173)
+cfn=(6354)
+calls=1 -11 
+* 1743
+
+fn=(6482) aes_192_cfb1_get_params
+77 7
+cfi=(173)
+cfn=(6354)
+calls=1 -33 
+* 1743
+
+fn=(6472) aes_128_ofb_get_params.lto_priv.0
+67 7
+cfi=(173)
+cfn=(6354)
+calls=1 -23 
+* 1743
+
+fn=(6478) aes_128_cfb_get_params.lto_priv.0
+73 7
+cfi=(173)
+cfn=(6354)
+calls=1 -29 
+* 1743
+
+fn=(6492) aes_256_ctr_get_params.lto_priv.0
+87 7
+cfi=(173)
+cfn=(6354)
+calls=1 -43 
+* 1743
+
+fn=(6484) aes_128_cfb1_get_params
+79 7
+cfi=(173)
+cfn=(6354)
+calls=1 -35 
+* 1743
+
+fn=(6852)
+27 36144
+fi=(173)
+181 60240
+fe=(176)
+31 36144
++1 12048
+-1 24096
+cfi=(23)
+cfn=(5490)
+calls=12048 286 
+* 4698720
+
 fn=(6446) aes_192_ecb_get_params.lto_priv.0
 53 7
 cfi=(173)
@@ -13011,68 +13073,6 @@ cfi=(173)
 cfn=(6354)
 calls=1 -41 
 * 1743
-
-fn=(6440) aes_256_ecb_get_params.lto_priv.0
-51 7
-cfi=(173)
-cfn=(6354)
-calls=1 -7 
-* 1743
-
-fn=(6448) aes_128_ecb_get_params.lto_priv.0
-55 7
-cfi=(173)
-cfn=(6354)
-calls=1 -11 
-* 1743
-
-fn=(6482) aes_192_cfb1_get_params
-77 7
-cfi=(173)
-cfn=(6354)
-calls=1 -33 
-* 1743
-
-fn=(6472) aes_128_ofb_get_params.lto_priv.0
-67 7
-cfi=(173)
-cfn=(6354)
-calls=1 -23 
-* 1743
-
-fn=(6478) aes_128_cfb_get_params.lto_priv.0
-73 7
-cfi=(173)
-cfn=(6354)
-calls=1 -29 
-* 1743
-
-fn=(6492) aes_256_ctr_get_params.lto_priv.0
-87 7
-cfi=(173)
-cfn=(6354)
-calls=1 -43 
-* 1743
-
-fn=(6484) aes_128_cfb1_get_params
-79 7
-cfi=(173)
-cfn=(6354)
-calls=1 -35 
-* 1743
-
-fn=(6852)
-27 36144
-fi=(173)
-181 60240
-fe=(176)
-31 36144
-+1 12048
--1 24096
-cfi=(23)
-cfn=(5490)
-calls=12048 286 
-* 4698720
 
 fl=(119)
 fn=(5620)
@@ -14325,6 +14325,33 @@ calls=130 275
 +1 1170
 
 fl=(143)
+fn=(6026)
+348 3
+
+fn=(6050)
+349 3
+
+fn=(6024)
+348 3
+
+fn=(6044)
+349 3
+
+fn=(6048)
+348 3
+
+fn=(6020)
+347 3
+
+fn=(6022)
+348 3
+
+fn=(6042)
+349 3
+
+fn=(6046)
+347 3
+
 fn=(6018)
 347 3
 
@@ -14360,33 +14387,6 @@ fn=(6030)
 
 fn=(6028)
 348 3
-
-fn=(6026)
-348 3
-
-fn=(6050)
-349 3
-
-fn=(6024)
-348 3
-
-fn=(6044)
-349 3
-
-fn=(6048)
-348 3
-
-fn=(6020)
-347 3
-
-fn=(6022)
-348 3
-
-fn=(6042)
-349 3
-
-fn=(6046)
-347 3
 
 fl=(200)
 fn=(6746) chacha20_poly1305_get_params.lto_priv.0
@@ -14490,47 +14490,6 @@ fn=(5616)
 +5 1
 
 fl=(170)
-fn=(6344) OSSL_PARAM_construct_uint
-322 130
-77 260
-322 130
-77 390
-325 130
-
-fn=(6364) OSSL_PARAM_set_int32
-471 1950
-+4 1300
-+5 650
--1 650
-+1 1300
-+4 1300
-+52 1300
--53 650
--1 650
-+1 1300
-+2 1950
-+2 1300
-+1 650
-
-fn=(6366)
-1019 24486
-+6 24486
-cfn=(6368) OSSL_PARAM_set_uint64
-calls=24486 -97 
-* 563178
-
-fn=(6342) OSSL_PARAM_construct_size_t
-1032 24486
-77 48972
-1032 24486
-77 73458
-1035 24486
-
-fn=(6796) OSSL_PARAM_modified
-81 12048
-+1 72288
-+1 12048
-
 fn=(6360) OSSL_PARAM_set_uint32
 626 390
 +3 260
@@ -14549,7 +14508,7 @@ fn=(6360) OSSL_PARAM_set_uint32
 fn=(6362)
 278 650
 +4 650
-cfn=(6364)
+cfn=(6364) OSSL_PARAM_set_int32
 calls=650 471 
 * 14950
 
@@ -14604,7 +14563,7 @@ cfn=(6360)
 calls=130 626 
 * 2860
 
-fn=(6368)
+fn=(6368) OSSL_PARAM_set_uint64
 928 73458
 +1 48972
 +6 24486
@@ -14631,6 +14590,47 @@ fn=(6348) OSSL_PARAM_construct_end
 -3 130
 +3 390
 +1 130
+
+fn=(6344) OSSL_PARAM_construct_uint
+322 130
+77 260
+322 130
+77 390
+325 130
+
+fn=(6364)
+471 1950
++4 1300
++5 650
+-1 650
++1 1300
++4 1300
++52 1300
+-53 650
+-1 650
++1 1300
++2 1950
++2 1300
++1 650
+
+fn=(6366)
+1019 24486
++6 24486
+cfn=(6368)
+calls=24486 -97 
+* 563178
+
+fn=(6342) OSSL_PARAM_construct_size_t
+1032 24486
+77 48972
+1032 24486
+77 73458
+1035 24486
+
+fn=(6796) OSSL_PARAM_modified
+81 12048
++1 72288
++1 12048
 
 fl=(151)
 fn=(6072)
@@ -15543,6 +15543,52 @@ calls=391 348
 +18 1172
 
 fl=(123)
+fn=(6428)
+234 130
++3 130
+cfi=(22)
+cfn=(6430)
+calls=130 1709 
+* 2860
+
+fn=(6296)
+68 1
++3 2
++1 1
+fi=(30)
+520 2
+fe=(123)
+68 1
+fi=(30)
+397 3
+cfi=(28)
+cfn=(4822)
+calls=1 151 
+* 14
+* 5
++3 2
+cfi=(28)
+cfn=(4876)
+calls=1 167 
+* 17
++7 2
+556 1
+fe=(123)
+72 2
+fi=(32)
+271 1
+fe=(123)
+76 1
+fi=(32)
+271 1
+cfi=(28)
+cfn=(4956)
+calls=1 106 
+* 73
+fi=(30)
+408 2
+fe=(123)
+
 fn=(6308)
 202 910
 fi=(37)
@@ -15853,53 +15899,58 @@ fi=(30)
 408 2
 fe=(123)
 
-fn=(6428)
-234 130
-+3 130
-cfi=(22)
-cfn=(6430)
-calls=130 1709 
-* 2860
-
-fn=(6296)
-68 1
-+3 2
-+1 1
-fi=(30)
-520 2
-fe=(123)
-68 1
-fi=(30)
-397 3
-cfi=(28)
-cfn=(4822)
-calls=1 151 
-* 14
-* 5
-+3 2
-cfi=(28)
-cfn=(4876)
-calls=1 167 
-* 17
-+7 2
-556 1
-fe=(123)
-72 2
-fi=(32)
-271 1
-fe=(123)
-76 1
-fi=(32)
-271 1
-cfi=(28)
-cfn=(4956)
-calls=1 106 
-* 73
-fi=(30)
-408 2
-fe=(123)
-
 fl=(21)
+fn=(5874)
+2635 7
+
+fn=(5886)
+3184 7
+
+fn=(5928)
+2637 7
+
+fn=(5938)
+3375 7
+
+fn=(5876)
+2635 7
+
+fn=(5888)
+4148 7
+
+fn=(5940)
+3656 7
+
+fn=(4790)
+2636 84343
+
+fn=(5880)
+2635 7
+
+fn=(5890)
+3374 7
+
+fn=(5910)
+3186 7
+
+fn=(5892)
+3652 7
+
+fn=(5904)
+2636 7
+
+fn=(5912)
+4150 7
+
+fn=(5908)
+2636 7
+
+fn=(5914)
+3654 7
+
+fn=(5926)
+2637 7
+
 fn=(5898)
 2636 7
 
@@ -15974,57 +16025,6 @@ fn=(5924)
 
 fn=(5936)
 4152 7
-
-fn=(5874)
-2635 7
-
-fn=(5886)
-3184 7
-
-fn=(5928)
-2637 7
-
-fn=(5938)
-3375 7
-
-fn=(5876)
-2635 7
-
-fn=(5888)
-4148 7
-
-fn=(5940)
-3656 7
-
-fn=(4790)
-2636 84343
-
-fn=(5880)
-2635 7
-
-fn=(5890)
-3374 7
-
-fn=(5910)
-3186 7
-
-fn=(5892)
-3652 7
-
-fn=(5904)
-2636 7
-
-fn=(5912)
-4150 7
-
-fn=(5908)
-2636 7
-
-fn=(5914)
-3654 7
-
-fn=(5926)
-2637 7
 
 fl=(25)
 fn=(5606)
@@ -16422,17 +16422,6 @@ calls=1 -4
 * 1743
 
 fl=(149)
-fn=(6076)
-132 1
-+1 1
-+1 1
-
-fn=(6094)
-226 3
-
-fn=(6104)
-232 3
-
 fn=(6082)
 147 1
 +1 1
@@ -16475,17 +16464,18 @@ fn=(6080)
 fn=(6098)
 228 3
 
+fn=(6076)
+132 1
++1 1
++1 1
+
+fn=(6094)
+226 3
+
+fn=(6104)
+232 3
+
 fl=(166)
-fn=(6270)
-202 1
-+1 1
-+2 2
-
-fn=(6268)
-191 1
-+1 1
-+2 2
-
 fn=(6258)
 97 1
 +1 1
@@ -16562,6 +16552,16 @@ cfi=(23)
 cfn=(5324)
 calls=1 275 
 * 81
+
+fn=(6270)
+202 1
++1 1
++2 2
+
+fn=(6268)
+191 1
++1 1
++2 2
 
 fl=(89)
 fn=(6140) fmtint
@@ -17299,9 +17299,6 @@ fn=(5492)
 +1 24097
 
 fl=(137)
-fn=(5846)
-34 3
-
 fn=(5842)
 34 3
 
@@ -17309,6 +17306,9 @@ fn=(5848)
 34 3
 
 fn=(5844)
+34 3
+
+fn=(5846)
 34 3
 
 fl=(155)
@@ -18257,6 +18257,91 @@ calls=12048 474
 +83 108432
 
 fl=(50)
+fn=(5022) err_do_init_ossl_.lto_priv.0
+666 2
++3 2
+-1 1
++1 1
+cfi=(28)
+cfn=(4848)
+calls=1 159 
+* 71
+-3 3
+
+fn=(5052)
+259 312
++2 208
+cfi=(28)
+cfn=(4956)
+calls=104 106 
+* 5867
+* 208
++3 8508
+-1 4254
++1 4254
+cfi=(36)
+cfn=(4966)
+calls=4254 102 
+* 869639
+-1 8716
++3 104
++2 104
+-2 104
+cfi=(28)
+cfn=(4952)
+calls=104 121 
+* 5200
+
+fn=(5050) do_err_strings_init_ossl_.lto_priv.0
+213 2
++2 3
+cfi=(27)
+cfn=(4819)
+calls=1 474 
+* 70
+* 2
++2 1
+cfi=(28)
+cfn=(4840)
+calls=1 46 
+* 282
+* 1
++1 2
++3 3
+cfi=(36)
+cfn=(4904)
+calls=1 48 
+* 536
++8 1
+-8 1
++2 2
+-10 3
+
+fn=(7242)
+645 2
++1 1
+-1 1
++1 1
+-1 1
++1 1
+cfi=(28)
+cfn=(4876)
+calls=1 167 
+* 21
++1 3
++3 3
+cfi=(28)
+cfn=(4880)
+calls=1 172 
+* 44
++2 1
+-1 1
++1 2
+-1 1
+cfn=(7244) OSSL_ERR_STATE_free
+calls=1 202 
+* 738
+
 fn=(5064)
 613 68
 +5 34
@@ -18447,7 +18532,7 @@ calls=1 474
 * 924820
 * 1
 
-fn=(7244) OSSL_ERR_STATE_free
+fn=(7244)
 202 1
 +3 2
 -3 7
@@ -18487,140 +18572,8 @@ cfn=(5324)
 calls=1 +65 
 * 81
 
-fn=(5022) err_do_init_ossl_.lto_priv.0
-666 2
-+3 2
--1 1
-+1 1
-cfi=(28)
-cfn=(4848)
-calls=1 159 
-* 71
--3 3
-
-fn=(5052)
-259 312
-+2 208
-cfi=(28)
-cfn=(4956)
-calls=104 106 
-* 5867
-* 208
-+3 8508
--1 4254
-+1 4254
-cfi=(36)
-cfn=(4966)
-calls=4254 102 
-* 869639
--1 8716
-+3 104
-+2 104
--2 104
-cfi=(28)
-cfn=(4952)
-calls=104 121 
-* 5200
-
-fn=(5050) do_err_strings_init_ossl_.lto_priv.0
-213 2
-+2 3
-cfi=(27)
-cfn=(4819)
-calls=1 474 
-* 70
-* 2
-+2 1
-cfi=(28)
-cfn=(4840)
-calls=1 46 
-* 282
-* 1
-+1 2
-+3 3
-cfi=(36)
-cfn=(4904)
-calls=1 48 
-* 536
-+8 1
--8 1
-+2 2
--10 3
-
-fn=(7242)
-645 2
-+1 1
--1 1
-+1 1
--1 1
-+1 1
-cfi=(28)
-cfn=(4876)
-calls=1 167 
-* 21
-+1 3
-+3 3
-cfi=(28)
-cfn=(4880)
-calls=1 172 
-* 44
-+2 1
--1 1
-+1 2
--1 1
-cfn=(7244)
-calls=1 202 
-* 738
-
 ob=(3)
 fl=(3)
-fn=(7586)
-0 4
-
-fn=(3914)
-0 7
-
-fn=(4026)
-0 7
-
-fn=(7570)
-0 4
-
-fn=(3996) 0x00000000048fb240
-0 4
-cob=(2)
-cfi=(2)
-cfn=(3998)
-calls=2 0 
-0 28
-
-fn=(5378) 0x00000000048fb200
-0 786
-cob=(2)
-cfi=(2)
-cfn=(5380) 0x000000000015a880
-calls=393 0 
-0 9824
-
-fn=(4074) 0x0000000000109000
-0 7
-
-fn=(3960) 0x00000000048fb320
-0 2
-cob=(2)
-cfi=(2)
-cfn=(3962)
-calls=1 0 
-0 39
-
-fn=(4368) 0x00000000048fb330
-0 6
-cob=(2)
-cfi=(2)
-cfn=(4370)
-calls=3 0 
-0 63
-
 fn=(3988)
 0 6
 cob=(5)
@@ -18636,7 +18589,7 @@ fn=(7544)
 fn=(7602)
 0 4
 
-fn=(4004) 0x00000000048fb2e0
+fn=(4004) 0x000000000490d2e0
 0 4
 cob=(2)
 cfi=(2)
@@ -18644,653 +18597,468 @@ cfn=(4006)
 calls=2 0 
 0 50
 
+fn=(7586)
+0 4
+
+fn=(3914)
+0 7
+
+fn=(4026)
+0 7
+
+fn=(7570)
+0 4
+
+fn=(3996) 0x000000000490d240
+0 4
+cob=(2)
+cfi=(2)
+cfn=(3998)
+calls=2 0 
+0 28
+
+fn=(5378) 0x000000000490d200
+0 786
+cob=(2)
+cfi=(2)
+cfn=(5380) 0x000000000015a880
+calls=393 0 
+0 9824
+
+fn=(4074) 0x0000000000109000
+0 7
+
+fn=(3960) 0x000000000490d320
+0 2
+cob=(2)
+cfi=(2)
+cfn=(3962)
+calls=1 0 
+0 39
+
+fn=(4368) 0x000000000490d330
+0 6
+cob=(2)
+cfi=(2)
+cfn=(4370)
+calls=3 0 
+0 63
+
+ob=(2)
+fl=(2)
+fn=(3314)
+0 22
+
+fn=(3336)
+0 72
+
+fn=(3342)
+0 7
+
+fn=(3344)
+0 38
+
+fn=(3510)
+0 7
+
+fn=(3820) __ctype_init
+0 17
+
+fn=(3948)
+0 32
+cob=(3)
+cfi=(3)
+cfn=(3960)
+calls=1 0 
+0 41
+0 12
+
+fn=(3980)
+0 12
+
+fn=(4362) open
+0 99
+
+fn=(4394)
+0 58
+cfn=(4396) _IO_sgetn
+calls=2 0 
+0 1218
+0 52
+
+fn=(4408) _IO_file_stat
+0 9
+cfn=(4410) fstat
+calls=3 0 
+0 18
+
+fn=(4444) _IO_file_read
+0 48
+cfn=(4446) read
+calls=8 0 
+0 64
+
+fn=(4518)
+0 599669
+cfn=(4520) 0x000000000009d3b0
+calls=29956 0 
+0 1683395
+0 149794
+cfn=(6982) 0x000000000009b4d0
+calls=1 0 
+0 35
+0 184
+
+fn=(4540) 0x000000000009d270
+0 68
+cfn=(4558) 0x000000000009bfb0
+calls=2 0 
+0 68
+0 26
+
+fn=(4046)
+0 36
+cfn=(4054) 0x00000000000422f0
+calls=2 0 
+0 68
+0 46
+
+fn=(7214) 0x00000000000429e0
+0 67
+cfn=(7682) _Exit
+calls=1 0 
+0 4
+0 26
+cob=(1)
+cfi=(1)
+cfn=(7432)
+calls=1 0 
+0 1418
+cob=(5)
+cfi=(27)
+cfn=(7236)
+calls=1 352 
+0 928399
+0 13
+cfn=(7218) __call_tls_dtors
+calls=1 0 
+0 12
+0 2
+cfn=(7628) 0x0000000000089b40
+calls=1 0 
+0 356
+0 1
+
+fn=(6982)
+0 29
+cfn=(6988) munmap
+calls=1 0 
+0 6
+
+fn=(3348)
+0 50
+
+fn=(3370)
+0 25
+
+fn=(3382)
+0 66
+
+fn=(3384)
+0 46
+
+fn=(3536)
+0 7
+
+fn=(4198) 0x000000000009e040
+0 254026
+cfn=(6162) 0x000000000009be10
+calls=1 0 
+0 2539
+0 328866
+cfn=(5152) 0x000000000009bd30
+calls=68 0 
+0 1468
+0 19853
+cfn=(4304) 0x000000000009b4b0
+calls=4631 0 
+0 18524
+0 85857
+cfn=(4238) 0x000000000009d7b0
+calls=5 0 
+0 909
+0 15
+
+fn=(4256) sbrk
+0 142
+cfn=(4258) brk
+calls=1 0 
+0 9
+0 4
+cfn=(4258)
+calls=4 0 
+0 36
+0 37
+cfn=(4258)
+calls=1 0 
+0 9
+0 4
+
+fn=(4350) 0x000000000008c000
+0 72
+
+fn=(4420) _IO_setb
+0 177
+cfn=(4518)
+calls=3 0 
+0 530
+0 6
+
+fn=(4558)
+0 20428
+cfn=(5152)
+calls=148 0 
+0 2990
+0 2044
+
+fn=(4742) calloc
+0 1033
+cfn=(4198)
+calls=28 0 
+0 4663
+0 3998791
+
+fn=(4834) _pthread_cleanup_push
+0 119
+
+fn=(5370) _IO_getline
+0 1173
+cfn=(5372) _IO_getline_info
+calls=391 0 
+0 42341
+
+fn=(7258)
+0 96
+
+fn=(7682)
+0 4
+
+fn=(6946) 0x000000000010d530
+0 25
+cob=(1)
+cfi=(1)
+cfn=(208)
+calls=1 0 
+0 23
+0 5
+
+fn=(3322)
+0 34
+
+fn=(3332)
+0 22
+
+fn=(3352)
+0 50
+
+fn=(3360)
+0 42
+
+fn=(3364)
+0 14
+
+fn=(3372)
+0 72
+
+fn=(4254) __default_morecore
+0 40
+cfn=(4256)
+calls=8 0 
+0 241
+0 32
+
+fn=(4358) _IO_file_fopen
+0 141
+cfn=(4360) _IO_file_open
+calls=3 0 
+0 252
+0 18
+cfn=(4364) 0x00000000000a7370
+calls=3 0 
+0 171
+0 81
+
+fn=(4364)
+0 54
+cob=(3)
+cfi=(3)
+cfn=(4368)
+calls=3 0 
+0 69
+0 48
+
+fn=(4468)
+0 51
+cfn=(4584) _IO_file_finish
+calls=3 0 
+0 87
+0 45
+cfn=(4518)
+calls=3 0 
+0 228
+0 18
+cfn=(4470) _IO_un_link
+calls=3 0 
+0 306
+0 39
+cfn=(4510) _IO_file_close_it
+calls=3 0 
+0 851
+0 60
+
+fn=(4514) _IO_file_close
+0 9
+cfn=(4516) __close_nocancel
+calls=3 0 
+0 18
+
+fn=(5376) _IO_default_uflow
+0 65
+cfn=(4440) _IO_file_underflow
+calls=5 0 
+0 746
+0 46
+
+fn=(6162)
+0 2306
+cfn=(5152)
+calls=3 0 
+0 60
+0 129
+cfn=(5152)
+calls=2 0 
+0 40
+0 4
+
+fn=(7058) aligned_alloc
+0 117
+cfn=(7080) 0x000000000009f3e0
+calls=3 0 
+0 1425
+0 84
+
+fn=(7196) 0x000000000015ab20
+0 19
+
+fn=(7380)
+0 20
+
+fn=(4586) _IO_default_finish
+0 48
+
+fn=(4054)
+0 68
+
+fn=(4090) __sigsetjmp
+0 31
+
+fn=(3306)
+0 21
+
+fn=(3386)
+0 14
+
+fn=(3822) getrlimit
+0 10
+
+fn=(4150)
+0 720765
+cfn=(4192) 0x000000000009f030
+calls=1 0 
+0 475
+0 511723
+cfn=(4198)
+calls=4705 0 
+0 695651
+0 32936
+cfn=(4152) 0x000000000009c080
+calls=1 0 
+0 1112
+0 2
+
+fn=(4344) _IO_link_in
+0 135
+cfn=(4346) 0x000000000008bfb0
+calls=3 0 
+0 39
+0 27
+cfn=(4350)
+calls=3 0 
+0 27
+0 84
+
+fn=(4346)
+0 104
+
+fn=(4404) _IO_doallocbuf
+0 54
+cfn=(4406) _IO_file_doallocate
+calls=3 0 
+0 768
+0 18
+
+fn=(4850)
+0 243
+
+fn=(4928)
+0 42
+
+fn=(5424)
+0 4024265
+
+fn=(7378)
+0 12
+
+fn=(7438)
+0 42
+
+fn=(4584)
+0 39
+cfn=(4586)
+calls=3 0 
+0 48
+
+fn=(3994)
+0 30
+cob=(3)
+cfi=(3)
+cfn=(3996)
+calls=2 0 
+0 32
+0 1048
+cob=(3)
+cfi=(3)
+cfn=(4004)
+calls=2 0 
+0 54
+0 18
+
+fn=(3998)
+0 91298
+
+fn=(4088) _setjmp
+0 3
+cfn=(4090)
+calls=1 0 
+0 31
+
+fn=(3318)
+0 18
+
+fn=(3320)
+0 18
+
 ob=(6)
-fl=(215) /home/kent/Desktop/embedded-faest/faest/build/../faest_aes.c
-fn=(7144) em_enc_constraints_Mkey_1_192
-2161 17
-fi=(213) /home/kent/Desktop/embedded-faest/faest/build/../fields.h
-228 6
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=1 0 
-* 11
-* 1
-+3 1
-+2 16
-fe=(215)
-2164 8
-+1 3
-cob=(2)
-cfi=(2)
-cfn=(7058) aligned_alloc
-calls=1 0 
-* 445
-* 1
-* 1
-+1 2
-+1 144768
--1 7490
-+5 3
-cob=(2)
-cfi=(2)
-cfn=(7058)
-calls=1 0 
-* 615
-* 1
-* 1
-+1 2
-+1 16320
--1 578
-+6 6
-cfn=(7162) em_enc_forward_192
-calls=1 2011 
-* 250924473
-+1 12
-cfn=(7168) em_enc_backward_192
-calls=1 -87 
-* 111210618
-* 1
-+1 3
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 205
-* 1
-+1 3
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 194
-* 1
-+3 23
-cfi=(214) /home/kent/Desktop/embedded-faest/faest/build/../fields.c
-cfn=(7024) bf192_mul
-calls=1 335 
-* 54932
-* 9
-+1 2
-+1 14112
-cfi=(214)
-cfn=(7024)
-calls=288 335 
-* 15820416
-* 10944
-cfi=(212) /home/kent/Desktop/embedded-faest/faest/build/../universal_hashing.c
-cfn=(7176) zk_hash_192_update
-calls=288 195 
-* 20622528
-* 288
--1 866
-+3 8
-
-fn=(7046) aes_verify
-2619 9
-+1 5
-+8 4
-+3 12
-cfn=(7048) em_verify_192
-calls=1 2223 
-* 417083295
-* 2
-+9 2
-
-fn=(7162)
-2011 14
-+2 2
-+1 384
-cfi=(214)
-cfn=(7164) bf192_byte_combine
-calls=24 255 
-* 9242688
-* 384
-+1 48
-+1 576
-cfi=(214)
-cfn=(7164)
-calls=24 255 
-* 9242688
-* 888
--3 74
-+7 4
-cfi=(214)
-cfn=(7166) bf192_byte_combine_bits
-calls=1 263 
-* 457
-* 8
-+1 4
-cfi=(214)
-cfn=(7166)
-calls=1 263 
-* 457
-* 8
-+2 2
-+1 22
-+1 660
-+1 660
-+4 132
-+2 3432
-cfi=(214)
-cfn=(7164)
-calls=264 255 
-* 101669568
-* 5544
-+1 528
-+1 3432
-cfi=(214)
-cfn=(7164)
-calls=264 255 
-* 101669568
-* 5808
--4 924
-+10 2046
-cfi=(214)
-cfn=(7024)
-calls=66 335 
-* 3625512
-* 2640
-cfi=(214)
-cfn=(7024)
-calls=66 335 
-* 3625512
-* 2508
-+1 3300
-+1 3300
-+1 3300
-+2 2574
-cfi=(214)
-cfn=(7024)
-calls=66 335 
-* 3625512
-* 2640
-+1 3036
-cfi=(214)
-cfn=(7024)
-calls=66 335 
-* 3625512
-* 2640
-+1 3564
-+1 3564
-+2 3102
-+1 3036
-cfi=(214)
-cfn=(7024)
-calls=66 335 
-* 3625512
-* 2640
-+1 3036
-cfi=(214)
-cfn=(7024)
-calls=66 335 
-* 3625512
-* 2640
-+1 3564
-+2 2046
-cfi=(214)
-cfn=(7024)
-calls=66 335 
-* 3625512
-* 3168
-+1 3564
-+1 3036
-cfi=(214)
-cfn=(7024)
-calls=66 335 
-* 3625512
-* 2640
-+1 3564
--34 220
--1 35
-+38 10
-
-fn=(7048)
-2223 21
-+1 4
-+1 4
-+1 4
-+1 4
-+1 4
-+2 2
-+2 3
-+1 120
-+2 264
-cfi=(18) /home/kent/Desktop/embedded-faest/faest/build/../vole.c
-cfn=(4774) ChalDec
-calls=24 59 
-* 5760
-* 24
-+1 48
-+1 768
-+1 1288
-cfi=(211) /home/kent/Desktop/embedded-faest/faest/build/../utils.h
-cfn=(7050) xor_u8_array.lto_priv.2
-calls=92 16 
-* 478308
--2 1032
--4 99
-+11 4
-cfn=(7052) column_to_row_major_and_shrink_V_192
-calls=1 95 
-* 17428416
-* 1
-+6 5
-cfi=(20) /home/kent/Desktop/embedded-faest/faest/build/../aes.c
-cfn=(7120) rijndael192_init_round_keys
-calls=1 210 
-* 115911
-+1 2
-+1 2
-+1 26
-+1 780
-+1 78
--2 260
--1 41
-+9 5
-cfi=(212)
-cfn=(7140) zk_hash_192_init
-calls=1 184 
-* 142
-+1 8
-cfn=(7144)
-calls=1 2161 
-* 398829935
-+2 2
-cob=(2)
-cfi=(2)
-cfn=(4150)
-calls=1 0 
-* 548
-* 1
-* 1
-+1 6
-cfi=(214)
-cfn=(7180) bf192_sum_poly
-calls=1 373 
-* 53905
-* 21
-cfi=(212)
-cfn=(7184) zk_hash_192_finalize
-calls=1 200 
-* 110116
-* 1
-+1 3
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 165
-* 1
-* 2
-fi=(213)
-228 6
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=1 0 
-* 11
-* 1
-+3 1
-+2 16
-fe=(215)
-2267 10
-fi=(213)
-228 6
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=1 0 
-* 11
-* 1
-+3 1
-+2 16
-fe=(215)
-2268 10
-fi=(213)
-228 6
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=1 0 
-* 11
-* 1
-+3 1
-+2 16
-fe=(215)
-2268 31
-cfi=(214)
-cfn=(7024)
-calls=1 335 
-* 54932
-* 35
-fi=(213)
-243 6
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=1 0 
-* 11
-* 1
-+2 1
-fe=(215)
-2270 1
-+1 7
-
-fn=(7052)
-95 10
-+4 7
-cob=(1)
-cfi=(1)
-cfn=(4111)
-calls=1 -99 
-* 1308
-* 5
-* 1
-+1 2
-+1 7488
-+1 4992
-+1 15814656
--1 1442688
-+3 17472
-fi=(213)
-228 14976
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=2496 0 
-* 27456
-* 2496
-+3 2496
-+2 39936
-fe=(215)
-105 39936
--5 12484
-+8 1
-+1 6
-
-fn=(7168)
-2092 19
-+2 4
-fi=(213)
-228 6
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=1 0 
-* 11
-* 1
-+3 1
-+2 16
-fe=(215)
-2094 17
-+2 37
-fi=(213)
-260 3
--6 3
-+1 2
-+1 16
-+4 16
-fe=(215)
-2096 42
--1 17
-+3 2
-+1 24
-+1 144
-+2 4896
-+2 3456
--1 576
-+3 576
-+1 2640
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=264 0 
-* 7920
-* 264
-* 264
-+2 48
-+2 7488
-+1 384
-+1 11520
--4 624
-+10 576
-+1 218880
--1 7488
-+4 9504
-+1 8928
-+3 6048
-cfi=(214)
-cfn=(7164)
-calls=288 255 
-* 110912256
-* 4608
--27 1008
--1 240
--1 38
-+33 7
-
-fl=(20)
-fn=(7120)
-210 5
-+1 7
-cfn=(7122) expand_key
-calls=1 -55 
-* 115897
-+1 2
-
-fn=(7126) rot_word
-147 36
-+1 36
-+1 48
-+1 60
-+1 60
-+1 48
-+1 36
-
-fn=(7130) sub_words
-140 60
-+1 60
-cfn=(7132) compute_sbox
-calls=12 41 
-* 25800
-* 24
-+1 96
-cfn=(7132)
-calls=12 41 
-* 25800
-* 12
-+1 96
-cfn=(7132)
-calls=12 41 
-* 25800
-* 12
-+1 96
-cfn=(7132)
-calls=12 41 
-* 25800
-* 12
-+1 48
-
-fn=(7132)
-41 240
-+1 144
-cfi=(214)
-cfn=(7134) bf8_inv
-calls=48 +14 
-* 97920
-* 48
-+2 432
-+2 576
-+2 576
-+2 576
-+2 624
-+2 624
-+2 624
-+2 624
-+1 96
-+1 96
-
-fn=(7128) contains_zero
-37 36
-+1 300
-+1 24
-
-fn=(4784) prg
-297 132528
-+65 24096
-+5 12048
-cob=(5)
-cfi=(21)
-cfn=(4790)
-calls=12047 2636 
-* 84329
-cob=(1)
-cfi=(1)
-cfn=(4111)
-calls=1 0 
-* 869
-* 12052
-* 12048
-+1 12048
-+6 12048
-cob=(5)
-cfi=(22)
-cfn=(4796)
-calls=12047 73 
-* 1409499
-cob=(1)
-cfi=(1)
-cfn=(4111)
-calls=1 0 
-* 1137
-* 12052
-* 12048
-+1 24096
-+2 108432
-cob=(5)
-cfi=(22)
-cfn=(4808)
-calls=12047 499 
-* 37104773
-cob=(1)
-cfi=(1)
-cfn=(4111)
-calls=1 0 
-* 6648986
-* 12052
-+4 12048
-+1 24096
-+1 1024128
-cob=(5)
-cfi=(22)
-cfn=(6822)
-calls=146303 660 
-* 37746174
-cob=(1)
-cfi=(1)
-cfn=(4111)
-calls=1 0 
-* 1173
-* 146308
--1 926016
-+3 48192
-+1 61200
-cob=(5)
-cfi=(22)
-cfn=(6822)
-calls=6120 660 
-* 1566720
-* 6120
-+2 72288
-cob=(5)
-cfi=(22)
-cfn=(6836)
-calls=12047 721 
-* 819196
-cob=(1)
-cfi=(1)
-cfn=(4111)
-calls=1 0 
-* 959
-* 12052
-+1 36144
-cob=(5)
-cfi=(22)
-cfn=(6848)
-calls=12047 85 
-* 6914978
-cob=(1)
-cfi=(1)
-cfn=(4111)
-calls=1 0 
-* 1470
-* 12052
-+2 72288
-
-fn=(7122)
-156 11
-+1 1
-+2 2
-+1 84
-fi=(213)
--84 12
-fe=(20)
-+84 36
-+1 90
-fi=(213)
--85 12
-fe=(20)
-+85 36
-+1 90
-fi=(213)
--86 12
-fe=(20)
-+86 36
-+1 90
-fi=(213)
--87 12
-fe=(20)
-+87 36
--4 27
-+7 3
-+2 1368
-+2 432
-+1 36
-cfn=(7126)
-calls=12 -24 
-* 324
-+1 36
-cfn=(7128)
-calls=12 37 
-* 360
-* 12
-+1 36
-cfn=(7130)
-calls=12 -33 
-* 103716
-+1 120
-+3 144
-+5 216
-+2 1008
--1 1008
-+3 1008
--1 1008
-+3 1008
--1 1008
-+3 1008
--1 1008
--23 437
-+27 1
-+1 5
-
-fl=(11) /home/kent/Desktop/embedded-faest/faest/build/../instances.c
-fn=(4640) faest_get_paramset
-126 4
-+1 10
-+16 33
-+12 3
-
 fl=(8)
 fn=(4030)
 0 12
@@ -19477,6 +19245,19 @@ calls=11 220
 +1 33
 
 fl=(17) /home/kent/Desktop/embedded-faest/faest/build/../sha3/opt64/KeccakP-1600-opt64.c
+fn=(4728) KeccakP1600_ExtractBytesInLane
+373 471570
++1 257220
++8 85740
++1 342960
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=42870 0 
+* 557310
+* 42870
++10 257220
+
 fn=(4686) KeccakP1600_AddBytes
 194 130816
 +1 86952
@@ -19683,7 +19464,7 @@ cfn=(4726) KeccakP1600_ExtractLanes
 calls=6150 -35 
 * 178399
 * 98400
-cfn=(4728) KeccakP1600_ExtractBytesInLane
+cfn=(4728)
 calls=6150 -70 
 * 289050
 +1 6150
@@ -19705,40 +19486,12 @@ calls=6150 0
 * 6150
 +27 18450
 
-fn=(4728)
-373 471570
-+1 257220
-+8 85740
-+1 342960
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=42870 0 
-* 557310
-* 42870
-+10 257220
-
 fl=(15) /home/kent/Desktop/embedded-faest/faest/build/../sha3/KeccakHash.c
-fn=(4650) Keccak_HashInitialize
-23 918
-+3 204
-+2 612
-cfi=(16) /home/kent/Desktop/embedded-faest/faest/build/../sha3/KeccakSponge.inc
-cfn=(4652) KeccakWidth1600_SpongeInitialize
-calls=102 135 
-* 7952
-* 102
-+1 204
-+2 306
-+1 306
-+1 102
-+1 204
-
 fn=(4682) Keccak_HashUpdate
 39 4500
 +1 2000
 +1 4000
-cfi=(16)
+cfi=(16) /home/kent/Desktop/embedded-faest/faest/build/../sha3/KeccakSponge.inc
 cfn=(4684) KeccakWidth1600_SpongeAbsorb
 calls=500 152 
 * 18077157
@@ -19772,7 +19525,22 @@ calls=174 255
 * 54493
 +1 348
 
-fl=(18)
+fn=(4650) Keccak_HashInitialize
+23 918
++3 204
++2 612
+cfi=(16)
+cfn=(4652) KeccakWidth1600_SpongeInitialize
+calls=102 135 
+* 7952
+* 102
++1 204
++2 306
++1 306
++1 102
++1 204
+
+fl=(18) /home/kent/Desktop/embedded-faest/faest/build/../vole.c
 fn=(6922) ConvertToVole
 22 240
 +1 144
@@ -19780,7 +19548,7 @@ fn=(6922) ConvertToVole
 +3 168
 cob=(2)
 cfi=(2)
-cfn=(4742) calloc
+cfn=(4742)
 calls=24 -27 
 * 3856241
 * 24
@@ -19788,8 +19556,8 @@ calls=24 -27
 +6 96
 +5 48
 +1 110160
-cfi=(20)
-cfn=(4784)
+cfi=(20) /home/kent/Desktop/embedded-faest/faest/build/../aes.c
+cfn=(4784) prg
 calls=6120 297 
 * 60496200
 -1 24552
@@ -19804,7 +19572,7 @@ calls=24 -43
 +1 1344
 +1 384
 +1 146880
-cfi=(211)
+cfi=(211) /home/kent/Desktop/embedded-faest/faest/build/../utils.h
 cfn=(6976) xor_u8_array.lto_priv.4
 calls=6120 -31 
 * 37325880
@@ -19902,7 +19670,7 @@ calls=1 0
 +2 120
 +1 144
 +4 264
-cfn=(4774)
+cfn=(4774) ChalDec
 calls=24 59 
 * 5760
 * 24
@@ -19916,7 +19684,7 @@ calls=24 -65
 cfi=(19)
 cfn=(4778) vector_reconstruction
 calls=24 +14 
-* 111270680
+* 111270546
 * 24
 +3 48
 +1 91800
@@ -20149,176 +19917,176 @@ calls=5928 0
 -18 840
 +22 24
 +2 24
-+2 3585
++2 2935
 cfi=(13)
 cfn=(6862)
-calls=717 34 
-* 220119
-+1 717
-+3 6453
+calls=587 34 
+* 180209
++1 587
++3 5283
 cfn=(4780)
-calls=717 84 
-* 13623
-* 2151
--1 6453
+calls=587 84 
+* 11153
+* 1761
+-1 5283
 cfn=(4780)
-calls=717 84 
-* 13623
-* 2151
--1 6453
+calls=587 84 
+* 11153
+* 1761
+-1 5283
 cfn=(4780)
-calls=717 84 
-* 13623
-* 2151
--1 5019
+calls=587 84 
+* 11153
+* 1761
+-1 4109
 cfn=(4780)
-calls=717 84 
-* 13623
-* 7170
+calls=587 84 
+* 11153
+* 5870
 cfi=(13)
 cfn=(6874)
-calls=717 39 
-* 668961
-+4 6453
+calls=587 39 
+* 547671
++4 5283
 cfi=(13)
 cfn=(6874)
-calls=717 39 
-* 805908
-+6 1434
--5 717
-+5 5019
--5 717
-+4 5019
--4 717
-+3 5019
--3 717
-+2 4302
--2 1434
-+1 4302
--1 717
-+1 4302
--1 17925
+calls=587 39 
+* 659788
++6 1174
+-5 587
++5 4109
+-5 587
++4 4109
+-4 587
++3 4109
+-3 587
++2 3522
+-2 1174
++1 3522
+-1 587
++1 3522
+-1 14675
 cfi=(13)
 cfn=(6886)
-calls=717 45 
-* 25505124
-* 717
--8 4422
+calls=587 45 
+* 20880764
+* 587
+-8 3642
 +16 24
-+2 175
++2 180
 cfi=(13)
 cfn=(6910)
-calls=35 17 
-* 4620
-+1 280
+calls=36 17 
+* 4752
++1 288
 cfn=(4780)
-calls=35 84 
-* 665
-* 280
+calls=36 84 
+* 684
+* 288
 cfi=(13)
 cfn=(6912)
-calls=35 21 
-* 9450
-+1 210
+calls=36 21 
+* 9720
++1 216
 cfi=(13)
 cfn=(6912)
-calls=35 21 
-* 10990
-+2 70
--1 35
-+1 210
--1 420
+calls=36 21 
+* 11304
++2 72
+-1 36
++1 216
+-1 432
 cfi=(13)
 cfn=(6914)
-calls=35 26 
-* 314020
--5 212
+calls=36 26 
+* 322992
+-5 216
 +9 24
 +2 24
-+2 185
++2 180
 cfi=(13)
 cfn=(6910)
-calls=37 17 
-* 4884
-+1 296
+calls=36 17 
+* 4752
++1 288
 cfn=(4780)
-calls=37 84 
-* 703
-* 296
+calls=36 84 
+* 684
+* 288
 cfi=(13)
 cfn=(6912)
-calls=37 21 
-* 9990
-+1 222
+calls=36 21 
+* 9720
++1 216
 cfi=(13)
 cfn=(6912)
-calls=37 21 
-* 11618
-+2 74
--1 37
-+1 222
--1 444
+calls=36 21 
+* 11304
++2 72
+-1 36
++1 216
+-1 432
 cfi=(13)
 cfn=(6914)
-calls=37 26 
-* 331964
--5 464
+calls=36 26 
+* 322992
+-5 456
 +9 24
-+2 3975
++2 4625
 cfi=(13)
 cfn=(6862)
-calls=795 34 
-* 244065
-+1 795
-+3 7155
+calls=925 34 
+* 283975
++1 925
++3 8325
 cfn=(4780)
-calls=795 84 
-* 15105
-* 2385
--1 7155
+calls=925 84 
+* 17575
+* 2775
+-1 8325
 cfn=(4780)
-calls=795 84 
-* 15105
-* 2385
--1 7155
+calls=925 84 
+* 17575
+* 2775
+-1 8325
 cfn=(4780)
-calls=795 84 
-* 15105
-* 2385
--1 5565
+calls=925 84 
+* 17575
+* 2775
+-1 6475
 cfn=(4780)
-calls=795 84 
-* 15105
-* 7950
+calls=925 84 
+* 17575
+* 9250
 cfi=(13)
 cfn=(6874)
-calls=795 39 
-* 741735
-+4 7155
+calls=925 39 
+* 863025
++4 8325
 cfi=(13)
 cfn=(6874)
-calls=795 39 
-* 893580
-+6 1590
--5 795
-+5 5565
--5 795
-+4 5565
--4 795
-+3 5565
--3 795
-+2 4770
--2 1590
-+1 4770
--1 795
-+1 4770
--1 19875
+calls=925 39 
+* 1039700
++6 1850
+-5 925
++5 6475
+-5 925
++4 6475
+-4 925
++3 6475
+-3 925
++2 5550
+-2 1850
++1 5550
+-1 925
++1 5550
+-1 23125
 cfi=(13)
 cfn=(6886)
-calls=795 45 
-* 28279740
-* 795
--8 4071
+calls=925 45 
+* 32904100
+* 925
+-8 4721
 +16 96
 +10 360
 cob=(2)
@@ -20350,6 +20118,11 @@ fn=(4772)
 +1 2
 
 fl=(209) /home/kent/Desktop/embedded-faest/faest/build/../sha3/opt64/PlSnP-Fallback.inc
+fn=(6896) KeccakP1600times4_AddByte
+84 84672
++2 205632
++4 36288
+
 fn=(6870) KeccakP1600times4_StaticInitialize
 67 3024
 +2 4536
@@ -20394,19 +20167,30 @@ calls=12096 442
 * 3338496
 +4 36288
 
-fn=(6896) KeccakP1600times4_AddByte
-84 84672
-+2 205632
-+4 36288
+fl=(212) /home/kent/Desktop/embedded-faest/faest/build/../universal_hashing.c
+fn=(7176) zk_hash_192_update
+195 2016
++1 11808
+cfi=(214) /home/kent/Desktop/embedded-faest/faest/build/../fields.c
+cfn=(7024) bf192_mul
+calls=288 359 
+* 15820416
+* 9792
++1 6624
+cfi=(214)
+cfn=(7178) bf192_mul_64
+calls=288 371 
+* 4760352
+* 9792
++1 1728
 
-fl=(212)
-fn=(7184)
+fn=(7184) zk_hash_192_finalize
 200 8
 +1 3
 +1 4
 +2 11
-fi=(213)
-+24 6
+fi=(213) /home/kent/Desktop/embedded-faest/faest/build/../fields.h
++25 6
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20416,14 +20200,14 @@ calls=1 0
 +3 1
 +2 16
 fe=(212)
--29 31
+-30 31
 cfi=(214)
 cfn=(7024)
-calls=1 335 
+calls=1 359 
 * 54932
 * 20
 fi=(213)
-+24 6
++25 6
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20433,14 +20217,14 @@ calls=1 0
 +3 1
 +2 16
 fe=(212)
--29 31
+-30 31
 cfi=(214)
 cfn=(7024)
-calls=1 335 
+calls=1 359 
 * 54932
 * 49
 fi=(213)
-+39 6
++40 6
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20449,15 +20233,15 @@ calls=1 0
 * 1
 +2 1
 fe=(212)
--38 6
+-39 6
 
 fn=(7030) compute_h1
 17 2304
 fi=(213)
-+91 576
++92 576
 +4 192
 fe=(212)
--94 192
+-95 192
 +2 576
 +1 1728
 +2 768
@@ -20470,28 +20254,28 @@ calls=192 -24
 * 2112
 * 192
 fi=(213)
-+99 192
+124 192
 fe=(212)
--96 192
+-97 192
 fi=(213)
-127 192
+128 192
 fe=(212)
--99 192
+28 192
 +1 192
 +1 192
 +1 4032
 fi=(213)
-+77 1728
++78 1728
 +4 576
 fe=(212)
--81 2304
+-82 2304
 cfi=(214)
 cfn=(7034) bf64_mul
 calls=576 +47 
 * 670464
 * 1728
 fi=(213)
-133 1152
+134 1152
 fe=(212)
 31 576
 -1 3456
@@ -20503,19 +20287,19 @@ calls=576 +48
 +3 192
 +1 55296
 fi=(213)
-+74 20736
++75 20736
 +4 6912
 fe=(212)
--78 27648
+-79 27648
 cfi=(214)
 cfn=(7034)
 calls=6912 +44 
 * 8045568
 * 20736
 fi=(213)
-+99 13824
+134 13824
 fe=(212)
--99 6912
+34 6912
 -1 41472
 cfi=(214)
 cfn=(7034)
@@ -20525,22 +20309,22 @@ calls=6912 +45
 +4 192
 +1 960
 
-fn=(7140)
+fn=(7140) zk_hash_192_init
 184 9
 +1 3
 +1 3
 fi=(213)
-+78 3
++79 3
 +1 8
 fe=(212)
--77 17
+-78 17
 fi=(213)
-+76 3
++77 3
 +1 8
 fe=(212)
--76 19
+-77 19
 fi=(213)
-+39 6
++40 6
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20550,12 +20334,12 @@ calls=1 0
 +3 1
 +2 16
 fe=(212)
--43 19
+-44 19
 fi=(213)
--82 3
+-81 3
 +4 1
 fe=(212)
-+79 2
++78 2
 +1 3
 +1 6
 
@@ -20580,7 +20364,7 @@ calls=192 -87
 * 192
 * 384
 fi=(213)
-228 1152
+229 1152
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20592,7 +20376,7 @@ calls=192 0
 fe=(212)
 91 1920
 fi=(213)
-228 1152
+229 1152
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20607,7 +20391,7 @@ fe=(212)
 +1 384
 +1 27648
 fi=(213)
-228 13824
+229 13824
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20620,13 +20404,13 @@ fe=(212)
 96 71424
 cfi=(214)
 cfn=(7024)
-calls=2304 335 
+calls=2304 359 
 * 126563328
 * 57600
 -1 55296
 cfi=(214)
 cfn=(7024)
-calls=2304 335 
+calls=2304 359 
 * 126563328
 * 28224
 +5 1344
@@ -20635,13 +20419,13 @@ calls=192 -83
 * 17694144
 * 192
 fi=(213)
-248 576
+249 576
 +1 384
 +1 3072
 fe=(212)
 100 1920
 fi=(213)
-228 1152
+229 1152
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20654,11 +20438,11 @@ fe=(212)
 101 5952
 cfi=(214)
 cfn=(7024)
-calls=192 335 
+calls=192 359 
 * 10546944
 * 2112
 fi=(213)
-228 1152
+229 1152
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20671,11 +20455,11 @@ fe=(212)
 101 5952
 cfi=(214)
 cfn=(7024)
-calls=192 335 
+calls=192 359 
 * 10546944
 * 5184
 fi=(213)
-228 1152
+229 1152
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20688,11 +20472,11 @@ fe=(212)
 102 5952
 cfi=(214)
 cfn=(7024)
-calls=192 335 
+calls=192 359 
 * 10546944
 * 2112
 fi=(213)
-228 1152
+229 1152
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20705,11 +20489,11 @@ fe=(212)
 102 5952
 cfi=(214)
 cfn=(7024)
-calls=192 335 
+calls=192 359 
 * 10546944
 * 6720
 fi=(213)
-243 1152
+244 1152
 cob=(2)
 cfi=(2)
 cfn=(4454)
@@ -20744,36 +20528,20 @@ calls=192 -76
 +1 192
 +5 576
 
-fn=(7176)
-195 2016
-+1 11808
-cfi=(214)
-cfn=(7024)
-calls=288 335 
-* 15820416
-* 9792
-+1 6624
-cfi=(214)
-cfn=(7178) bf192_mul_64
-calls=288 347 
-* 4760352
-* 9792
-+1 1728
-
 fl=(10) /home/kent/Desktop/embedded-faest/faest/build/faest_em_192f.c
 fn=(4638) faest_em_192f_verify
 94 11
 +1 6
 +4 4
-cfi=(11)
-cfn=(4640)
+cfi=(11) /home/kent/Desktop/embedded-faest/faest/build/../instances.c
+cfn=(4640) faest_get_paramset
 calls=1 +27 
 * 50
 +1 10
 cfi=(12) /home/kent/Desktop/embedded-faest/faest/build/../faest.c
 cfn=(4642) faest_verify
-calls=1 363 
-* 984343328
+calls=1 352 
+* 984322342
 +1 5
 
 fl=(16)
@@ -20880,87 +20648,18 @@ calls=102 343
 +1 204
 
 fl=(214)
-fn=(7024)
-335 87724
-+1 37596
-+1 25064
-+1 31116956
-cfn=(7026) bf192_bit_to_uint64_mask
-calls=2393612 -10 
-* 45478628
-* 131648660
-+2 47872240
-cfn=(7026)
-calls=2393612 -12 
-* 45478628
-* 4787224
-+1 50265852
-cfn=(7028) bf192_shift_left_1
-calls=2393612 -26 
-* 270478156
-* 40691404
-+1 11968060
--5 7205900
-+7 150384
-cfn=(7026)
-calls=12532 -16 
-* 238108
-* 802048
-+1 75192
-
-fn=(7182) bf192_dbl
-365 1337
-+1 3820
-cfn=(7026)
-calls=191 -38 
-* 3629
-* 382
-+1 4011
-cfn=(7028)
-calls=191 -52 
-* 21583
-* 3247
-+1 955
-+2 3247
-+1 1146
-
-fn=(7166)
-263 20
-+2 6
-fi=(213)
--5 6
--6 6
-+1 4
-+1 32
-+4 32
-fe=(214)
-+5 130
-+1 84
--1 24
-+2 84
--1 24
-+2 84
--1 24
-+2 84
--1 24
-+2 84
--1 24
-+2 84
--1 42
-+9 12
-
-fn=(7028)
-315 9647788
+fn=(7028) bf192_shift_left_1
+339 9647788
 +2 12059735
 +1 69946463
 fi=(213)
--54 7235841
+-77 7235841
 +1 19295576
 fe=(214)
-+53 147128767
++76 147128767
 +7 7235841
 
-fn=(7134)
+fn=(7134) bf8_inv
 56 240
 +1 144
 cfn=(7136) bf8_square
@@ -21018,13 +20717,13 @@ calls=48 -32
 * 8640
 +1 96
 
-fn=(7164)
-255 10368
+fn=(7164) bf192_byte_combine
+271 10368
 +1 7776
 +1 1728
 +1 302400
 cfn=(7024)
-calls=6048 +77 
+calls=6048 +85 
 * 332228736
 * 151200
 -1 19872
@@ -21042,8 +20741,8 @@ fn=(7138)
 +5 1440
 +1 480
 
-fn=(7026)
-328 14454273
+fn=(7026) bf192_bit_to_uint64_mask
+352 14454273
 +1 14454273
 +1 14454273
 +2 38544728
@@ -21062,7 +20761,7 @@ fn=(7136)
 +1 576
 
 fn=(7178)
-347 2304
+371 2304
 +1 864
 +1 576
 +1 1106784
@@ -21081,12 +20780,12 @@ calls=18144 -38
 +7 18720
 +1 1728
 
-fn=(7180)
-373 12
+fn=(7180) bf192_sum_poly
+397 12
 +1 10
 +1 2
 +1 2483
-cfn=(7182)
+cfn=(7182) bf192_dbl
 calls=191 -11 
 * 43357
 * 7449
@@ -21104,6 +20803,75 @@ fn=(7034)
 -3 3863808
 +5 14976
 +1 29952
+
+fn=(7024)
+359 87724
++1 37596
++1 25064
++1 31116956
+cfn=(7026)
+calls=2393612 -10 
+* 45478628
+* 131648660
++2 47872240
+cfn=(7026)
+calls=2393612 -12 
+* 45478628
+* 4787224
++1 50265852
+cfn=(7028)
+calls=2393612 -26 
+* 270478156
+* 40691404
++1 11968060
+-5 7205900
++7 150384
+cfn=(7026)
+calls=12532 -16 
+* 238108
+* 802048
++1 75192
+
+fn=(7182)
+389 1337
++1 3820
+cfn=(7026)
+calls=191 -38 
+* 3629
+* 382
++1 4011
+cfn=(7028)
+calls=191 -52 
+* 21583
+* 3247
++1 955
++2 3247
++1 1146
+
+fn=(7166) bf192_byte_combine_bits
+287 20
++2 6
+fi=(213)
+-28 6
+-6 6
++1 4
++1 32
++4 32
+fe=(214)
++28 130
++1 84
+-1 24
++2 84
+-1 24
++2 84
+-1 24
++2 84
+-1 24
++2 84
+-1 24
++2 84
+-1 42
++9 12
 
 fl=(208)
 fn=(6868)
@@ -21214,6 +20982,25 @@ calls=12096 +18
 +1 22680
 
 fl=(14)
+fn=(6890)
+280 6048
++1 6048
+cfi=(207)
+cfn=(6892)
+calls=1512 50 
+* 48258504
++1 4536
+
+fn=(6864)
+250 7560
++1 3024
++3 10584
+cfi=(207)
+cfn=(6866)
+calls=1512 25 
+* 415800
++2 4536
+
 fn=(6878) hash_update_x4
 258 27216
 +1 31752
@@ -21296,28 +21083,9 @@ calls=500 39
 * 18090657
 +1 1500
 
-fn=(6890)
-280 6048
-+1 6048
-cfi=(207)
-cfn=(6892)
-calls=1512 50 
-* 48258504
-+1 4536
-
-fn=(6864)
-250 7560
-+1 3024
-+3 10584
-cfi=(207)
-cfn=(6866)
-calls=1512 25 
-* 415800
-+2 4536
-
 fl=(12)
 fn=(6998) dsignature_c
-111 925
+113 925
 +1 925
 +1 925
 +1 1110
@@ -21325,7 +21093,7 @@ fn=(6998) dsignature_c
 +1 370
 
 fn=(7014) dsignature_u_tilde
-120 772
+122 772
 +1 965
 +1 965
 +1 1158
@@ -21333,7 +21101,7 @@ fn=(7014) dsignature_u_tilde
 +1 386
 
 fn=(7040) dsignature_d
-129 8
+131 8
 +1 10
 +1 10
 +1 12
@@ -21342,7 +21110,7 @@ fn=(7040) dsignature_d
 +1 4
 
 fn=(4754) dsignature_pdec
-149 120
+151 120
 +1 96
 +1 120
 +1 120
@@ -21356,7 +21124,7 @@ fn=(4754) dsignature_pdec
 +4 48
 
 fn=(4642)
-363 16
+352 16
 +1 4
 +1 4
 +1 3
@@ -21369,7 +21137,7 @@ fn=(4642)
 +1 4
 +4 14
 cfn=(4644) hash_mu
-calls=1 199 
+calls=1 201 
 * 11349
 * 1
 +4 4
@@ -21394,128 +21162,255 @@ calls=1 0
 +8 2
 +1 144
 cfn=(4754)
-calls=24 149 
+calls=24 151 
 * 1560
 * 48
 +1 144
 cfn=(4756) dsignature_com
-calls=24 168 
+calls=24 170 
 * 1656
 * 48
 -2 99
 +4 5
 cfn=(4758) dsignature_chall_3
-calls=1 188 
+calls=1 190 
 * 18
 * 6
 cfn=(4760) dsignature_iv
-calls=1 194 
+calls=1 196 
 * 12
 * 14
 cfi=(18)
 cfn=(4762)
 calls=1 134 
-* 251170443
+* 251170309
 * 1
 +6 5
 cfn=(4760)
-calls=1 194 
+calls=1 196 
 * 12
-* 6
-cfn=(6998)
-calls=1 111 
-* 28
-* 14
-cfn=(7000) hash_challenge_1
-calls=1 210 
-* 462255
-* 1
-+4 4
-cob=(2)
-cfi=(2)
-cfn=(4150)
-calls=1 0 
-* 420
-* 1
-* 1
-+1 5
-cob=(2)
-cfi=(2)
-cfn=(4742)
-calls=1 0 
-* 65210
-* 1
-* 3
-+1 2
-+1 2101
--1 767
-+4 4
-cob=(2)
-cfi=(2)
-cfn=(4150)
-calls=1 0 
-* 243
-* 1
-* 1
-+1 7
-cob=(2)
-cfi=(2)
-cfn=(4742)
-calls=1 0 
-* 5425
-* 1
-* 3
-+1 2
-+1 2292
--1 767
-+4 1
-+1 1
-+1 2
-+1 120
-+5 48
--1 24
-+1 48
--1 288
-cfn=(4758)
-calls=24 188 
-* 432
-* 264
-cfi=(18)
-cfn=(4774)
-calls=24 59 
-* 5760
-* 24
-+3 48
-+2 576
-+1 192
-+1 384
--1 2112
-cfn=(7014)
-calls=192 120 
-* 5952
-* 2112
-cfi=(211)
-cfn=(7016) masked_xor_u8_array
-calls=192 23 
-* 103872
--3 1032
-+7 48
-+2 17
-cob=(2)
-cfi=(2)
-cfn=(4454)
-calls=1 0 
-* 281
-* 1
-+1 3
-+3 46
-+1 2944
-cfn=(6998)
-calls=184 111 
-* 5152
 
 ob=(2)
 fl=(2)
+fn=(3320)
+0 2
+
+fn=(3340)
+0 50
+
+fn=(3362)
+0 21
+
+fn=(3368)
+0 21
+
+fn=(4192)
+0 13
+cfn=(4198)
+calls=1 0 
+0 363
+0 99
+
+fn=(4332) 0x00000000000891a0
+0 75
+
+fn=(4410)
+0 18
+
+fn=(4442) _IO_switch_to_get_mode
+0 175
+
+fn=(4512) _IO_unsave_markers
+0 30
+
+fn=(4666)
+0 1091563
+
+fn=(4844)
+0 504
+
+fn=(4878)
+0 341496
+
+fn=(4976) 0x000000000009f170
+0 1831
+cfn=(4198)
+calls=35 0 
+0 10550
+0 595
+cfn=(4454)
+calls=35 0 
+0 1706
+0 140
+cfn=(4520)
+calls=35 0 
+0 1929
+0 55
+cfn=(4520)
+calls=2 0 
+0 246
+0 16
+cfn=(5152)
+calls=2 0 
+0 46
+0 4
+
+fn=(5020)
+0 60
+
+fn=(5342)
+0 14292
+
+fn=(5372)
+0 11351
+cob=(3)
+cfi=(3)
+cfn=(5378)
+calls=393 0 
+0 10610
+0 1194
+cfn=(4454)
+calls=3 0 
+0 42
+0 2012
+cfn=(5374) __uflow
+calls=5 0 
+0 1027
+0 6289
+cfn=(4454)
+calls=390 0 
+0 5522
+0 4294
+
+fn=(5374)
+0 145
+cfn=(5376)
+calls=5 0 
+0 857
+0 25
+
+fn=(5380)
+0 9824
+
+fn=(7212) exit
+0 8
+cfn=(7214)
+calls=1 0 
+0 930298
+
+fn=(4086) 0x0000000000029c50
+0 11
+cfn=(4088)
+calls=1 0 
+0 34
+0 15
+cob=(7)
+cfi=(9)
+cfn=(4100)
+calls=1 0 
+0 984331295
+0 2
+cfn=(7212)
+calls=1 0 
+0 930306
+
+fn=(3296)
+0 28
+
+fn=(3324)
+0 48
+
+fn=(3326)
+0 66
+
+fn=(3328)
+0 18
+
+fn=(3330)
+0 44
+
+fn=(3350)
+0 38
+
+fn=(3358)
+0 46
+
+fn=(3378)
+0 50
+
+fn=(4342) 0x0000000000085ee0
+0 18
+cfn=(4344)
+calls=3 0 
+0 258
+0 9
+
+fn=(4446)
+0 64
+
+fn=(4510)
+0 48
+cfn=(4512)
+calls=3 0 
+0 30
+0 30
+cfn=(4514)
+calls=3 0 
+0 27
+0 27
+cfn=(4420)
+calls=3 0 
+0 629
+0 18
+cfn=(4470)
+calls=3 0 
+0 12
+0 30
+
+fn=(4520)
+0 101
+cfn=(4254)
+calls=1 0 
+0 27
+0 8
+cfn=(4254)
+calls=1 0 
+0 45
+0 2
+cfn=(4254)
+calls=1 0 
+0 27
+0 23762
+cfn=(5152)
+calls=126 0 
+0 2532
+0 4194
+cfn=(4558)
+calls=699 0 
+0 25290
+0 1629582
+
+fn=(4932)
+0 10
+
+fn=(4958)
+0 72660
+
+fn=(7628)
+0 13
+cfn=(7630) _IO_flush_all
+calls=1 0 
+0 182
+0 6
+cfn=(4346)
+calls=1 0 
+0 13
+0 74
+cfn=(4350)
+calls=1 0 
+0 9
+0 59
+
 fn=(3308)
 0 22
 
@@ -21543,7 +21438,7 @@ fn=(3380)
 fn=(3962)
 0 59
 
-fn=(4152) 0x000000000009c080
+fn=(4152)
 0 793
 cob=(1)
 cfi=(1)
@@ -21618,12 +21513,12 @@ calls=1 0
 0 22
 0 9
 
-fn=(4258) brk
+fn=(4258)
 0 54
 
 fn=(4330) 0x0000000000089210
 0 33
-cfn=(4332) 0x00000000000891a0
+cfn=(4332)
 calls=3 0 
 0 75
 0 57
@@ -21633,7 +21528,7 @@ fn=(4370)
 
 fn=(4438) __underflow
 0 60
-cfn=(4440) _IO_file_underflow
+cfn=(4440)
 calls=2 0 
 0 182
 0 6
@@ -21641,7 +21536,7 @@ calls=2 0
 fn=(4454)
 0 1355127
 
-fn=(4516) __close_nocancel
+fn=(4516)
 0 18
 
 fn=(4942)
@@ -21649,14 +21544,14 @@ fn=(4942)
 
 fn=(4974)
 0 2479
-cfn=(4976) 0x000000000009f170
+cfn=(4976)
 calls=37 0 
 0 17118
 0 444
 
 fn=(5368)
 0 12512
-cfn=(5370) _IO_getline
+cfn=(5370)
 calls=391 0 
 0 43514
 0 13288
@@ -21673,9 +21568,9 @@ cfn=(4084)
 calls=1 0 
 0 5
 0 6
-cfn=(4086) 0x0000000000029c50
+cfn=(4086)
 calls=1 0 
-0 985282649
+0 985261663
 0 11
 cob=(3)
 cfi=(3)
@@ -21740,11 +21635,11 @@ cfn=(208)
 calls=1 0 
 0 23
 0 18
-cfn=(3820) __ctype_init
+cfn=(3820)
 calls=1 0 
 0 17
 0 7
-cfn=(3822) getrlimit
+cfn=(3822)
 calls=1 0 
 0 10
 0 30
@@ -21763,46 +21658,477 @@ cfn=(4330)
 calls=3 0 
 0 165
 0 12
-cfn=(4342) 0x0000000000085ee0
+cfn=(4342)
 calls=3 0 
 0 285
 0 15
-cfn=(4358) _IO_file_fopen
+cfn=(4358)
 calls=3 0 
 0 663
 0 42
 
-fn=(4304) 0x000000000009b4b0
+fn=(4304)
 0 18524
 
-fn=(4360) _IO_file_open
+fn=(4360)
 0 39
-cfn=(4362) open
+cfn=(4362)
 calls=3 0 
 0 99
 0 45
-cfn=(4344) _IO_link_in
+cfn=(4344)
 calls=3 0 
 0 54
 0 15
 
-fn=(4470) _IO_un_link
+fn=(4470)
 0 42
-cfn=(4346) 0x000000000008bfb0
+cfn=(4346)
 calls=3 0 
 0 39
 0 99
-cfn=(4350) 0x000000000008c000
+cfn=(4350)
 calls=3 0 
 0 27
 0 111
 
 fn=(4566) 0x000000000009cda0
-0 64
+0 26
+
+ob=(6)
+fl=(12)
+fn=(4642)
+390 6
+cfn=(6998)
+calls=1 113 
+* 28
+* 14
+cfn=(7000) hash_challenge_1
+calls=1 212 
+* 462255
+* 1
++4 4
+cob=(2)
+cfi=(2)
+cfn=(4150)
+calls=1 0 
+* 420
+* 1
+* 1
++1 5
+cob=(2)
+cfi=(2)
+cfn=(4742)
+calls=1 0 
+* 65210
+* 1
+* 3
++1 2
++1 2101
+-1 767
++4 4
+cob=(2)
+cfi=(2)
+cfn=(4150)
+calls=1 0 
+* 243
+* 1
+* 1
++1 7
+cob=(2)
+cfi=(2)
+cfn=(4742)
+calls=1 0 
+* 5425
+* 1
+* 3
++1 2
++1 2292
+-1 767
++4 1
++1 1
++1 2
++1 120
++5 48
+-1 24
++1 48
+-1 288
+cfn=(4758)
+calls=24 190 
+* 432
+* 264
+cfi=(18)
+cfn=(4774)
+calls=24 59 
+* 5760
+* 24
++3 48
++2 576
++1 192
++1 384
+-1 2112
+cfn=(7014)
+calls=192 122 
+* 5952
+* 2112
+cfi=(211)
+cfn=(7016) masked_xor_u8_array
+calls=192 23 
+* 103872
+-3 1032
++7 48
++2 17
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=1 0 
+* 281
+* 1
++1 3
++3 46
++1 2944
+cfn=(6998)
+calls=184 113 
+* 5152
+* 2024
+cfi=(211)
+cfn=(7016)
+calls=184 23 
+* 1247704
+-1 989
+-21 99
++27 4
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 148
+* 1
++1 3
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 209
+* 1
++1 1
++6 5
+cfi=(13)
+cfn=(4646)
+calls=1 54 
+* 132
++3 2
++2 2304
+cfi=(212)
+cfn=(7018)
+calls=192 145 
+* 313549824
++2 2304
+cfi=(211)
+cfn=(7038) xor_u8_array.lto_priv.1
+calls=192 16 
+* 92736
++1 1536
+cfi=(13)
+cfn=(4678)
+calls=192 58 
+* 376892
+-5 771
++8 8
+cfi=(13)
+cfn=(4706)
+calls=1 62 
+* 8425
++2 4
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 176
+* 1
++1 3
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 185
+* 1
++1 1
++4 5
+cfn=(7040)
+calls=1 131 
+* 36
+* 6
+cfn=(7014)
+calls=1 122 
+* 31
+* 14
+cfn=(7042) hash_challenge_2
+calls=1 227 
+* 35576
+* 1
++5 5
+cfn=(7044) dsignature_a_tilde
+calls=1 141 
+* 38
+* 6
+cfn=(4758)
+calls=1 190 
+* 18
+* 6
+cfn=(7040)
+calls=1 131 
+* 36
+* 11
+cfi=(215) /home/kent/Desktop/embedded-faest/faest/build/../faest_aes.c
+cfn=(7046) aes_verify
+calls=1 3468 
+* 417062477
+* 2
++2 4
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 165
+* 1
++1 3
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 222
+* 1
++1 1
++4 5
+cfn=(7044)
+calls=1 141 
+* 38
+* 10
+cfn=(7190) hash_challenge_3
+calls=1 242 
+* 9833
++1 3
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 76
+* 1
++1 1
++3 6
+cfn=(4758)
+calls=1 190 
+* 18
+* 6
+cob=(1)
+cfi=(1)
+cfn=(4111)
+calls=1 0 
+* 725
+* 5
+* 4
++1 10
+
+fn=(7000)
+212 12
++1 3
++1 8
++3 5
+cfi=(13)
+cfn=(7002)
+calls=1 70 
+* 132
++1 8
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 341
++1 8
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 646
++1 9
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 452219
++1 6
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 406
++1 11
+cfi=(13)
+cfn=(7006)
+calls=1 78 
+* 8435
++1 6
+
+fn=(7044)
+141 8
++1 10
++1 10
++1 12
++1 6
++2 26
++1 4
+
+fn=(7190)
+242 11
++1 3
++3 5
+cfi=(13)
+cfn=(7002)
+calls=1 70 
+* 132
++1 11
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 429
++1 6
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 397
++1 6
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 397
++1 6
+cfi=(13)
+cfn=(7006)
+calls=1 78 
+* 8424
++1 6
+
+fn=(4644)
+201 12
++2 5
+cfi=(13)
+cfn=(4646)
+calls=1 54 
+* 842
++1 6
+cfi=(13)
+cfn=(4678)
+calls=1 58 
+* 270
++1 6
+cfi=(13)
+cfn=(4678)
+calls=1 58 
+* 1278
++1 6
+cfi=(13)
+cfn=(4678)
+calls=1 58 
+* 484
++1 9
+cfi=(13)
+cfn=(4706)
+calls=1 62 
+* 8425
++1 6
+
+fn=(4760)
+196 8
++1 12
++1 4
+
+fn=(7042)
+227 12
++1 3
++1 3
++1 3
++3 5
+cfi=(13)
+cfn=(7002)
+calls=1 70 
+* 132
++1 11
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 561
++1 6
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 8327
++1 8
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 738
++1 6
+cfi=(13)
+cfn=(7004)
+calls=1 74 
+* 17309
++1 11
+cfi=(13)
+cfn=(7006)
+calls=1 78 
+* 8435
++1 6
+
+fn=(4756)
+170 120
++1 96
++1 120
++1 120
++1 144
++1 72
++3 312
+-1 24
++2 72
++4 168
++1 120
+-1 144
++1 48
+-1 48
++4 48
+
+fn=(4758)
+190 108
++1 135
++1 189
++1 54
+
+fl=(211)
+fn=(6976)
+16 73440
++1 24480
++1 57919680
+-1 16585200
++3 48960
+
+fn=(7038)
+16 1152
++1 384
++1 69888
+-1 20544
++3 768
+
+fn=(7016)
+23 3008
++1 1504
++1 752
++1 1074944
+-1 268736
+
+ob=(2)
+fl=(2)
+fn=(4566)
+0 38
 
 fn=(4824)
 0 240
-cfn=(4834) _pthread_cleanup_push
+cfn=(4834)
 calls=6 0 
 0 42
 0 6
@@ -21909,20 +22235,20 @@ calls=11 0
 0 66
 0 3346
 
-fn=(5152) 0x000000000009bd30
+fn=(5152)
 0 7136
 
-fn=(7080) 0x000000000009f3e0
+fn=(7080)
 0 57
-cfn=(4198) 0x000000000009e040
+cfn=(4198)
 calls=3 0 
 0 830
 0 94
-cfn=(4540) 0x000000000009d270
+cfn=(4540)
 calls=2 0 
 0 162
 0 75
-cfn=(4558) 0x000000000009bfb0
+cfn=(4558)
 calls=3 0 
 0 104
 0 37
@@ -21931,7 +22257,7 @@ calls=2 0
 0 64
 0 2
 
-fn=(7218) __call_tls_dtors
+fn=(7218)
 0 12
 
 fn=(7520)
@@ -21941,7 +22267,7 @@ calls=4 0
 0 64
 0 48
 
-fn=(7630) _IO_flush_all
+fn=(7630)
 0 17
 cfn=(4346)
 calls=1 0 
@@ -21958,7 +22284,7 @@ cfn=(6936) mmap
 calls=1 0 
 0 23
 0 9
-cfn=(6946) 0x000000000010d530
+cfn=(6946)
 calls=1 0 
 0 53
 0 32
@@ -21966,7 +22292,7 @@ calls=1 0
 fn=(6936)
 0 23
 
-fn=(6988) munmap
+fn=(6988)
 0 6
 
 fn=(4006)
@@ -21999,13 +22325,13 @@ calls=1 0
 0 23
 0 6
 
-fn=(4238) 0x000000000009d7b0
+fn=(4238)
 0 316
 cfn=(6932)
 calls=1 0 
 0 134
 0 85
-cfn=(4254) __default_morecore
+cfn=(4254)
 calls=1 0 
 0 27
 0 26
@@ -22014,9 +22340,9 @@ calls=4 0
 0 187
 0 134
 
-fn=(4396) _IO_sgetn
+fn=(4396)
 0 116
-cfn=(4444) _IO_file_read
+cfn=(4444)
 calls=1 0 
 0 14
 0 31
@@ -22028,14 +22354,14 @@ cfn=(4438)
 calls=2 0 
 0 248
 0 14
-cfn=(4404) _IO_doallocbuf
+cfn=(4404)
 calls=2 0 
 0 560
 0 28
 
-fn=(4406) _IO_file_doallocate
+fn=(4406)
 0 63
-cfn=(4408) _IO_file_stat
+cfn=(4408)
 calls=3 0 
 0 27
 0 36
@@ -22043,14 +22369,14 @@ cfn=(4150)
 calls=3 0 
 0 510
 0 21
-cfn=(4420) _IO_setb
+cfn=(4420)
 calls=3 0 
 0 84
 0 27
 
 fn=(4440)
 0 152
-cfn=(4442) _IO_switch_to_get_mode
+cfn=(4442)
 calls=7 0 
 0 175
 0 112
@@ -22066,6 +22392,611 @@ calls=1 0
 fn=(4854)
 0 102
 
+ob=(6)
+fl=(211)
+fn=(7016)
+25 1128
++3 1504
+
+fn=(7050) xor_u8_array.lto_priv.2
+16 528
++1 176
++1 354816
+-1 101640
++3 352
+
+fn=(7036)
+16 1152
++1 384
++1 69888
+-1 20544
++3 768
+
+fl=(215)
+fn=(7046)
+3468 9
++1 5
++8 4
++3 12
+cfn=(7048) em_verify_192
+calls=1 2976 
+* 417062443
+* 2
++9 2
+
+fn=(7162) em_enc_forward_192
+2671 14
++2 2
++1 384
+cfi=(214)
+cfn=(7164)
+calls=24 271 
+* 9242688
+* 384
++1 48
++1 576
+cfi=(214)
+cfn=(7164)
+calls=24 271 
+* 9242688
+* 888
+-3 74
++7 4
+cfi=(214)
+cfn=(7166)
+calls=1 287 
+* 457
+* 8
++1 4
+cfi=(214)
+cfn=(7166)
+calls=1 287 
+* 457
+* 8
++2 2
++1 22
++1 660
++1 660
++4 132
++2 3432
+cfi=(214)
+cfn=(7164)
+calls=264 271 
+* 101669568
+* 5544
++1 528
++1 3432
+cfi=(214)
+cfn=(7164)
+calls=264 271 
+* 101669568
+* 5808
+-4 924
++10 2046
+cfi=(214)
+cfn=(7024)
+calls=66 359 
+* 3625512
+* 2640
+cfi=(214)
+cfn=(7024)
+calls=66 359 
+* 3625512
+* 2508
++1 3300
++1 3300
++1 3300
++2 2574
+cfi=(214)
+cfn=(7024)
+calls=66 359 
+* 3625512
+* 2640
++1 3036
+cfi=(214)
+cfn=(7024)
+calls=66 359 
+* 3625512
+* 2640
++1 3564
++1 3564
++2 3102
++1 3036
+cfi=(214)
+cfn=(7024)
+calls=66 359 
+* 3625512
+* 2640
++1 3036
+cfi=(214)
+cfn=(7024)
+calls=66 359 
+* 3625512
+* 2640
++1 3564
++2 2046
+cfi=(214)
+cfn=(7024)
+calls=66 359 
+* 3625512
+* 3168
++1 3564
++1 3036
+cfi=(214)
+cfn=(7024)
+calls=66 359 
+* 3625512
+* 2640
++1 3564
+-34 220
+-1 35
++38 10
+
+fn=(7048)
+2976 21
++1 4
++1 4
++1 4
++1 4
++1 4
++2 2
++2 3
++1 120
++2 264
+cfi=(18)
+cfn=(4774)
+calls=24 59 
+* 5760
+* 24
++1 48
++1 768
++1 1232
+cfi=(211)
+cfn=(7050)
+calls=88 16 
+* 457512
+-2 1032
+-4 99
++11 4
+cfn=(7052) column_to_row_major_and_shrink_V_192
+calls=1 95 
+* 17428416
+* 1
++6 5
+cfi=(20)
+cfn=(7120) rijndael192_init_round_keys
+calls=1 210 
+* 115911
++1 2
++1 2
++1 26
++1 780
++1 78
+-2 260
+-1 41
++9 5
+cfi=(212)
+cfn=(7140)
+calls=1 184 
+* 142
++1 8
+cfn=(7144) em_enc_constraints_Mkey_1_192
+calls=1 -96 
+* 398829935
++2 2
+cob=(2)
+cfi=(2)
+cfn=(4150)
+calls=1 0 
+* 548
+* 1
+* 1
++1 6
+cfi=(214)
+cfn=(7180)
+calls=1 397 
+* 53905
+* 21
+cfi=(212)
+cfn=(7184)
+calls=1 200 
+* 110116
+* 1
++1 3
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 165
+* 1
+* 2
+fi=(213)
+229 6
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=1 0 
+* 11
+* 1
++3 1
++2 16
+fe=(215)
+3020 10
+fi=(213)
+229 6
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=1 0 
+* 11
+* 1
++3 1
++2 16
+fe=(215)
+3021 10
+fi=(213)
+229 6
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=1 0 
+* 11
+* 1
++3 1
++2 16
+fe=(215)
+3021 31
+cfi=(214)
+cfn=(7024)
+calls=1 359 
+* 54932
+* 35
+fi=(213)
+244 6
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=1 0 
+* 11
+* 1
++2 1
+fe=(215)
+3023 1
++1 7
+
+fn=(7052)
+95 10
++4 7
+cob=(1)
+cfi=(1)
+cfn=(4111)
+calls=1 -99 
+* 1308
+* 5
+* 1
++1 2
++1 7488
++1 4992
++1 15814656
+-1 1442688
++3 17472
+fi=(213)
+229 14976
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=2496 0 
+* 27456
+* 2496
++3 2496
++2 39936
+fe=(215)
+105 39936
+-5 12484
++8 1
++1 6
+
+fn=(7168) em_enc_backward_192
+2804 19
++2 4
+fi=(213)
+229 6
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=1 0 
+* 11
+* 1
++3 1
++2 16
+fe=(215)
+2806 17
++2 37
+fi=(213)
+261 3
+-6 3
++1 2
++1 16
++4 16
+fe=(215)
+2808 42
+-1 17
++3 2
++1 24
++1 144
++2 4896
++2 3456
+-1 576
++3 576
++1 2640
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=264 0 
+* 7920
+* 264
+* 264
++2 48
++2 7488
++1 384
++1 11520
+-4 624
++10 576
++1 218880
+-1 7488
++4 9504
++1 8928
++3 6048
+cfi=(214)
+cfn=(7164)
+calls=288 271 
+* 110912256
+* 4608
+-27 1008
+-1 240
+-1 38
++33 7
+
+fn=(7144)
+2918 17
+fi=(213)
+229 6
+cob=(2)
+cfi=(2)
+cfn=(4454)
+calls=1 0 
+* 11
+* 1
++3 1
++2 16
+fe=(215)
+2921 8
++1 3
+cob=(2)
+cfi=(2)
+cfn=(7058)
+calls=1 0 
+* 445
+* 1
+* 1
++1 2
++1 144768
+-1 7490
++5 3
+cob=(2)
+cfi=(2)
+cfn=(7058)
+calls=1 0 
+* 615
+* 1
+* 1
++1 2
++1 16320
+-1 578
++6 6
+cfn=(7162)
+calls=1 2671 
+* 250924473
++1 12
+cfn=(7168)
+calls=1 2804 
+* 111210618
+* 1
++1 3
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 205
+* 1
++1 3
+cob=(2)
+cfi=(2)
+cfn=(4518)
+calls=1 0 
+* 194
+* 1
++3 23
+cfi=(214)
+cfn=(7024)
+calls=1 359 
+* 54932
+* 9
++1 2
++1 14112
+cfi=(214)
+cfn=(7024)
+calls=288 359 
+* 15820416
+* 10944
+cfi=(212)
+cfn=(7176)
+calls=288 195 
+* 20622528
+* 288
+-1 866
++3 8
+
+fl=(20)
+fn=(7120)
+210 5
++1 7
+cfn=(7122) expand_key
+calls=1 -55 
+* 115897
++1 2
+
+fn=(7126) rot_word
+147 36
++1 36
++1 48
++1 60
++1 60
++1 48
++1 36
+
+fn=(7130) sub_words
+140 60
++1 60
+cfn=(7132) compute_sbox
+calls=12 41 
+* 25800
+* 24
++1 96
+cfn=(7132)
+calls=12 41 
+* 25800
+* 12
++1 96
+cfn=(7132)
+calls=12 41 
+* 25800
+* 12
++1 96
+cfn=(7132)
+calls=12 41 
+* 25800
+* 12
++1 48
+
+fn=(7132)
+41 240
++1 144
+cfi=(214)
+cfn=(7134)
+calls=48 +14 
+* 97920
+* 48
++2 432
++2 576
++2 576
++2 576
++2 624
++2 624
++2 624
++2 624
++1 96
++1 96
+
+fn=(7128) contains_zero
+37 36
++1 300
++1 24
+
+fn=(4784)
+297 132528
++65 24096
++5 12048
+cob=(5)
+cfi=(21)
+cfn=(4790)
+calls=12047 2636 
+* 84329
+cob=(1)
+cfi=(1)
+cfn=(4111)
+calls=1 0 
+* 869
+* 12052
+* 12048
++1 12048
++6 12048
+cob=(5)
+cfi=(22)
+cfn=(4796)
+calls=12047 73 
+* 1409499
+cob=(1)
+cfi=(1)
+cfn=(4111)
+calls=1 0 
+* 1137
+* 12052
+* 12048
++1 24096
++2 108432
+cob=(5)
+cfi=(22)
+cfn=(4808)
+calls=12047 499 
+* 37104773
+cob=(1)
+cfi=(1)
+cfn=(4111)
+calls=1 0 
+* 6648986
+* 12052
++4 12048
++1 24096
++1 1024128
+cob=(5)
+cfi=(22)
+cfn=(6822)
+calls=146303 660 
+* 37746174
+cob=(1)
+cfi=(1)
+cfn=(4111)
+calls=1 0 
+* 1173
+* 146308
+-1 926016
++3 48192
++1 61200
+cob=(5)
+cfi=(22)
+cfn=(6822)
+calls=6120 660 
+* 1566720
+* 6120
++2 72288
+cob=(5)
+cfi=(22)
+cfn=(6836)
+calls=12047 721 
+* 819196
+cob=(1)
+cfi=(1)
+cfn=(4111)
+calls=1 0 
+* 959
+* 12052
++1 36144
+cob=(5)
+cfi=(22)
+cfn=(6848)
+calls=12047 85 
+* 6914978
+cob=(1)
+cfi=(1)
+cfn=(4111)
+calls=1 0 
+* 1470
+* 12052
++2 72288
+
+ob=(2)
+fl=(2)
 fn=(4882)
 0 286
 
@@ -22079,1002 +23010,95 @@ calls=1 0
 0 591
 
 fn=(7472)
-0 39
-
-fn=(3314)
-0 22
-
-fn=(3336)
-0 72
-
-fn=(3342)
-0 7
-
-fn=(3344)
-0 38
-
-fn=(3510)
-0 7
-
-fn=(3820)
-0 17
-
-fn=(3948)
-0 32
-cob=(3)
-cfi=(3)
-cfn=(3960)
-calls=1 0 
-0 41
-0 12
-
-fn=(3980)
-0 12
-
-fn=(4362)
-0 99
-
-fn=(4394)
-0 58
-cfn=(4396)
-calls=2 0 
-0 1218
-0 52
-
-fn=(4408)
-0 9
-cfn=(4410) fstat
-calls=3 0 
-0 18
-
-fn=(4444)
-0 48
-cfn=(4446) read
-calls=8 0 
-0 64
-
-fn=(4518)
-0 599669
-cfn=(4520) 0x000000000009d3b0
-calls=29956 0 
-0 1683395
-0 149794
-cfn=(6982) 0x000000000009b4d0
-calls=1 0 
-0 35
-0 184
-
-fn=(4540)
-0 68
-cfn=(4558)
-calls=2 0 
-0 68
-0 26
-
-fn=(4046)
-0 36
-cfn=(4054) 0x00000000000422f0
-calls=2 0 
-0 68
-0 46
-
-fn=(7214) 0x00000000000429e0
-0 67
-cfn=(7682) _Exit
-calls=1 0 
-0 4
-0 26
-cob=(1)
-cfi=(1)
-cfn=(7432)
-calls=1 0 
-0 1418
-cob=(5)
-cfi=(27)
-cfn=(7236)
-calls=1 352 
-0 928399
-0 13
-cfn=(7218)
-calls=1 0 
-0 12
-0 2
-cfn=(7628) 0x0000000000089b40
-calls=1 0 
-0 356
-0 1
-
-fn=(6982)
-0 29
-cfn=(6988)
-calls=1 0 
 0 6
 
-fn=(3348)
-0 50
-
-fn=(3370)
-0 25
-
-fn=(3382)
-0 66
-
-fn=(3384)
-0 46
-
-fn=(3536)
-0 7
-
-fn=(4198)
-0 254026
-cfn=(6162) 0x000000000009be10
-calls=1 0 
-0 2539
-0 328866
-cfn=(5152)
-calls=68 0 
-0 1468
-0 19853
-cfn=(4304)
-calls=4631 0 
-0 18524
-0 85857
-cfn=(4238)
-calls=5 0 
-0 909
-0 15
-
-fn=(4256) sbrk
-0 142
-cfn=(4258)
-calls=1 0 
-0 9
-0 4
-cfn=(4258)
-calls=4 0 
-0 36
-0 37
-cfn=(4258)
-calls=1 0 
-0 9
-0 4
-
-fn=(4350)
-0 72
-
-fn=(4420)
-0 177
-cfn=(4518)
-calls=3 0 
-0 530
-0 6
-
-fn=(4558)
-0 20428
-cfn=(5152)
-calls=148 0 
-0 2990
-0 2044
-
-fn=(4742)
-0 1033
-cfn=(4198)
-calls=28 0 
-0 4663
-0 3998791
-
-fn=(4834)
-0 119
-
-fn=(5370)
-0 1173
-cfn=(5372) _IO_getline_info
-calls=391 0 
-0 42341
-
-fn=(7258)
-0 96
-
-fn=(7682)
-0 4
-
-fn=(6946)
-0 25
-cob=(1)
-cfi=(1)
-cfn=(208)
-calls=1 0 
-0 23
-0 5
-
-fn=(3322)
-0 34
-
-fn=(3332)
-0 22
-
-fn=(3352)
-0 50
-
-fn=(3360)
-0 42
-
-fn=(3364)
-0 14
-
-fn=(3372)
-0 72
-
-fn=(4254)
-0 40
-cfn=(4256)
-calls=8 0 
-0 241
-0 32
-
-fn=(4358)
-0 141
-cfn=(4360)
-calls=3 0 
-0 252
-0 18
-cfn=(4364) 0x00000000000a7370
-calls=3 0 
-0 171
-0 81
-
-fn=(4364)
-0 54
-cob=(3)
-cfi=(3)
-cfn=(4368)
-calls=3 0 
-0 69
-0 48
-
-fn=(4468)
-0 51
-cfn=(4584) _IO_file_finish
-calls=3 0 
-0 87
-0 45
-cfn=(4518)
-calls=3 0 
-0 228
-0 18
-cfn=(4470)
-calls=3 0 
-0 306
-0 39
-cfn=(4510) _IO_file_close_it
-calls=3 0 
-0 851
-0 60
-
-fn=(4514) _IO_file_close
-0 9
-cfn=(4516)
-calls=3 0 
-0 18
-
-fn=(5376) _IO_default_uflow
-0 65
-cfn=(4440)
-calls=5 0 
-0 746
-0 46
-
-fn=(6162)
-0 2306
-cfn=(5152)
-calls=3 0 
-0 60
-0 129
-cfn=(5152)
-calls=2 0 
-0 40
-0 4
-
-fn=(7058)
-0 117
-cfn=(7080)
-calls=3 0 
-0 1425
-0 84
-
-fn=(7196) 0x000000000015ab20
-0 19
-
-fn=(7380)
-0 20
-
-fn=(4586) _IO_default_finish
-0 48
-
-fn=(4054)
-0 68
-
-fn=(4090) __sigsetjmp
-0 31
-
-fn=(3306)
-0 21
-
-fn=(3386)
-0 14
-
-fn=(3822)
-0 10
-
-fn=(4150)
-0 720765
-cfn=(4192) 0x000000000009f030
-calls=1 0 
-0 475
-0 511723
-cfn=(4198)
-calls=4705 0 
-0 695651
-0 32936
-cfn=(4152)
-calls=1 0 
-0 1112
-0 2
-
-fn=(4344)
-0 135
-cfn=(4346)
-calls=3 0 
-0 39
-0 27
-cfn=(4350)
-calls=3 0 
-0 27
-0 84
-
-fn=(4346)
-0 104
-
-fn=(4404)
-0 54
-cfn=(4406)
-calls=3 0 
-0 768
-0 18
-
-fn=(4850)
-0 243
-
-fn=(4928)
-0 42
-
-fn=(5424)
-0 4024265
-
-fn=(7378)
-0 12
-
-fn=(7438)
-0 42
-
-fn=(4584)
-0 39
-cfn=(4586)
-calls=3 0 
-0 48
-
-fn=(3994)
-0 30
-cob=(3)
-cfi=(3)
-cfn=(3996)
-calls=2 0 
-0 32
-0 1048
-cob=(3)
-cfi=(3)
-cfn=(4004)
-calls=2 0 
-0 54
-0 18
-
-fn=(3998)
-0 91298
-
-fn=(4088) _setjmp
-0 3
-cfn=(4090)
-calls=1 0 
-0 31
-
-fn=(3318)
-0 18
-
-fn=(3320)
-0 20
-
-fn=(3340)
-0 50
-
-fn=(3362)
-0 21
-
-fn=(3368)
-0 21
-
-fn=(4192)
-0 13
-cfn=(4198)
-calls=1 0 
-0 363
-0 99
-
-fn=(4332)
-0 75
-
-fn=(4410)
-0 18
-
-fn=(4442)
-0 175
-
-fn=(4512) _IO_unsave_markers
-0 30
-
-fn=(4666)
-0 1091563
-
-fn=(4844)
-0 504
-
-fn=(4878)
-0 341496
-
-fn=(4976)
-0 1831
-cfn=(4198)
-calls=35 0 
-0 10550
-0 595
-cfn=(4454)
-calls=35 0 
-0 1706
-0 140
-cfn=(4520)
-calls=35 0 
-0 1929
-0 55
-cfn=(4520)
-calls=2 0 
-0 246
-0 16
-cfn=(5152)
-calls=2 0 
-0 46
-0 4
-
-fn=(5020)
-0 60
-
-fn=(5342)
-0 14292
-
-fn=(5372)
-0 11351
-cob=(3)
-cfi=(3)
-cfn=(5378)
-calls=393 0 
-0 10610
-0 1194
-cfn=(4454)
-calls=3 0 
-0 42
-0 2012
-cfn=(5374) __uflow
-calls=5 0 
-0 1027
-0 6289
-cfn=(4454)
-calls=390 0 
-0 5522
-0 4294
-
-fn=(5374)
-0 145
-cfn=(5376)
-calls=5 0 
-0 857
-0 25
-
-fn=(5380)
-0 9824
-
-fn=(7212) exit
-0 8
-cfn=(7214)
-calls=1 0 
-0 930298
-
-fn=(4086)
+ob=(6)
+fl=(20)
+fn=(7122)
+156 11
++1 1
++2 2
++1 84
+fi=(213)
+-83 12
+fe=(20)
++83 36
++1 90
+fi=(213)
+-84 12
+fe=(20)
++84 36
++1 90
+fi=(213)
+-85 12
+fe=(20)
++85 36
++1 90
+fi=(213)
+-86 12
+fe=(20)
++86 36
+-4 27
++7 3
++2 1368
++2 432
++1 36
+cfn=(7126)
+calls=12 -24 
+* 324
++1 36
+cfn=(7128)
+calls=12 37 
+* 360
+* 12
++1 36
+cfn=(7130)
+calls=12 -33 
+* 103716
++1 120
++3 144
++5 216
++2 1008
+-1 1008
++3 1008
+-1 1008
++3 1008
+-1 1008
++3 1008
+-1 1008
+-23 360
+
+ob=(2)
+fl=(2)
+fn=(7472)
 0 11
-cfn=(4088)
-calls=1 0 
-0 34
-0 15
-cob=(7)
-cfi=(9)
-cfn=(4100)
-calls=1 0 
-0 984352281
-0 2
-cfn=(7212)
-calls=1 0 
-0 930306
-
-fn=(3296)
-0 28
-
-fn=(3324)
-0 48
-
-fn=(3326)
-0 33
 
 ob=(6)
-fl=(12)
-fn=(4642)
-441 2024
-cfi=(211)
-cfn=(7016)
-calls=184 23 
-* 1247704
--1 989
--21 99
-+27 4
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 148
-* 1
-+1 3
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 209
-* 1
-+1 1
-+6 5
-cfi=(13)
-cfn=(4646)
-calls=1 54 
-* 132
-+3 2
-+2 2304
-cfi=(212)
-cfn=(7018)
-calls=192 145 
-* 313549824
-+2 2304
-cfi=(211)
-cfn=(7038) xor_u8_array.lto_priv.1
-calls=192 16 
-* 92736
-+1 1536
-cfi=(13)
-cfn=(4678)
-calls=192 58 
-* 376892
--5 771
-+8 8
-cfi=(13)
-cfn=(4706)
-calls=1 62 
-* 8425
-+2 4
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 176
-* 1
-+1 3
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 185
-* 1
-+1 1
-+4 5
-cfn=(7040)
-calls=1 129 
-* 36
-* 6
-cfn=(7014)
-calls=1 120 
-* 31
-* 14
-cfn=(7042) hash_challenge_2
-calls=1 225 
-* 35576
-* 1
-+5 5
-cfn=(7044) dsignature_a_tilde
-calls=1 139 
-* 38
-* 6
-cfn=(4758)
-calls=1 188 
-* 18
-* 6
-cfn=(7040)
-calls=1 129 
-* 36
-* 11
-cfi=(215)
-cfn=(7046)
-calls=1 2619 
-* 417083329
-* 2
-+2 4
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 165
-* 1
-+1 3
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 222
-* 1
-+1 1
-+4 5
-cfn=(7044)
-calls=1 139 
-* 38
-* 10
-cfn=(7190) hash_challenge_3
-calls=1 240 
-* 9833
-+1 3
-cob=(2)
-cfi=(2)
-cfn=(4518)
-calls=1 0 
-* 76
-* 1
-+1 1
-+3 6
-cfn=(4758)
-calls=1 188 
-* 18
-* 6
-cob=(1)
-cfi=(1)
-cfn=(4111)
-calls=1 0 
-* 725
-* 5
-* 4
+fl=(20)
+fn=(7122)
+166 77
++27 1
++1 5
+
+fl=(11)
+fn=(4640)
+126 4
 +1 10
-
-fn=(7000)
-210 12
-+1 3
-+1 8
-+3 5
-cfi=(13)
-cfn=(7002)
-calls=1 70 
-* 132
-+1 8
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 341
-+1 8
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 646
-+1 9
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 452219
-+1 6
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 406
-+1 11
-cfi=(13)
-cfn=(7006)
-calls=1 78 
-* 8435
-+1 6
-
-fn=(7044)
-139 8
-+1 10
-+1 10
-+1 12
-+1 6
-+2 26
-+1 4
-
-fn=(7190)
-240 11
-+1 3
-+3 5
-cfi=(13)
-cfn=(7002)
-calls=1 70 
-* 132
-+1 11
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 429
-+1 6
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 397
-+1 6
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 397
-+1 6
-cfi=(13)
-cfn=(7006)
-calls=1 78 
-* 8424
-+1 6
-
-fn=(4644)
-199 12
-+2 5
-cfi=(13)
-cfn=(4646)
-calls=1 54 
-* 842
-+1 6
-cfi=(13)
-cfn=(4678)
-calls=1 58 
-* 270
-+1 6
-cfi=(13)
-cfn=(4678)
-calls=1 58 
-* 1278
-+1 6
-cfi=(13)
-cfn=(4678)
-calls=1 58 
-* 484
-+1 9
-cfi=(13)
-cfn=(4706)
-calls=1 62 
-* 8425
-+1 6
-
-fn=(4760)
-194 8
-+1 12
-+1 4
-
-fn=(7042)
-225 12
-+1 3
-+1 3
-+1 3
-+3 5
-cfi=(13)
-cfn=(7002)
-calls=1 70 
-* 132
-+1 11
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 561
-+1 6
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 8327
-+1 8
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 738
-+1 6
-cfi=(13)
-cfn=(7004)
-calls=1 74 
-* 17309
-+1 11
-cfi=(13)
-cfn=(7006)
-calls=1 78 
-* 8435
-+1 4
++16 33
 
 ob=(2)
 fl=(2)
-fn=(3326)
-0 33
-
-fn=(3328)
-0 18
-
-fn=(3330)
-0 44
-
-fn=(3350)
-0 38
-
-fn=(3358)
-0 46
-
-fn=(3378)
-0 50
-
-fn=(4342)
-0 18
-cfn=(4344)
-calls=3 0 
-0 258
-0 9
-
-fn=(4446)
-0 64
-
-fn=(4510)
-0 48
-cfn=(4512)
-calls=3 0 
-0 30
-0 30
-cfn=(4514)
-calls=3 0 
-0 27
-0 27
-cfn=(4420)
-calls=3 0 
-0 629
-0 18
-cfn=(4470)
-calls=3 0 
-0 12
-0 30
-
-fn=(4520)
-0 101
-cfn=(4254)
-calls=1 0 
-0 27
-0 8
-cfn=(4254)
-calls=1 0 
-0 45
-0 2
-cfn=(4254)
-calls=1 0 
-0 27
-0 23762
-cfn=(5152)
-calls=126 0 
-0 2532
-0 4194
-cfn=(4558)
-calls=699 0 
-0 25290
-0 1629582
-
-fn=(4932)
-0 10
-
-fn=(4958)
-0 53017
+fn=(7472)
+0 13
 
 ob=(6)
-fl=(12)
-fn=(7042)
-237 2
-
-fn=(4756)
-168 120
-+1 96
-+1 120
-+1 120
-+1 144
-+1 72
-+3 312
--1 24
-+2 72
-+4 168
-+1 120
--1 144
-+1 48
--1 48
-+4 48
-
-fn=(4758)
-188 108
-+1 135
-+1 189
-+1 54
-
-fl=(211)
-fn=(7038)
-16 1152
-+1 384
-+1 69888
--1 20544
-+3 768
-
-fn=(7016)
-23 3008
-+1 1504
-+1 752
-+1 1074944
--1 269864
-+3 1504
-
-fn=(7050)
-16 552
-+1 184
+fl=(11)
+fn=(4640)
+155 3
 
 ob=(2)
 fl=(2)
-fn=(4958)
-0 19643
-
-fn=(7628)
-0 13
-cfn=(7630)
-calls=1 0 
-0 182
-0 6
-cfn=(4346)
-calls=1 0 
-0 13
-0 74
-cfn=(4350)
-calls=1 0 
+fn=(7472)
 0 9
-0 59
 
-ob=(6)
-fl=(211)
-fn=(7050)
-18 370944
--1 106260
-+3 368
-
-fn=(7036)
-16 1152
-+1 384
-+1 69888
--1 20544
-+3 768
-
-fn=(6976)
-16 73440
-+1 24480
-+1 57919680
--1 16585200
-+3 48960
-
-totals: 985845696
+totals: 985824710

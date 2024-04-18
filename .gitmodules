@@ -4,3 +4,6 @@
 [submodule "faest"]
 	path = faest
 	url = https://github.com/johandegn/faest-ref
+[submodule "chipwhisperer"]
+	path = chipwhisperer
+	url = git@github.com:johandegn/chipwhisperer.git

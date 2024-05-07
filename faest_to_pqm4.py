@@ -5,6 +5,7 @@ import os
 import sys
 import subprocess
 import shutil
+from pathlib import Path
 
 TARGET_DIR = "target"
 
@@ -32,7 +33,7 @@ def prepare_all():
 
 
 def move_single_to_pqm4(name: str):
-    folder = f"pqm4/crypto_sign/{name}/ref"
+    folder = f"pqm4/crypto_sign/{name}/m4"
 
     # Remove existing folder with content
     try:
@@ -47,6 +48,20 @@ def move_single_to_pqm4(name: str):
     with open(f"{folder}/config.h", "w") as f:
         f.write(f"#define HAVE_RANDOMBYTES\n")
         f.write(f"#define PQCLEAN\n")
+
+    # move content of sha3 out while merging config.h
+    project_root = Path(folder)
+    sha3_sources = project_root / "sha3"
+    for source in sha3_sources.glob("*"):
+        if "config.h" in source.as_posix():
+            with open(f"{folder}/sha3/config.h", "r") as f:
+                conf = f.read()
+            with open(f"{folder}/config.h", "a") as f:
+                f.write("\n")
+                f.write(conf)
+        else:
+            shutil.move(source, project_root)
+    shutil.rmtree(sha3_sources)
     
     # Prepend '#include "config.h"' to aes.c, randomness.c and hash_shake.h
     with open(f"{folder}/aes.c", "r") as f:

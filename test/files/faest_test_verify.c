@@ -11,7 +11,7 @@ int main(void) {
         return 1;
 
     unsigned char open_m[MSG_LEN] = MSG;
-    unsigned long long open_mlen; // TODO: change to size_t again
+    unsigned long open_mlen; // TODO: change to size_t again
 
     if (crypto_sign_open(open_m, &open_mlen, sm, CRYPTO_BYTES + MSG_LEN, pk) == -1)
         return 1;

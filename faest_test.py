@@ -172,6 +172,7 @@ def compile(variant, program, name, verbose):
             cmd, cwd=cwd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, text=True)
     code = process.wait()
     if code != 0:  # TODO
+        print(f'error compiling: {name} with {variant}')
         exit(1)
 
 

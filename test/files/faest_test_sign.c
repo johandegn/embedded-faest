@@ -6,7 +6,7 @@ int main(void) {
         return 1;
 
     unsigned char sm[CRYPTO_BYTES + MSG_LEN];
-    unsigned long long smlen; // TODO: change to size_t again
+    unsigned long smlen; // TODO: change to size_t again
     if (crypto_sign(sm, &smlen, MSG, MSG_LEN, sk) == -1)
         return 1;
 

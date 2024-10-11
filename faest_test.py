@@ -21,6 +21,7 @@ TEST_BUILD_PATH = f'{FILEPATH}/test/build'
 TEST_RESULT_PATH = f'{FILEPATH}/test/results'
 TEST_RESULT_MASSIF_PATH = f'{TEST_RESULT_PATH}/massif'
 TEST_RESULT_CALLGRIND_PATH = f'{TEST_RESULT_PATH}/callgrind'
+TEST_RESULT_PERF_PATH = f'{TEST_RESULT_PATH}/perf'
 TEST_FILE_PATH = f'{FILEPATH}/test/files'
 
 # TEST_FILE_NAME = 'faest_test.c'
@@ -32,7 +33,7 @@ TEST_LIST = (('keygen', TEST_KEYGEN_FILE_NAME),
              ('sign', TEST_SIGN_FILE_NAME), ('verify', TEST_VERIFY_FILE_NAME))
 TEST_NAMES = list(name for (name, _) in TEST_LIST)
 
-TOOL_NAMES = ['massif', 'callgrind']
+TOOL_NAMES = ['massif', 'callgrind', 'perf']
 
 
 # Append 'faest_' and insert '_' between 'em' and '128f'
@@ -134,6 +135,8 @@ def ensure_result_folder(args):
         ensure_folder(TEST_RESULT_MASSIF_PATH)
     if args['tool'] == 'callgrind':
         ensure_folder(TEST_RESULT_CALLGRIND_PATH)
+    if args['tool'] == 'perf':
+        ensure_folder(TEST_RESULT_PERF_PATH)
 
 
 def copy(src, dst):
@@ -192,6 +195,9 @@ def tool_cmd(variant, name, args):
 
     if args['tool'] == 'callgrind':
         return ['valgrind', '--tool=callgrind', f'--callgrind-out-file={TEST_RESULT_CALLGRIND_PATH}/{simplify_name(variant)}_{name}']
+
+    if args['tool'] == 'perf':
+        return ['perf', 'stat', '--detailed', '-o', f'{TEST_RESULT_PERF_PATH}/perf_{simplify_name(variant)}_{name}']
 
     return []
 
@@ -308,6 +314,8 @@ def remove_results(args):
         shutil.rmtree(TEST_RESULT_MASSIF_PATH, ignore_errors=True)
     if args['tool'] == 'callgrind':
         shutil.rmtree(TEST_RESULT_CALLGRIND_PATH, ignore_errors=True)
+    if args['tool'] == 'perf':
+        shutil.rmtree(TEST_RESULT_PERF_PATH, ignore_errors=True)
 
 
 if __name__ == '__main__':

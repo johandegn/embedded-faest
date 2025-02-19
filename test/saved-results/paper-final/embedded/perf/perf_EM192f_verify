@@ -1,0 +1,23 @@
+# started on Tue Nov 19 11:34:18 2024
+
+
+ Performance counter stats for '/home/kent/embedded-faest/test/build/faest_em_192f/verify' (100 runs):
+
+             41,28 msec task-clock:u                     #    0,981 CPUs utilized               ( +-  2,86% )
+                 0      context-switches:u               #    0,000 /sec                      
+                 0      cpu-migrations:u                 #    0,000 /sec                      
+               298      page-faults:u                    #    7,220 K/sec                       ( +-  0,08% )
+        88.901.268      cycles:u                         #    2,154 GHz                         ( +-  1,85% )  (49,12%)
+         2.620.046      stalled-cycles-frontend:u        #    2,95% frontend cycles idle        ( +-  5,81% )  (57,88%)
+        18.954.814      stalled-cycles-backend:u         #   21,32% backend cycles idle         ( +-  2,86% )  (66,66%)
+       180.891.730      instructions:u                   #    2,03  insn per cycle            
+                                                  #    0,10  stalled cycles per insn     ( +-  0,45% )  (73,70%)
+        21.264.200      branches:u                       #  515,183 M/sec                       ( +-  0,79% )  (73,69%)
+           114.651      branch-misses:u                  #    0,54% of all branches             ( +-  1,07% )  (68,42%)
+        61.803.813      L1-dcache-loads:u                #    1,497 G/sec                       ( +-  0,58% )  (59,65%)
+           158.370      L1-dcache-load-misses:u          #    0,26% of all L1-dcache accesses   ( +-  6,69% )  (50,88%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+           0,04206 +- 0,00119 seconds time elapsed  ( +-  2,84% )
+

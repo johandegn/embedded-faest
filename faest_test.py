@@ -197,7 +197,7 @@ def tool_cmd(variant, name, args):
         return ['valgrind', '--tool=callgrind', f'--callgrind-out-file={TEST_RESULT_CALLGRIND_PATH}/{simplify_name(variant)}_{name}']
 
     if args['tool'] == 'perf':
-        return ['perf', 'stat', '--detailed', '-o', f'{TEST_RESULT_PERF_PATH}/perf_{simplify_name(variant)}_{name}']
+        return ['perf', 'stat', '--detailed', '-r 100', '-o', f'{TEST_RESULT_PERF_PATH}/perf_{simplify_name(variant)}_{name}']
 
     return []
 

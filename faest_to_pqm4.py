@@ -33,7 +33,7 @@ def prepare_all():
 
 
 def move_single_to_pqm4(name: str):
-    folder = f"pqm4/crypto_sign/{name}/ref"
+    folder = f"pqm4/crypto_sign/{name}_masked/m4"
 
     # Remove existing folder with content
     try:

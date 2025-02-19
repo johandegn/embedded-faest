@@ -1,0 +1,27 @@
+# started on Tue Nov 19 14:47:58 2024
+
+
+ Performance counter stats for '/home/kent/embedded-faest/test/build/faest_128s/keygen' (100 runs):
+
+              1,36 msec task-clock:u                     #    0,637 CPUs utilized               ( +-  2,09% )
+                 0      context-switches:u               #    0,000 /sec                      
+                 0      cpu-migrations:u                 #    0,000 /sec                      
+               175      page-faults:u                    #  128,821 K/sec                       ( +-  0,09% )
+           692.053      cycles:u                         #    0,509 GHz                         ( +-  3,52% )  (96,31%)
+            58.699      stalled-cycles-frontend:u        #    8,48% frontend cycles idle        ( +-  1,40% )
+            75.869      stalled-cycles-backend:u         #   10,96% backend cycles idle         ( +-  7,16% )
+           600.399      instructions:u                   #    0,87  insn per cycle            
+                                                  #    0,13  stalled cycles per insn     ( +-  0,58% )
+           153.760      branches:u                       #  113,186 M/sec                       ( +-  0,10% )
+             3.871      branch-misses:u                  #    2,52% of all branches             ( +- 13,06% )  (3,69%)
+     <not counted>      L1-dcache-loads:u                                                       (0,00%)
+     <not counted>      L1-dcache-load-misses:u                                                 (0,00%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+         0,0021316 +- 0,0000473 seconds time elapsed  ( +-  2,22% )
+
+Some events weren't counted. Try disabling the NMI watchdog:
+	echo 0 > /proc/sys/kernel/nmi_watchdog
+	perf stat ...
+	echo 1 > /proc/sys/kernel/nmi_watchdog

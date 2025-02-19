@@ -6,5 +6,6 @@ int main(void) {
     if (crypto_sign_keypair(pk, sk) == -1)
         return 1;
 
-    return write_pk(pk) || write_sk(sk);
+    return 0;
+    //return write_pk(pk) || write_sk(sk);
 }
